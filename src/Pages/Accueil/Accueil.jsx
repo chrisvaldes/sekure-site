@@ -22,31 +22,31 @@ export default function Accueil() {
           <div class="flex flex-wrap-reverse items-center justify-around">
             <div class="content">
               <div class="flex pt-10">
-                <button class="text-nowrap rounded-md bg-white py-4 px-5 rounded-md">THE IDENTITY VERIFICATION PLATFORM</button>
+                <button class="text-nowrap rounded-md bg-white py-3 px-5 rounded-md  text-sm sm:text-sm md:text-md lg:text-lg my-5">THE IDENTITY VERIFICATION PLATFORM</button>
               </div>
-              <div class="text-5xl text-left font-bold text-cyan-color mt-5">
+              <div class=" text-2xl sm:text-2xl md:text-3xl lg:text-4xl my-5 text-left font-bold text-cyan-color mt-5">
                 <span class="text-cyan-deep">Faster, more accurate, and <br /> built for you :</span>
                 <span>fraud prevention <br /> done right</span>
 
               </div>
-              <div class="text-cyan-deep text-left text-lg my-5">
+              <div class="text-cyan-deep text-left text-sm sm:text-sm md:text-md lg:text-lg my-5">
                 The only AI-powered identity verification platform form fraud prevention, compliance, and <br />
                 safeguarding your customers. Build trusted digital communities, improve UX, and drive <br />
                 growth for your business with Veriff.
               </div>
               <div class="flex mt-10 gap-10">
-                <button class="text-nowrap rounded-md bg-cyan-deep py-4 px-5 rounded-md text-white font-semibold">Commencer gratuitement</button>
-                <button class="text-nowrap rounded-md bg-white py-4 px-20 rounded-md text-cyan-deep font-bold">Contacter</button>
+                <button class="text-nowrap rounded-md bg-cyan-deep py-4 px-5 rounded-md text-white font-semibold text-sm sm:text-sm md:text-md lg:text-lg">Commencer gratuitement</button>
+                <button class="text-nowrap rounded-md bg-white py-4 px-20 rounded-md text-cyan-deep font-bold text-sm sm:text-sm md:text-md lg:text-lg">Contacter</button>
               </div>
               <div >
-                <h2 class="text-left text-4xl font-semibold my-10">
+                <h2 class="text-left text-2xl sm:text-2xl md:text-3xl lg:text-3xl font-semibold my-10">
                   Make identity verification quick and easy by <br />
                   helping genuine users get verified the first time, <br />
                   while keeping fraudsters out
                 </h2>
               </div>
             </div>
-            <div class="image ">
+            <div class="image">
               {/* <img src={logo} alt=""  class="object-cover w-full h-full image-background"/> */}
               <img src={femme} alt="" class="object-fill object-center women-image" />
             </div>
