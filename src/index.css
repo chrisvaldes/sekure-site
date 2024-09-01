@@ -180,16 +180,16 @@ nav .nav-items .nav-item {
   border-radius: 2rem;
 }
 
-.circle-orange-100 {
+/* .circle-orange-100 {
   width: 7rem;
   height: 7rem;
   background-color: #f3f3f3;
-}
-
+} */
+/* 
 .circle-amber-100 {
   width: 3rem;
   height: 3rem;
-}
+} */
 
 .relation-onboard {
   display: grid;
@@ -205,6 +205,18 @@ nav .nav-items .nav-item {
   align-items: center;
   justify-content: center;
   border-radius: 2.5rem;
+}
+
+.card-vert{
+  width: 300px;
+  height: 175px;
+  
+}
+
+.card-horiz{
+  width: 205px;
+  height: 300px;
+  
 }
 
 .section-footer{
