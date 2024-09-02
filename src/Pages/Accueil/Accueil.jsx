@@ -565,7 +565,7 @@ export default function Accueil() {
           <div class="big-circles gap-y-10 pb-10">
             <div class="flex flex-col items-center justify-center relative">
               <div class="group">
-                <div class="flex items-center justify-center rounded-full big-circle">
+                <div class="flex items-center justify-center rounded-full big-circle group-hover:bg-cyan-color group-hover:text-white">
                   <span class=" text-sm sm:text-sm md:text-md lg:text-lg">
                     Sign Up
                   </span>
@@ -583,7 +583,7 @@ export default function Accueil() {
 
             <div class="flex flex-col items-center justify-center relative">
               <div class="group">
-                <div class="flex items-center justify-center rounded-full big-circle">
+                <div class="flex items-center justify-center rounded-full big-circle group-hover:bg-cyan-color group-hover:text-white">
                   <span class=" text-sm sm:text-sm md:text-md lg:text-lg">
                     Vérification <br />
                     de l'utilisateur
@@ -602,7 +602,7 @@ export default function Accueil() {
 
             <div class="flex flex-col items-center justify-center relative">
               <div class="group">
-                <div class="flex items-center justify-center rounded-full big-circle">
+                <div class="flex items-center justify-center rounded-full big-circle group-hover:bg-cyan-color group-hover:text-white">
                   <span class=" text-sm sm:text-sm md:text-md lg:text-lg">
                     Vérification <br />
                     AML
@@ -621,7 +621,7 @@ export default function Accueil() {
 
             <div class="flex flex-col items-center justify-center relative">
               <div class="group">
-                <div class="flex items-center justify-center rounded-full big-circle">
+                <div class="flex items-center justify-center rounded-full big-circle group-hover:bg-cyan-color group-hover:text-white">
                   <span class=" text-sm sm:text-sm md:text-md lg:text-lg">
                     Connexion
                   </span>
@@ -639,7 +639,7 @@ export default function Accueil() {
 
             <div class="flex flex-col items-center justify-center relative">
               <div class="group">
-                <div class="flex items-center justify-center rounded-full big-circle">
+                <div class="flex items-center justify-center rounded-full big-circle group-hover:bg-cyan-color group-hover:text-white">
                   <span class=" text-sm sm:text-sm md:text-md lg:text-lg">
                     Detection <br /> de fraudes
                   </span>
@@ -656,7 +656,7 @@ export default function Accueil() {
             </div>
 
             <div class="flex flex-col items-center justify-center relative group">
-              <div class="flex items-center justify-center rounded-full big-circle">
+              <div class="flex items-center justify-center rounded-full big-circle group-hover:bg-cyan-color group-hover:text-white">
                 <span class=" text-sm sm:text-sm md:text-md lg:text-lg">
                   Transactions
                 </span>
