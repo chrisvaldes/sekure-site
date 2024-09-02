@@ -109,15 +109,15 @@ export default function Customer() {
                 <section class="bg-white">
 
                     <div class="text-left mx-20">
-                        <h2 class="text-cyan-deep text-2xl sm:text-2xl md:text-3xl lg:text-5xl  font-semibold pt-20 pb-10">
+                        <h2 class="text-cyan-deep text-2xl sm:text-2xl md:text-3xl lg:text-4xl  font-semibold pt-20 pb-10">
                             Make identity verification quick and easy by <br />
                             helping genuine users get verified the  first time, <br />
                             while keeping fraudsters out
                         </h2>
                     </div>
 
-                    <div class=" gap-5 mt-20 relation-onboard">
-                        <div class="flex flex-col items-center mb-20">
+                    <div class=" gap-5 mt-10 relation-onboard">
+                        <div class="flex flex-col items-center mb-10">
                             <div class="flex items-center justify-center circle-orange-100 rounded-full">
                                 <div class="circle-amber-100 rounded-full bg-cyan-color flex items-center justify-center px-4 py-3">
                                     <span class="icon text-white text-3xl font-bold">
@@ -128,7 +128,7 @@ export default function Customer() {
                             <div class="text-cyan-deep font-bold text-2xl">Comply wity evolving <br /> regulation </div>
                             <div>Know that customers are genuine, ensure <br /> that the proper checks are carried out, <br /> and stay compliant</div>
                         </div>
-                        <div class="flex flex-col items-center mb-20">
+                        <div class="flex flex-col items-center mb-10">
                             <div class="flex items-center justify-center circle-orange-100 rounded-full">
                                 <div class="circle-amber-100 rounded-full bg-emerald-300 flex items-center justify-center px-4 py-3">
                                     <span class="icon text-white text-3xl font-bold">
@@ -139,7 +139,7 @@ export default function Customer() {
                             <div class="text-cyan-deep font-bold text-2xl">Comply wity evolving <br /> regulation </div>
                             <div>Know that customers are genuine, ensure <br /> that the proper checks are carried out, <br /> and stay compliant</div>
                         </div>
-                        <div class="flex flex-col items-center mb-20">
+                        <div class="flex flex-col items-center mb-10">
                             <div class="flex items-center justify-center circle-orange-100 rounded-full">
                                 <div class="circle-amber-100 rounded-full bg-emerald-300 flex items-center justify-center px-4 py-3">
                                     <span class="icon text-white text-3xl font-bold">
@@ -150,7 +150,7 @@ export default function Customer() {
                             <div class="text-cyan-deep font-bold text-2xl">Comply wity evolving <br /> regulation </div>
                             <div>Know that customers are genuine, ensure <br /> that the proper checks are carried out, <br /> and stay compliant</div>
                         </div>
-                        <div class="flex flex-col items-center mb-20">
+                        <div class="flex flex-col items-center mb-10">
                             <div class="flex items-center justify-center circle-orange-100 rounded-full">
                                 <div class="circle-amber-100 rounded-full bg-emerald-300 flex items-center justify-center px-4 py-3">
                                     <span class="icon text-white text-3xl font-bold">
