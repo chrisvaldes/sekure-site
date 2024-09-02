@@ -19,7 +19,7 @@ export default function Accueil() {
         </section>
 
         <section class="section-prevention mx-10">
-          <div class="flex flex-wrap-reverse items-center justify-around">
+          <div class="flex md:flex-wrap-reverse items-center justify-around">
             <div class="content">
               <div class="flex">
                 <button class="text-nowrap rounded-md bg-white py-3 px-5 rounded-md  text-sm sm:text-sm md:text-md lg:text-lg my-5">THE IDENTITY VERIFICATION PLATFORM</button>
@@ -48,7 +48,7 @@ export default function Accueil() {
             </div>
             <div class="image">
               {/* <img src={logo} alt=""  class="object-cover w-full h-full image-background"/> */}
-              <img src={femme} alt="" class="object-fill object-center women-image" />
+              <img src={femme} alt="" class="object-fill  women-image" />
             </div>
           </div>
 
@@ -532,7 +532,7 @@ export default function Accueil() {
           </div>
         </section>
 
-        <section class="world-section px-20  " style={{ backgroundImage: `url(${world})`, backgroundPosition: "top right", backgroundRepeat: "no-repeat" }}>
+        <section class="world-section px-20   " style={{ backgroundImage: `url(${world})`, backgroundPosition: "top right", backgroundRepeat: "no-repeat" }}>
 
           <div class="">
             <div class="world-button flex pt-40 sm:pt-40 md:pt-40 lg:pt-80">

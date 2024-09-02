@@ -57,7 +57,6 @@ nav .nav-items .nav-item {
   grid-template-columns: repeat(auto-fit, 30rem);
   align-items: center;
   justify-content: center;
-  background-color: #56f1b8;
   border-radius: 2.5rem;
 }
 
@@ -172,11 +171,11 @@ nav .nav-items .nav-item {
   border-radius: 2rem;
 }
 
-/* .circle-orange-100 {
-  width: 7rem;
-  height: 7rem;
-  background-color: #f3f3f3;
-} */
+.circle-orange-100 {
+  width: 8rem;
+  height: 8rem;
+  background-color: #F3EFE0;
+}
 /* 
 .circle-amber-100 {
   width: 3rem;

@@ -127,18 +127,18 @@ export default function NavBar() {
             <nav aria-label="Global" class="">
               <ul className="flex items-center gap-6 text-sm">
                 <li class="flex items-center justify-center gap-2">
-                  <a className="text-gray-500 transition hover:text-gray-500/75" href="#">
+                  <Link className="text-gray-500 transition hover:text-gray-500/75" to="/">
                     Accueil
-                  </a>
+                  </Link>
                   <span class="text-emerald-300">
                     <FontAwesomeIcon icon={faChevronDown} />
                   </span>
                 </li>
 
                 <li class="flex items-center justify-center gap-2">
-                  <a className="text-gray-500 transition hover:text-gray-500/75 text-nowrap" href="#">
+                  <Link className="text-gray-500 transition hover:text-gray-500/75 text-nowrap" to="/customer">
                     Know your customer
-                  </a>
+                  </Link>
                   <span class="text-emerald-300">
                     <FontAwesomeIcon icon={faChevronDown} />
                   </span>
