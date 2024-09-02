@@ -21,7 +21,7 @@ export default function Accueil() {
         <section class="section-prevention mx-10">
           <div class="flex flex-wrap-reverse items-center justify-around">
             <div class="content">
-              <div class="flex pt-10">
+              <div class="flex">
                 <button class="text-nowrap rounded-md bg-white py-3 px-5 rounded-md  text-sm sm:text-sm md:text-md lg:text-lg my-5">THE IDENTITY VERIFICATION PLATFORM</button>
               </div>
               <div class=" text-2xl sm:text-2xl md:text-3xl lg:text-4xl my-5 text-left font-bold text-cyan-color mt-5">
@@ -381,60 +381,60 @@ export default function Accueil() {
 
         <section>
           {/* Grid section */}
-          <div class="bg-emerald-900 rounded-3xl m-20 py-10">
+          <div class="bg-cyan-deep rounded-3xl m-20 py-10 px-10">
 
-            <div class="text-emerald-100 text-5xl">
+            <div class="text-cyan-color text-2xl sm:text-2xl md:text-3xl lg:text-5xl">
               With Aibiometrics, anonymous strangers easyli <br />
               become your trustworthy users
             </div>
 
-            <div class="text-white text-md my-10">
+            <div class="text-white text-sm sm:text-sm md:text-md lg:text-lg my-10">
               Orchestrate identity verification checks, code-free. Place checks at any stage customer journey for top anti-fraud protection and pass rates
               worldwide. Orgestrate identity verification
             </div>
 
-            <div class="card-anonymously gap-10">
+            <div class="card-anonymously gap-y-10 flex items-center justify-center">
               <div class="sub-card-anonymously flex flex-col items-center justify-center bg-emerald-300 rounded-2xl ">
-                <div class="text-5xl font-bold text-emerald-800 pb-5">
+                <div class=" text-sm sm:text-sm md:text-md lg:text-lg font-bold text-emerald-800 pb-5">
                   6 secs
                 </div>
-                <div class="text-2xl font-semibold">
+                <div class=" text-sm sm:text-sm md:text-md lg:text-lg font-semibold">
                   temps moyen de <br /> validation
                 </div>
               </div>
 
               <div class="sub-card-anonymously flex flex-col items-center justify-center bg-emerald-300 rounded-2xl ">
-                <div class="text-5xl font-bold text-emerald-800 pb-5">
+                <div class=" text-sm sm:text-sm md:text-md lg:text-lg font-bold text-emerald-800 pb-5">
                   95%
                 </div>
-                <div class="text-2xl font-semibold">
+                <div class=" text-sm sm:text-sm md:text-md lg:text-lg font-semibold">
                   Verified on the first try
                 </div>
               </div>
 
               <div class="sub-card-anonymously flex flex-col items-center justify-center bg-emerald-300 rounded-2xl ">
-                <div class="text-5xl font-bold text-emerald-800 pb-5">
+                <div class=" text-sm sm:text-sm md:text-md lg:text-lg font-bold text-emerald-800 pb-5">
                   11.5K+
                 </div>
-                <div class="text-2xl font-semibold">
+                <div class=" text-sm sm:text-sm md:text-md lg:text-lg font-semibold">
                   Documents covered
                 </div>
               </div>
 
               <div class="sub-card-anonymously flex flex-col items-center justify-center bg-emerald-300 rounded-2xl ">
-                <div class="text-5xl font-bold text-emerald-800 pb-5">
+                <div class=" text-sm sm:text-sm md:text-md lg:text-lg font-bold text-emerald-800 pb-5">
                   200 +
                 </div>
-                <div class="text-2xl font-semibold">
+                <div class=" text-sm sm:text-sm md:text-md lg:text-lg font-semibold">
                   pays couverts
                 </div>
               </div>
 
               <div class="sub-card-anonymously flex flex-col items-center justify-center bg-emerald-300 rounded-2xl ">
-                <div class="text-5xl font-bold text-emerald-800 pb-5">
+                <div class=" text-sm sm:text-sm md:text-md lg:text-lg font-bold text-emerald-800 pb-5">
                   95%
                 </div>
-                <div class="text-2xl font-semibold">
+                <div class=" text-sm sm:text-sm md:text-md lg:text-lg font-semibold">
                   Verified on the first try
                 </div>
               </div>
@@ -527,13 +527,13 @@ export default function Accueil() {
           </div>
         </section>
 
-        <section class="world-section py-20 mx-20 md:py-5" style={{ backgroundImage: `url(${world})`, backgroundPosition: "top right", backgroundRepeat: "no-repeat" }}>
+        <section class="world-section px-20  " style={{ backgroundImage: `url(${world})`, backgroundPosition: "top right", backgroundRepeat: "no-repeat" }}>
 
-          <div class="world-group">
-            <div class="world-button flex pt-10">
+          <div class="">
+            <div class="world-button flex pt-40 sm:pt-40 md:pt-40 lg:pt-80">
               <button class="text-nowrap rounded-md bg-white py-4 px-5 rounded-md">THE IDENTITY VERIFICATION PLATFORM</button>
             </div>
-            <div class="world-title text-4xl text-left font-semibold text-cyan-color mt-5 mb-10">
+            <div class="world-title  text-lg sm:text-xl md:text-2xl lg:text-3xl text-left font-bold text-cyan-color mt-5 mb-10">
               <span class="text-cyan-deep">Des </span>
               <span>méthodes </span><span class="text-cyan-deep">De </span>
               <span>vérification </span>
@@ -549,25 +549,27 @@ export default function Accueil() {
           </div>
 
           <div class="world-group">
-            <div class="text-cyan-deep text-4xl font-semibold text-left mb-10">
+            <div class="text-cyan-deep   text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-left mb-10">
               <span>Tous les outils qu'il vous faut pour </span> <span class="text-cyan-color" > proteger <br /> votre plateforme de la fraude</span>
             </div>
-            <div class="text-left pb-20">
+            <div class="text-left text-sm sm:text-sm md:text-md lg:text-lg pb-20">
               Ochestration identity verification checks, code-free. Place checks at any stage of the customer journey for top anti-fraud protection and pass rates worldwide. Orchestrate <br />
               Ochestration identity verification checks, code-free. Place checks at any stage of the customer journey for top anti-fraud protection and pass rates worldwide.
             </div>
           </div>
-          <div class="big-circles">
-            <div class="flex flex-col items-center justify-center relative ">
-              <div class="flex items-center justify-center rounded-full big-circle">
-                <span>
-                  Sign Up
-                </span>
-              </div>
-              <div class="big-circle-detail">
-                Ochestration identity verification <br />
-                checks, code-free. Place checks at <br />
-                any stage of the customer journey for <br /> top anti-
+          <div class="big-circles gap-y-10 pb-10">
+            <div class="flex flex-col items-center justify-center relative">
+              <div class="group">
+                <div class="flex items-center justify-center rounded-full big-circle">
+                  <span class=" text-sm sm:text-sm md:text-md lg:text-lg">
+                    Sign Up
+                  </span>
+                </div>
+                <div class="big-circle-detail  opacity-0 group-hover:opacity-100 text-sm sm:text-sm md:text-md lg:text-lg">
+                  Ochestration identity verification <br />
+                  checks, code-free. Place checks at <br />
+                  any stage of the customer journey for <br /> top anti-
+                </div>
               </div>
               <div class="absolute arrow-circle">
                 <img src={arrow} alt="" />
@@ -575,33 +577,18 @@ export default function Accueil() {
             </div>
 
             <div class="flex flex-col items-center justify-center relative">
-              <div class="flex items-center justify-center rounded-full big-circle">
-                <span>
-                  Vérification <br />
-                  de l'utilisateur
-                </span>
-              </div>
-              <div class="big-circle-detail">
-                Ochestration identity verification <br />
-                checks, code-free. Place checks at <br />
-                any stage of the customer journey for <br /> top anti-
-              </div>
-              <div class="absolute arrow-circle">
-                <img src={arrow} alt="" />
-              </div>
-            </div>
-
-            <div class="flex flex-col items-center justify-center relative">
-              <div class="flex items-center justify-center rounded-full big-circle">
-                <span>
-                  Vérification <br />
-                  AML
-                </span>
-              </div>
-              <div class="big-circle-detail">
-                Ochestration identity verification <br />
-                checks, code-free. Place checks at <br />
-                any stage of the customer journey for <br /> top anti-
+              <div class="group">
+                <div class="flex items-center justify-center rounded-full big-circle">
+                  <span>
+                    Vérification <br />
+                    de l'utilisateur
+                  </span>
+                </div>
+                <div class="big-circle-detail opacity-0 group-hover:opacity-100">
+                  Ochestration identity verification <br />
+                  checks, code-free. Place checks at <br />
+                  any stage of the customer journey for <br /> top anti-
+                </div>
               </div>
               <div class="absolute arrow-circle">
                 <img src={arrow} alt="" />
@@ -609,31 +596,18 @@ export default function Accueil() {
             </div>
 
             <div class="flex flex-col items-center justify-center relative">
-              <div class="flex items-center justify-center rounded-full big-circle">
-                <span>
-                  Connexion
-                </span>
-              </div>
-              <div class="big-circle-detail">
-                Ochestration identity verification <br />
-                checks, code-free. Place checks at <br />
-                any stage of the customer journey for <br /> top anti-
-              </div>
-              <div class="absolute arrow-circle">
-                <img src={arrow} alt="" />
-              </div>
-            </div>
-
-            <div class="flex flex-col items-center justify-center relative">
-              <div class="flex items-center justify-center rounded-full big-circle">
-                <span>
-                  Detection <br /> de fraudes
-                </span>
-              </div>
-              <div class="big-circle-detail">
-                Ochestration identity verification <br />
-                checks, code-free. Place checks at <br />
-                any stage of the customer journey for <br /> top anti-
+              <div class="group">
+                <div class="flex items-center justify-center rounded-full big-circle">
+                  <span>
+                    Vérification <br />
+                    AML
+                  </span>
+                </div>
+                <div class="big-circle-detail opacity-0 group-hover:opacity-100">
+                  Ochestration identity verification <br />
+                  checks, code-free. Place checks at <br />
+                  any stage of the customer journey for <br /> top anti-
+                </div>
               </div>
               <div class="absolute arrow-circle">
                 <img src={arrow} alt="" />
@@ -641,12 +615,48 @@ export default function Accueil() {
             </div>
 
             <div class="flex flex-col items-center justify-center relative">
+              <div class="group">
+                <div class="flex items-center justify-center rounded-full big-circle">
+                  <span>
+                    Connexion
+                  </span>
+                </div>
+                <div class="big-circle-detail opacity-0 group-hover:opacity-100">
+                  Ochestration identity verification <br />
+                  checks, code-free. Place checks at <br />
+                  any stage of the customer journey for <br /> top anti-
+                </div>
+              </div>
+              <div class="absolute arrow-circle">
+                <img src={arrow} alt="" />
+              </div>
+            </div>
+
+            <div class="flex flex-col items-center justify-center relative">
+              <div class="group">
+                <div class="flex items-center justify-center rounded-full big-circle">
+                  <span>
+                    Detection <br /> de fraudes
+                  </span>
+                </div>
+                <div class="big-circle-detail opacity-0 group-hover:opacity-100">
+                  Ochestration identity verification <br />
+                  checks, code-free. Place checks at <br />
+                  any stage of the customer journey for <br /> top anti-
+                </div>
+              </div>
+              <div class="absolute arrow-circle">
+                <img src={arrow} alt="" />
+              </div>
+            </div>
+
+            <div class="flex flex-col items-center justify-center relative group">
               <div class="flex items-center justify-center rounded-full big-circle">
                 <span>
                   Transactions
                 </span>
               </div>
-              <div class="big-circle-detail">
+              <div class="big-circle-detail opacity-0 group-hover:opacity-100">
                 Ochestration identity verification <br />
                 checks, code-free. Place checks at <br />
                 any stage of the customer journey for <br /> top anti-

@@ -1,19 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-* {
-  box-sizing: border-box;
-}
-
+ 
 body {
-  margin: 0;
+  margin: 0 auto;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #f3f3f3;
+  
 }
 
 code {
@@ -21,14 +18,6 @@ code {
     monospace;
 }
 
-@media (max-width: 1500px) {
-  .icon-bars {
-    display: block;
-  }
-  nav .nav-items ul li {
-    display: none;
-  }
-}
 nav .nav-button {
   margin: 0 2rem 0 0;
 }
@@ -81,26 +70,21 @@ nav .nav-items .nav-item {
   border-radius: 2.5rem;
 }
 
-.card-anonymously {
-  align-items: center;
-  justify-content: center;
-  background-color: #1b4a39;
-  border-radius: 2.5rem;
-}
-
+ 
 .card-grid .icon {
   font-size: 2rem;
   font-weight: bold;
 }
 .card-anonymously {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 18rem);
+  grid-template-columns: repeat(auto-fit, 17rem);
   align-items: center;
   justify-content: center;
+  border-radius: 2.5rem;
 }
 .sub-card-anonymously {
-  width: 17rem;
-  height: 10rem;
+  width: 15rem;
+  height: 8rem;
 }
 
 .mini-nav-items .mini-nav-item {
@@ -111,24 +95,24 @@ nav .nav-items .nav-item {
   min-height: 160vh;
 }
 
-.world-section  .world-button{
+/* .world-section  .world-button{
   margin-top: 15rem; 
-}
+} */
 
 .world-section .world-description {
  margin-bottom: 15rem;
 }
 
-.world-section .world-group{
+/* .world-section .world-group{
   margin-left: 8rem;
-}
+} */
 
 .section-phone {
   background-color: #E8FFF9;
 }
 .big-circles {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 16rem);
+  grid-template-columns: repeat(auto-fit, 15rem);
   align-items: center;
   justify-content: center;
 }
@@ -143,7 +127,7 @@ nav .nav-items .nav-item {
 .big-circle {
   width: 12rem;
   height: 12rem;
-  background-color: #f9ebda;
+  background-color: #EAEAEA;
 }
 
 .big-circle:hover {
@@ -316,16 +300,23 @@ form .logo-footer img {
   color: white;
 }
 
-@media (max-width: 1500px) {
+.menu-bars{
+  display: none;
+}
+
+@media (max-width: 1200px) {
   .icon-bars {
     display: block;
   }
-  nav .nav-items ul li {
+  nav .nav-items {
     display: none;
+  }
+  nav .menu-bars{
+    display: inline-block;
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1500px) {
   .icon-bars {
     display: block;
   }
