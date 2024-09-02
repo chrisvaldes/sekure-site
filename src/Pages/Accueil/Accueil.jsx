@@ -145,7 +145,7 @@ export default function Accueil() {
           <div className=" px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
             <div className="flex flex-wrap items-center justify-around  gap-y-8  ">
               <div >
-                <h2 class="text-emerald-900 text-left text-xl sm:text-sm md:text-md lg:text-lg mb-5 font-bold w-full">
+                <h2 class="text-cyan-deep text-left text-xl sm:text-sm md:text-md lg:text-lg mb-5 font-bold w-full">
                   Prendre des selfies pour vérifier <br /> l'authenticité</h2>
                 <div class="text-left  text-sm sm:text-sm md:text-md lg:text-lg mb-10">
                   Localement ou internationalement, vos achats en ligne ne connaissent plus de limite <br />
@@ -241,7 +241,7 @@ export default function Accueil() {
                 </a>
               </div>
               <div >
-                <h2 class="text-emerald-900 text-left text-xl sm:text-sm md:text-md lg:text-lg mb-5 font-bold w-full">
+                <h2 class="text-cyan-deep text-left text-xl sm:text-sm md:text-md lg:text-lg mb-5 font-bold w-full">
                   Prendre des selfies pour vérifier <br /> l'authenticité</h2>
                 <div class="text-left  text-sm sm:text-sm md:text-md lg:text-lg mb-10">
                   Localement ou internationalement, vos achats en ligne ne connaissent plus de limite <br />
@@ -308,7 +308,7 @@ export default function Accueil() {
           <div className=" px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
             <div className="flex flex-wrap items-center justify-around  gap-y-8  ">
               <div >
-                <h2 class="text-emerald-900 text-left text-xl sm:text-sm md:text-md lg:text-lg mb-5 font-bold w-full">
+                <h2 class="text-cyan-deep text-left text-xl sm:text-sm md:text-md lg:text-lg mb-5 font-bold w-full">
                   Prendre des selfies pour vérifier <br /> l'authenticité</h2>
                 <div class="text-left  text-sm sm:text-sm md:text-md lg:text-lg mb-10">
                   Localement ou internationalement, vos achats en ligne ne connaissent plus de limite <br />
@@ -395,7 +395,7 @@ export default function Accueil() {
 
             <div class="card-anonymously gap-y-10 flex items-center justify-center">
               <div class="sub-card-anonymously flex flex-col items-center justify-center bg-emerald-300 rounded-2xl ">
-                <div class=" text-sm sm:text-sm md:text-md lg:text-lg font-bold text-emerald-800 pb-5">
+                <div class=" text-3xl sm:text-3xl md:text-3xl lg:text-4xl font-bold text-emerald-800 pb-2">
                   6 secs
                 </div>
                 <div class=" text-sm sm:text-sm md:text-md lg:text-lg font-semibold">
@@ -404,7 +404,7 @@ export default function Accueil() {
               </div>
 
               <div class="sub-card-anonymously flex flex-col items-center justify-center bg-emerald-300 rounded-2xl ">
-                <div class=" text-sm sm:text-sm md:text-md lg:text-lg font-bold text-emerald-800 pb-5">
+                <div class=" text-3xl sm:text-3xl md:text-3xl lg:text-4xl font-bold text-cyan-deep pb-2">
                   95%
                 </div>
                 <div class=" text-sm sm:text-sm md:text-md lg:text-lg font-semibold">
@@ -413,7 +413,7 @@ export default function Accueil() {
               </div>
 
               <div class="sub-card-anonymously flex flex-col items-center justify-center bg-emerald-300 rounded-2xl ">
-                <div class=" text-sm sm:text-sm md:text-md lg:text-lg font-bold text-emerald-800 pb-5">
+                <div class=" text-3xl sm:text-3xl md:text-3xl lg:text-4xl font-bold text-cyan-deep pb-2">
                   11.5K+
                 </div>
                 <div class=" text-sm sm:text-sm md:text-md lg:text-lg font-semibold">
@@ -422,7 +422,7 @@ export default function Accueil() {
               </div>
 
               <div class="sub-card-anonymously flex flex-col items-center justify-center bg-emerald-300 rounded-2xl ">
-                <div class=" text-sm sm:text-sm md:text-md lg:text-lg font-bold text-emerald-800 pb-5">
+                <div class=" text-3xl sm:text-3xl md:text-3xl lg:text-4xl font-bold text-cyan-deep pb-2">
                   200 +
                 </div>
                 <div class=" text-sm sm:text-sm md:text-md lg:text-lg font-semibold">
@@ -431,7 +431,7 @@ export default function Accueil() {
               </div>
 
               <div class="sub-card-anonymously flex flex-col items-center justify-center bg-emerald-300 rounded-2xl ">
-                <div class=" text-sm sm:text-sm md:text-md lg:text-lg font-bold text-emerald-800 pb-5">
+                <div class=" text-3xl sm:text-3xl md:text-3xl lg:text-4xl font-bold text-cyan-deep pb-2">
                   95%
                 </div>
                 <div class=" text-sm sm:text-sm md:text-md lg:text-lg font-semibold">
@@ -443,7 +443,7 @@ export default function Accueil() {
         </section>
 
         <section class="bg-white">
-          <div class="text-left text-4xl font-bold text-emerald-900 ml-40">
+          <div class="text-left text-2xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-cyan-deep ml-20 sm:ml-20 md:ml-20 lg:ml-40  pt-10">
             <span class="">
               Tous les outils qu'il vous faut pour proteger <br />
               votre plateforme de la fraude
@@ -466,14 +466,15 @@ export default function Accueil() {
             </ul>
 
 
-            <div class="flex flex-wrap items-center justify-center gap-20 pb-20">
+            <div class="flex flex-wrap items-center justify-center gap-16 pb-10 lg:pb-16 px-10">
               <div class="flex items-center justiy-around gap-10">
                 <div class="">
                   <img src={femme2} alt="" />
                 </div>
               </div>
-              <div class="">
-                <h2 class="text-emerald-900 text-left text-4xl mb-5 font-bold">Prendre des photos de vos pieces <br /> d'identité</h2>
+              <div class=" ">
+                <h2 class="text-cyan-deep text-left  text-2xl sm:text-2xl md:text-3xl mb-5 font-semibold">
+                  Tous les outils qu'il vous faut pour proteger <br /> votre plateforme de la fraude</h2>
                 <div class="text-left mb-10">
                   Localement ou internationalement, vos achats en ligne ne connaissent plus de limite <br />
                   avec les carte virtuelles Visa MasterCard de chez SEKURE. En 2 minutes, créez et <br />
@@ -522,6 +523,10 @@ export default function Accueil() {
                     </div>
                   </div>
                 </div>
+                <div class="flex mt-10 mb-20 gap-10">
+                      <button class="text-nowrap rounded-md bg-cyan-color py-4 px-10 rounded-md text-white font-semibold">Commencer</button>
+                      <button class="text-nowrap rounded-md bg-cyan-color py-4 px-10 rounded-md text-white font-semibold">Commencer</button>
+                    </div>
               </div>
             </div>
           </div>
@@ -565,7 +570,7 @@ export default function Accueil() {
                     Sign Up
                   </span>
                 </div>
-                <div class="big-circle-detail  opacity-0 group-hover:opacity-100 text-sm sm:text-sm md:text-md lg:text-lg">
+                <div class="big-circle-detail opacity-0 group-hover:opacity-100">
                   Ochestration identity verification <br />
                   checks, code-free. Place checks at <br />
                   any stage of the customer journey for <br /> top anti-
@@ -579,7 +584,7 @@ export default function Accueil() {
             <div class="flex flex-col items-center justify-center relative">
               <div class="group">
                 <div class="flex items-center justify-center rounded-full big-circle">
-                  <span>
+                  <span class=" text-sm sm:text-sm md:text-md lg:text-lg">
                     Vérification <br />
                     de l'utilisateur
                   </span>
@@ -598,7 +603,7 @@ export default function Accueil() {
             <div class="flex flex-col items-center justify-center relative">
               <div class="group">
                 <div class="flex items-center justify-center rounded-full big-circle">
-                  <span>
+                  <span class=" text-sm sm:text-sm md:text-md lg:text-lg">
                     Vérification <br />
                     AML
                   </span>
@@ -617,7 +622,7 @@ export default function Accueil() {
             <div class="flex flex-col items-center justify-center relative">
               <div class="group">
                 <div class="flex items-center justify-center rounded-full big-circle">
-                  <span>
+                  <span class=" text-sm sm:text-sm md:text-md lg:text-lg">
                     Connexion
                   </span>
                 </div>
@@ -635,7 +640,7 @@ export default function Accueil() {
             <div class="flex flex-col items-center justify-center relative">
               <div class="group">
                 <div class="flex items-center justify-center rounded-full big-circle">
-                  <span>
+                  <span class=" text-sm sm:text-sm md:text-md lg:text-lg">
                     Detection <br /> de fraudes
                   </span>
                 </div>
@@ -652,7 +657,7 @@ export default function Accueil() {
 
             <div class="flex flex-col items-center justify-center relative group">
               <div class="flex items-center justify-center rounded-full big-circle">
-                <span>
+                <span class=" text-sm sm:text-sm md:text-md lg:text-lg">
                   Transactions
                 </span>
               </div>
@@ -665,13 +670,13 @@ export default function Accueil() {
           </div>
         </section>
 
-        <section class="bg-white pt-20 h-screen">
+        <section class="bg-white pt-10 pl-10">
           <div class="flex flex-wrap items-center justify-center gap-20">
             <div class="flex flex-col items-center justify-center text-left">
               <div class="world-button flex pt-10 w-full">
                 <button class="text-nowrap rounded-md bg-white py-4 px-5 rounded-md">THE IDENTITY VERIFICATION PLATFORM</button>
               </div>
-              <div class="text-cyan-deepleft w-full font-bold text-4xl mb-5">
+              <div class="text-cyan-deep left w-full font-bold  text-2xl sm:text-2xl md:text-3xl mb-5">
                 <span>Des interfaces intuitifves et <br /> orientées objectifs pour </span>
                 <span class="text-cyan-color">tester </span> <span>, <br /></span>
                 <span class="text-cyan-color">vérifier </span> <span>et </span>
@@ -716,19 +721,19 @@ export default function Accueil() {
                 </div>
               </div>
 
-              <div class="flex w-full items-center justify-start gap-5 my-10 pl-5">
+              <div class="flex w-full items-center justify-start gap-5 mt-10 mb-16  pl-5">
                 <button class="text-nowrap text-white rounded-md bg-cyan-color py-4" style={{ padding: "1rem 2.5rem" }}>Commencer</button>
                 <button class="text-nowrap text-white rounded-md bg-cyan-color py-4" style={{ padding: "1rem 2.5rem" }}>Commencer</button>
               </div>
             </div>
-            <div style={{ position: "relative" }}>
+            <div class="hidden lg:block" style={{ position: "relative", height:"50rem"}}>
               <div
                 style={{
                   backgroundImage: `url(${smallphone})`,
                   backgroundPosition: "left",
                   backgroundRepeat: "no-repeat",
                   position: "absolute", // Positionnez-le absolument
-                  top: "12rem", // Ajustez selon vos besoins
+                  top: "14rem", // Ajustez selon vos besoins
                   left: "10rem", // Ajustez selon vos besoins
                   width: "100%", // Ajustez selon vos besoins
                   height: "100%", // Ajustez selon vos besoins

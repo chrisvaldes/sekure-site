@@ -8,7 +8,7 @@ import women from "../images/femme-footer.png";
 export default function Footer() {
     return (
         <>
-            <section class="section-footer bg-cyan-color pt-5 " >
+            <section class="section-footer bg-cyan-color pt-16 " >
                 <div>
                     <div class="flex flex-wrap-reverse items-center justify-center footer-text gap-10">
                         <div class="flex flex-col">
