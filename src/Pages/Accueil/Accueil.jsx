@@ -143,8 +143,8 @@ export default function Accueil() {
 
         <section class="">
           <div className=" px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
-            <div className="flex flex-wrap items-center justify-around  gap-y-8  ">
-              <div >
+            <div className="flex flex-wrap items-center justify-around  gap-y-8">
+              <div class=" mx-10">
                 <h2 class="text-cyan-deep text-left text-xl sm:text-sm md:text-md lg:text-lg mb-5 font-bold w-full">
                   Prendre des selfies pour vérifier <br /> l'authenticité</h2>
                 <div class="text-left  text-sm sm:text-sm md:text-md lg:text-lg mb-10">
@@ -224,7 +224,7 @@ export default function Accueil() {
 
         <section class="">
           <div className=" px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
-            <div className="flex flex-wrap-reverse items-center justify-around  gap-y-8 gap-x-8 ">
+            <div className="flex flex-wrap-reverse items-center justify-around  gap-y-8 gap-x-8 mx-10">
               <div className=" flex flex-row md:flex-row lg:flex-row items-center justify-center gap-10 sm:flex-row">
                 <a
                   className="rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color card-horiz"
@@ -307,7 +307,7 @@ export default function Accueil() {
         <section class="">
           <div className=" px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
             <div className="flex flex-wrap items-center justify-around  gap-y-8  ">
-              <div >
+              <div class=" mx-10">
                 <h2 class="text-cyan-deep text-left text-xl sm:text-sm md:text-md lg:text-lg mb-5 font-bold w-full">
                   Prendre des selfies pour vérifier <br /> l'authenticité</h2>
                 <div class="text-left  text-sm sm:text-sm md:text-md lg:text-lg mb-10">
