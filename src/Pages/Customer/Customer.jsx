@@ -1,9 +1,9 @@
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import Footer from '../../Components/Footer';
 import NavBar from '../../Components/NavBar';
 import femme from "../../images/femme.png";
-import Footer from '../../Components/Footer';
 
 export default function Customer() {
     return (
@@ -406,6 +406,21 @@ export default function Customer() {
                             <div>Know that customers are genuine, ensure <br /> that the proper checks are carried out, <br /> and stay compliant</div>
                         </div>
                     </div>
+                </section>
+
+                <section className='section-card p-10'>
+
+                    <div class="degradation-section bg-cyan-color">
+                        <div>
+
+                        </div>
+                        <div>
+                            <div class="flex">
+                                <button class="text-nowrap rounded-md bg-white py-3 px-5 rounded-md  text-sm sm:text-sm md:text-md lg:text-lg my-5">THE IDENTITY VERIFICATION PLATFORM</button>
+                            </div>
+                        </div>
+                    </div>
+
                 </section>
 
                 <section>

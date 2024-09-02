@@ -209,6 +209,11 @@ nav .nav-items .nav-item {
   height: 300px;
   
 }
+.section-card .degradation-section{
+  width: 100%;
+  height: 70%;
+  border-radius: 1rem;
+}
 
 .section-footer{
   z-index: 2;
