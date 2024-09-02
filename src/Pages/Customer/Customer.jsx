@@ -108,7 +108,7 @@ export default function Customer() {
 
 
                 <div class="text-left mx-20">
-                    <h2 class="text-cyan-deep text-2xl sm:text-2xl md:text-3xl lg:text-4xl  font-semibold pt-20 pb-10">
+                    <h2 class="text-cyan-deep text-2xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold pt-20 pb-10">
                         Make identity verification quick and easy by <br />
                         helping genuine users get verified the  first time, <br />
                         while keeping fraudsters out
@@ -409,7 +409,7 @@ export default function Customer() {
                 </section>
 
                 <section>
-                    <h2 class="mt-20 text-4xl font-bold text-emerald-800">Our approach is to break user identity into  atomic attributes called 'merits". <br />
+                    <h2 class="mt-20 text-2xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-cyan-deep mx-20">Our approach is to break user identity into  atomic attributes called 'merits". <br />
                         A merit is and individual piece of information about a user that cant be used <br />
                         to improve a prediction of their future behavior.
                     </h2>

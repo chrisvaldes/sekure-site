@@ -194,7 +194,7 @@ nav .nav-items .nav-item {
   display: grid;
   grid-template-columns: repeat(auto-fit, 15rem);
   align-items: center;
-  justify-content: center;
+  justify-content:center;
   border-radius: 2.5rem;
 }
 
@@ -214,11 +214,11 @@ nav .nav-items .nav-item {
   z-index: 1000;
   position: relative;
 }
-.section-footer .footer-title {
+/* .section-footer .footer-title {
   font-size: 50px;
   line-height: 50px;
   letter-spacing: -1px;
-}
+} */
 
 .section-footer .footer-text {
   margin-left: 7rem;

@@ -12,7 +12,7 @@ export default function Footer() {
                 <div>
                     <div class="flex flex-wrap-reverse items-center justify-center footer-text gap-10">
                         <div class="flex flex-col">
-                            <div class=" text-cyan-deep font-bold text-left footer-title">
+                            <div class=" text-cyan-deep font-bold text-left text-2xl sm:text-2xl md:text-3xl lg:text-4xl footer-title">
                                 Notre API Robuste supportera <br />
                                 votre business et son <br />
                                 expansion sans problèmes
@@ -49,7 +49,7 @@ export default function Footer() {
                             <img src={women} alt="" class="object-cover card-footer-logo" />
                         </div>
                     </div>
-                    <div class="grid-footer mx-10 mt-10 pb-10">
+                    <div class="grid-footer mx-10 mt-10 pb-10 gap-y-10">
                         <div class="flex flex-col text-left">
                             <span class="text-xl font-bold">Explorer</span>
                             <span class="mt-2">Documentation</span>
