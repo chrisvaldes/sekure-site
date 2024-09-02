@@ -72,7 +72,7 @@ nav .nav-items .nav-item {
 
 .card-grid-white{
   display: grid;
-  grid-template-columns: repeat(auto-fit, 35rem);
+  grid-template-columns: repeat(auto-fit, 30rem);
   align-items: center;
   background-color: #fff;
   border-radius: 2.5rem;
