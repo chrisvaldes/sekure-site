@@ -49,7 +49,7 @@ export default function Footer() {
                             <img src={women} alt="" class="object-cover card-footer-logo" />
                         </div>
                     </div>
-                    <div class="grid-footer mx-10 mt-10 pb-10 gap-y-10">
+                    <div class="grid-footer mx-10 mt-10 pb-10">
                         <div class="flex flex-col text-left">
                             <span class="text-xl font-bold">Explorer</span>
                             <span class="mt-2">Documentation</span>
