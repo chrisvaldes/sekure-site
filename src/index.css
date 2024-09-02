@@ -336,6 +336,14 @@ form .logo-footer img {
     width: 1.5rem;
     height: 1.5rem;
   }
+  .card-grid-white{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 25rem);
+    align-items: center;
+    background-color: white;
+    border-radius: 2.5rem;
+  }
+  
 }
 
 @media (max-width: 900px) {
