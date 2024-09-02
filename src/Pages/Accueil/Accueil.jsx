@@ -53,7 +53,7 @@ export default function Accueil() {
           </div>
 
           {/* Grid section */}
-          <div class="grid items-center justify-center sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 bg-white pr-10 md:gap-x-5 rounded-2xl">
+          <div class="card-grid-white items-center justify-center pr-10 md:gap-x-5 rounded-2xl">
             <div class="flex items-center justify-center gap-5 grid-width">
               <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
                 <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 flex items-center justify-center">
