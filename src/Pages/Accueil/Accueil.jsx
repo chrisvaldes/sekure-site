@@ -52,8 +52,8 @@ export default function Accueil() {
           </div>
 
           {/* Grid section */}
-          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 rounded-2xl bg-white">
-            <div class="flex items-center justify-center gap-5 grid-width">
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 rounded-2xl bg-white items-center justify-center gap-y-5 py-10">
+            <div class="flex items-center justify-center gap-x-5  ">
               <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
                 <div class="rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 flex items-center justify-center">
                   <span class="icon text-white">
@@ -62,11 +62,11 @@ export default function Accueil() {
                 </div>
               </div>
               <div class="text-left">
-                <div class="font-semibold text-md">Large Couverture en Afrique</div>
-                <div class="text-sm sm:text-sm md:text-sm lg:text-md"> The only AI-powered identity verification</div>
+                <div class="font-semibold text-title-4 font-weight-title-4 font-family-title-4">Large Couverture en Afrique</div>
+                <div class="text-content-title-4"> The only AI-powered identity verification</div>
               </div>
             </div>
-            <div class="flex items-center justify-center gap-5 grid-width ">
+            <div class="flex items-center justify-center gap-x-5   ">
               <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
                 <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 bg-emerald-300 flex items-center justify-center">
                   <span class="icon text-white">
@@ -75,11 +75,11 @@ export default function Accueil() {
                 </div>
               </div>
               <div class="text-left">
-                <div class="font-semibold text-md">Adverse media screening</div>
-                <div class="text-sm sm:text-sm md:text-md lg:text-md">The only AI-powered identity verification</div>
+                <div class="font-semibold text-title-4 font-weight-title-4 font-family-title-4">Adverse media screening</div>
+                <div class="text-content-title-4">The only AI-powered identity verification</div>
               </div>
             </div>
-            <div class="flex items-center justify-center gap-5 grid-width">
+            <div class="flex items-center justify-center gap-x-5  ">
               <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
                 <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 bg-emerald-300 flex items-center justify-center">
                   <span class="icon text-white">
@@ -88,11 +88,11 @@ export default function Accueil() {
                 </div>
               </div>
               <div class="text-left">
-                <div class="font-semibold text-md">Enhanced due diligence (EDD) : </div>
-                <div class="text-sm sm:text-sm md:text-md lg:text-md">The only AI-powered identity verification</div>
+                <div class="font-semibold text-title-4 font-weight-title-4 font-family-title-4">Enhanced due diligence (EDD) : </div>
+                <div class="text-content-title-4">The only AI-powered identity verification</div>
               </div>
             </div>
-            <div class="flex items-center justify-center gap-5 grid-width">
+            <div class="flex items-center justify-center gap-x-5  ">
               <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
                 <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 bg-emerald-300 flex items-center justify-center">
                   <span class="icon text-white">
@@ -101,11 +101,11 @@ export default function Accueil() {
                 </div>
               </div>
               <div class="text-left">
-                <div class="font-semibold text-md">PEP Screening</div>
-                <div class=" text-sm sm:text-sm md:text-sm lg:text-md">The only AI-powered identity verification</div>
+                <div class="font-semibold text-title-4 font-weight-title-4 font-family-title-4">PEP Screening</div>
+                <div class="text-content-title-4">The only AI-powered identity verification</div>
               </div>
             </div>
-            <div class="flex items-center justify-center gap-5 grid-width">
+            <div class="flex items-center justify-center gap-x-5  ">
               <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
                 <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 bg-emerald-300 flex items-center justify-center">
                   <span class="icon text-white">
@@ -114,11 +114,11 @@ export default function Accueil() {
                 </div>
               </div>
               <div class="text-left">
-                <div class="font-semibold text-md">Ongoing monitoring</div>
-                <div class="text-sm sm:text-sm md:text-md lg:text-md">The only AI-powered identity verification</div>
+                <div class="font-semibold text-title-4 font-weight-title-4 font-family-title-4">Ongoing monitoring</div>
+                <div class="text-content-title-4">The only AI-powered identity verification</div>
               </div>
             </div>
-            <div class="flex items-center justify-center gap-5 grid-width">
+            <div class="flex items-center justify-center gap-x-5  ">
               <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
                 <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 bg-emerald-300 flex items-center justify-center">
                   <span class="icon text-white">
@@ -127,8 +127,8 @@ export default function Accueil() {
                 </div>
               </div>
               <div class="text-left">
-                <div class="font-semibold text-md text-xl sm:text-sm md:text-md lg:text-lg">Sanction screening</div>
-                <div class="text-sm sm:text-sm md:text-md lg:text-md">The only AI-powered identity verification</div>
+                <div class="font-semibold text-title-4 font-weight-title-4 font-family-title-4">Sanction screening</div>
+                <div class="text-content-title-4">The only AI-powered identity verification</div>
               </div>
             </div>
           </div>
@@ -144,9 +144,9 @@ export default function Accueil() {
           <div className=" px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
             <div className="flex flex-wrap items-center justify-around  gap-y-8">
               <div class=" mx-10">
-                <h2 class="text-cyan-deep text-left text-xl sm:text-sm md:text-md lg:text-lg mb-5 font-bold w-full">
+                <h2 class="text-cyan-deep text-left  font-semibold text-title-3 font-weight-title-3 font-family-title-2 leading-normal mb-5 font-bold w-full">
                   Prendre des selfies pour vérifier <br /> l'authenticité</h2>
-                <div class="text-left  text-sm sm:text-sm md:text-md lg:text-lg mb-10">
+                <div class="text-left text-content font-weight-content font-family-content leading-loose font-semibold mb-10">
                   Localement ou internationalement, vos achats en ligne ne connaissent plus de limite <br />
                   avec les carte virtuelles Visa MasterCard de chez SEKURE. En 2 minutes, créez et <br />
                   vérifiez votre compte Sekure pour obtenir votre carte virtuelle. Entre des frais d'entretien <br />
@@ -159,7 +159,7 @@ export default function Accueil() {
                         <FontAwesomeIcon icon={faCheck} />
                       </span>
                     </div>
-                    <div class="text-left text-sm sm:text-sm md:text-md lg:text-lg">
+                    <div class="text-left text-content-title-3 font-semibold">
                       Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                     </div>
                   </div>
@@ -169,7 +169,7 @@ export default function Accueil() {
                         <FontAwesomeIcon icon={faCheck} />
                       </span>
                     </div>
-                    <div class="text-left text-sm sm:text-sm md:text-md lg:text-lg">
+                    <div class="text-left text-content-title-3 font-semibold">
                       Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                     </div>
                   </div>
@@ -179,7 +179,7 @@ export default function Accueil() {
                         <FontAwesomeIcon icon={faCheck} />
                       </span>
                     </div>
-                    <div class="text-left text-sm sm:text-sm md:text-md lg:text-lg">
+                    <div class="text-left text-content-title-3 font-semibold">
                       Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                     </div>
                   </div>
@@ -189,7 +189,7 @@ export default function Accueil() {
                         <FontAwesomeIcon icon={faCheck} />
                       </span>
                     </div>
-                    <div class="text-left text-sm sm:text-sm md:text-md lg:text-lg">
+                    <div class="text-left text-content-title-3 font-semibold">
                       Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                     </div>
                   </div>
@@ -198,14 +198,14 @@ export default function Accueil() {
 
               <div className=" flex flex-col md:flex-col lg:flex-col items-center justify-center gap-10 sm:flex-col">
                 <a
-                  className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color card-vert"
+                  className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color w-width-card-vert h-height-card-vert"
                   href="#"
                 >
 
                 </a>
 
                 <a
-                  className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color card-vert"
+                  className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color  w-width-card-vert h-height-card-vert"
                   href="#"
                 >
 
@@ -449,7 +449,7 @@ export default function Accueil() {
             </span>
           </div>
           <div>
-            <ul class="flex mini-nav-items items-center justify-around bg-emerald-100 mx-40 rounded-full my-10">
+            <ul class="flex mini-nav-items items-center justify-around bg-emerald-100 rounded-full my-10">
               <li class="text-xl py-5 mini-nav-item">
                 <a href="">Identity Verification</a>
               </li>

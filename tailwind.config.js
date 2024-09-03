@@ -12,11 +12,15 @@ module.exports = {
       },
       width: {
         "button-width": "215px",
-        "button-first" : "233px"
+        "button-first" : "233px",
+        "width-card-horiz" : "441px",
+         "width-card-vert" : "441px",
       },
       height: {
         "button-height": "50px", 
-        "button-first" : "39px"
+        "button-first" : "39px",
+        "height-card-vert" : "118px",
+        "height-card-horiz" : "441px",
       },
       margin: {
         "button-margin": "20px",
@@ -29,12 +33,10 @@ module.exports = {
          "title-1" : "35px",
          "title-2" : "40px",
          "title-3" : "30px",
+         "title-4" : "14px",
+         "content-title-3" : "12px",
          "content" : "14px",
-         "sub-content" : "11px",
-         "width-card-horiz" : "441px",
-         "height-card-horiz" : "441px",
-         "width-card-vert" : "441px",
-         "height-card-vert" : "118px",
+         "sub-content" : "11px",         
          "nav" : "14px",
       },
       lineHeight: {
