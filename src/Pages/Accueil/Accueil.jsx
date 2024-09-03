@@ -36,12 +36,12 @@ export default function Accueil() {
                 safeguarding your customers. Build trusted digital communities, improve UX, and drive <br />
                 growth for your business with Veriff.
               </div>
-              <div class="flex mt-10 gap-10">
+              <div class="flex mt-5 gap-10">
                 <button class="text-nowrap rounded-md bg-cyan-deep py-4 px-5 rounded-md text-white  h-button-height w-button-width text-sm flex items-center justify-center">Commencer gratuitement</button>
                 <button class="text-nowrap rounded-md bg-white py-4 px-20 rounded-md text-cyan-deep font-semibold  text-sm">Contacter</button>
               </div>
               <div >
-                <h2 class="title-1 text-title-1 font-weight-title-1 font-family-title leading-normal text-left font-semibold mt-20">
+                <h2 class="title-1 text-title-1 font-weight-title-1 font-family-title leading-normal text-left font-semibold py-20 ">
                   Make identity verification quick and easy by <br />
                   helping genuine users get verified the first time, <br />
                   while keeping fraudsters out

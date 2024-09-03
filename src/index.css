@@ -44,11 +44,20 @@ nav .nav-items .nav-item {
 
 .section-faster {
   margin-top: 8rem;
-  min-height: 70vh;
+  min-height: 50vh;
 }
 .section-faster .faster{
   margin-top: 8rem;
-  min-height: 80vh;
+  min-height: 50vh;
+}
+
+.section-faster-1 {
+  margin-top: 8rem;
+  min-height: 55vh;
+}
+.section-faster-1 .faster{
+  margin-top: 8rem;
+  min-height: 55vh;
 }
 
 .card-grid {
@@ -380,12 +389,27 @@ form .logo-footer img {
 @media (min-width:1400px) {
  
   .section-faster .faster{
-    min-height: 70vh;
+    min-height: 60vh;
   }
   .section-faster{
-    min-height: 70vh;
+    min-height: 60vh;
   }
-  .content-grid{
-
+  .section-faster-1 {
+    min-height: 55vh;
+  }
+  .section-faster-1 .faster{
+    min-height: 55vh;
   }
 }
+@media (min-width:1600px) {
+ 
+
+  .section-faster-1 {
+    min-height: 45vh;
+    /* padding: 0 10rem; */
+  }
+  .section-faster-1 .faster{
+    min-height: 45vh;
+  }
+}
+ 

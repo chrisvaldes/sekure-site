@@ -13,97 +13,100 @@ export default function Customer() {
                     <NavBar />
                 </section>
 
-                <section>
-                    <div class="flex flex-wrap-reverse items-center justify-around  px-20 medium-screen pt-24">
-                        <div class="">
-                            <div class="flex mt-10">
-                                <button class="text-nowrap rounded-md bg-white py-4 px-5 rounded-md">THE IDENTITY VERIFICATION PLATFORM</button>
+                <section class="section-faster-1">
+
+                    <div class="faster" style={{ backgroundImage: `url(${femme})`, backgroundPosition: "top right", backgroundRepeat: "no-repeat" }}>
+                        <div >
+                            <div class="pl-12 md:pl-20 lg:pl-24 pt-10">
+                                <div class="flex">
+                                    <button class="text-nowrap h-button-first w-button-first rounded-md bg-white text-cyan-deep py-3 px-5 text-sub-content font-weight-nav font-family-nav my-2 flex items-center justify-center">THE IDENTITY VERIFICATION PLATFORM</button>
+                                </div>
+                                <div class="title text-title font-weight-title font-family-title leading-normal text-left font-bold text-cyan-color mt-5">
+                                    <span class="uppercase text-cyan-deep">KYC </span>Rapide <span class="text-cyan-deep">et</span> <span>flexible</span> <span class="text-cyan-deep">pour</span> <br />
+                                    <span>+200 pays </span> <span class="text-cyan-deep">d'Afrique et du</span> <br />
+                                    <span class="text-cyan-deep">monde</span>
+                                </div>
+                                <div class="title-content text-cyan-deep text-left text-content font-weight-content font-family-content leading-normal-1 pt-5">
+                                    Know Your Customer (KYC) procedures are essential to any business that wants to accurately <br />
+                                    verify customers ans assess potential risk. Verif helps businesses meet  regulatory <br />
+                                    requirements and realize additional benefits.
+                                </div>
                             </div>
-                            <div class=" text-2xl sm:text-2xl md:text-3xl lg:text-5xl text-left font-bold mt-5">
-                                <span class="uppercase text-cyan-deep">KYC </span>Rapide <span class="text-cyan-deep">et</span> <span>flexible</span> <span class="text-cyan-deep">pour</span> <br />
-                                <span>+200 pays </span> <span class="text-cyan-deep">d'Afrique et du</span> <br />
-                                <span class="text-cyan-deep">monde</span>
-                            </div>
-                            <div class="text-cyan-deep text-left text-sm sm:text-sm md:text-md lg:text-lg my-10">
-                                Know Your Customer (KYC) procedures are essential to any business that wants to accurately <br />
-                                verify customers ans assess potential risk. Verif helps businesses meet  regulatory <br />
-                                requirements and realize additional benefits.
-                            </div>
-                        </div>
-                        <div class="">
-                            <img src={femme} alt="" class="object-cover w-full h-full" />
                         </div>
                     </div>
 
                     {/* Grid section */}
-                    <div class="card-grid bg-cyan-color gap-y-5 mx-20 py-5">
-                        <div class="flex items-center justify-center gap-10 grid-width">
-                            <div class=" rounded-full bg-white flex items-center justify-center px-4 py-2 text-cyan-color">
-                                <span class="icon">
-                                    <FontAwesomeIcon icon={faCheck} />
-                                </span>
+                    <div className='px-20'>
+                        <div class="bg-cyan-color grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 rounded-2xl items-center justify-center gap-y-5 py-10">
+                            <div class="flex items-center justify-center gap-10 ">
+                                <div class=" rounded-full bg-white flex items-center justify-center px-4 py-3 text-cyan-color">
+                                    <span class="icon">
+                                        <FontAwesomeIcon icon={faCheck} />
+                                    </span>
+                                </div>
+                                <div class="text-left text-white">
+                                    <h4 class="font-semibold text-md lg:text-lg">Customer du diligence (CDD):</h4>
+                                    <h6 class="text-sm sm:text-sm md:text-sm lg:text-md">The only AI-powered identity verification</h6>
+                                </div>
                             </div>
-                            <div class="text-left text-white">
-                                <h4 class="font-semibold text-md lg:text-lg">Customer du diligence (CDD):</h4>
-                                <h6 class="text-sm sm:text-sm md:text-sm lg:text-md">The only AI-powered identity verification</h6>
+                            <div class="flex items-center justify-center gap-10  ">
+                                <div class=" rounded-full bg-white flex items-center justify-center px-4 py-3 text-cyan-color">
+                                    <span class="icon">
+                                        <FontAwesomeIcon icon={faCheck} />
+                                    </span>
+                                </div>
+                                <div class="text-left text-white">
+                                    <h4 class="font-semibold text-md lg:text-lg">Adverse media screening</h4>
+                                    <h6 class="text-sm sm:text-sm md:text-sm lg:text-md">The only AI-powered identity verification</h6>
+                                </div>
                             </div>
-                        </div>
-                        <div class="flex items-center justify-center gap-10 grid-width ">
-                            <div class=" rounded-full bg-white flex items-center justify-center px-4 py-2 text-cyan-color">
-                                <span class="icon">
-                                    <FontAwesomeIcon icon={faCheck} />
-                                </span>
+                            <div class="flex items-center justify-center gap-10 ">
+                                <div class=" rounded-full bg-white flex items-center justify-center px-4 py-3 text-cyan-color">
+                                    <span class="icon">
+                                        <FontAwesomeIcon icon={faCheck} />
+                                    </span>
+                                </div>
+                                <div class="text-left text-white">
+                                    <h4 class="font-semibold text-md lg:text-lg">Enhanced due diligence (EDD) : </h4>
+                                    <h6 class="text-sm sm:text-sm md:text-sm lg:text-md">The only AI-powered identity verification</h6>
+                                </div>
                             </div>
-                            <div class="text-left text-white">
-                                <h4 class="font-semibold text-md lg:text-lg">Adverse media screening</h4>
-                                <h6 class="text-sm sm:text-sm md:text-sm lg:text-md">The only AI-powered identity verification</h6>
+                            <div class="flex items-center justify-center gap-10 ">
+                                <div class=" rounded-full bg-white flex items-center justify-center px-4 py-3 text-cyan-color">
+                                    <span class="icon">
+                                        <FontAwesomeIcon icon={faCheck} />
+                                    </span>
+                                </div>
+                                <div class="text-left text-white">
+                                    <h4 class="font-semibold text-md lg:text-lg">PEP Screening</h4>
+                                    <h6 class="text-sm sm:text-sm md:text-sm lg:text-md">The only AI-powered identity verification</h6>
+                                </div>
                             </div>
-                        </div>
-                        <div class="flex items-center justify-center gap-10 grid-width">
-                            <div class=" rounded-full bg-white flex items-center justify-center px-4 py-2 text-cyan-color">
-                                <span class="icon">
-                                    <FontAwesomeIcon icon={faCheck} />
-                                </span>
+                            <div class="flex items-center justify-center gap-10 ">
+                                <div class=" rounded-full bg-white flex items-center justify-center px-4 py-3 text-cyan-color">
+                                    <span class="icon">
+                                        <FontAwesomeIcon icon={faCheck} />
+                                    </span>
+                                </div>
+                                <div class="text-left text-white">
+                                    <h4 class="font-semibold text-md lg:text-lg">Ongoing monitoring</h4>
+                                    <h6 class="text-sm sm:text-sm md:text-sm lg:text-md">The only AI-powered identity verification</h6>
+                                </div>
                             </div>
-                            <div class="text-left text-white">
-                                <h4 class="font-semibold text-md lg:text-lg">Enhanced due diligence (EDD) : </h4>
-                                <h6 class="text-sm sm:text-sm md:text-sm lg:text-md">The only AI-powered identity verification</h6>
-                            </div>
-                        </div>
-                        <div class="flex items-center justify-center gap-10 grid-width">
-                            <div class=" rounded-full bg-white flex items-center justify-center px-4 py-2 text-cyan-color">
-                                <span class="icon">
-                                    <FontAwesomeIcon icon={faCheck} />
-                                </span>
-                            </div>
-                            <div class="text-left text-white">
-                                <h4 class="font-semibold text-md lg:text-lg">PEP Screening</h4>
-                                <h6 class="text-sm sm:text-sm md:text-sm lg:text-md">The only AI-powered identity verification</h6>
-                            </div>
-                        </div>
-                        <div class="flex items-center justify-center gap-10 grid-width">
-                            <div class=" rounded-full bg-white flex items-center justify-center px-4 py-2 text-cyan-color">
-                                <span class="icon">
-                                    <FontAwesomeIcon icon={faCheck} />
-                                </span>
-                            </div>
-                            <div class="text-left text-white">
-                                <h4 class="font-semibold text-md lg:text-lg">Ongoing monitoring</h4>
-                                <h6 class="text-sm sm:text-sm md:text-sm lg:text-md">The only AI-powered identity verification</h6>
-                            </div>
-                        </div>
-                        <div class="flex items-center justify-center gap-10 grid-width">
-                            <div class=" rounded-full bg-white flex items-center justify-center px-4 py-2 text-cyan-color">
-                                <span class="icon">
-                                    <FontAwesomeIcon icon={faCheck} />
-                                </span>
-                            </div>
-                            <div class="text-left text-white">
-                                <h4 class="font-semibold text-md lg:text-lg">Sanction screening</h4>
-                                <h6 class="text-sm sm:text-sm md:text-sm lg:text-md">The only AI-powered identity verification</h6>
+                            <div class="flex items-center justify-center gap-10 ">
+                                <div class=" rounded-full bg-white flex items-center justify-center px-4 py-3 text-cyan-color">
+                                    <span class="icon">
+                                        <FontAwesomeIcon icon={faCheck} />
+                                    </span>
+                                </div>
+                                <div class="text-left text-white">
+                                    <h4 class="font-semibold text-md lg:text-lg">Sanction screening</h4>
+                                    <h6 class="text-sm sm:text-sm md:text-sm lg:text-md">The only AI-powered identity verification</h6>
+                                </div>
                             </div>
                         </div>
                     </div>
+
                 </section>
 
 
