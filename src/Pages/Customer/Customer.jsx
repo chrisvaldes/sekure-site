@@ -123,14 +123,14 @@ export default function Customer() {
                         <div className="flex flex-wrap-reverse items-center justify-around  gap-y-8 gap-x-8 mx-10">
                             <div className=" flex flex-row md:flex-row lg:flex-row items-center justify-center gap-10 sm:flex-row">
                                 <a
-                                    className="rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color card-horiz"
+                                    className="rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color h-height-card-horiz w-width-card-horiz"
                                     href="#"
                                 >
 
                                 </a>
 
                                 <a
-                                    className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color card-horiz"
+                                    className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color h-height-card-horiz w-width-card-horiz"
                                     href="#"
                                 >
 
@@ -257,14 +257,14 @@ export default function Customer() {
 
                             <div className=" flex flex-col md:flex-col lg:flex-col items-center justify-center gap-10 sm:flex-col">
                                 <a
-                                    className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color card-vert"
+                                    className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color h-height-card-vert w-width-card-vert"
                                     href="#"
                                 >
 
                                 </a>
 
                                 <a
-                                    className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color card-vert"
+                                    className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color  h-height-card-vert w-width-card-vert"
                                     href="#"
                                 >
 
@@ -279,14 +279,14 @@ export default function Customer() {
                         <div className="flex flex-wrap-reverse items-center justify-around  gap-y-8 gap-x-8 mx-10">
                             <div className=" flex flex-row md:flex-row lg:flex-row items-center justify-center gap-10 sm:flex-row">
                                 <a
-                                    className="rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color card-horiz"
+                                    className="rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color h-height-card-horiz w-width-card-horiz"
                                     href="#"
                                 >
 
                                 </a>
 
                                 <a
-                                    className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color card-horiz"
+                                    className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color h-height-card-horiz w-width-card-horiz"
                                     href="#"
                                 >
 

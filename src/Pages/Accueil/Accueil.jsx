@@ -225,7 +225,7 @@ export default function Accueil() {
 
         <section class="">
           <div className=" px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
-            <div className="flex flex-wrap-reverse items-center justify-around  gap-y-8 gap-x-8 mx-10">
+            <div className="flex flex-wrap-reverse items-center justify-around  gap-y-8 gap-x-8">
               <div className=" flex items-center justify-center gap-10">
                 <a
                   className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color w-width-card-horiz h-height-card-horiz"
@@ -382,7 +382,7 @@ export default function Accueil() {
 
         <section>
           {/* Grid section */}
-          <div class="bg-cyan-deep rounded-3xl m-20 py-10 px-10">
+          <div class="bg-cyan-deep rounded-3xl py-10 px-10">
 
             <div class="title-1 text-title-1 font-weight-title font-family-title leading-normal font-bold text-cyan-color">
               With Aibiometrics, anonymous strangers easyli <br />
