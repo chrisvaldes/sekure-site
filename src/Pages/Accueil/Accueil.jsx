@@ -20,7 +20,7 @@ export default function Accueil() {
 
         <section class="section-faster">
           <div class="faster" style={{ backgroundImage: `url(${femme})`, backgroundPosition: "top right", backgroundRepeat: "no-repeat" }}>
-            <div class="pl-12 md:pl-20 lg:pl-24">
+            <div class="pt-10 pl-12 md:pl-20 lg:pl-24">
               <div class="flex">
                 <button class="text-nowrap h-button-first w-button-first rounded-md bg-white text-cyan-deep py-3 px-5 text-sub-content font-weight-nav font-family-nav my-2 flex items-center justify-center">
                   THE IDENTITY VERIFICATION PLATFORM
