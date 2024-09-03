@@ -13,7 +13,7 @@ import world from "../../images/world-bg.png";
 export default function Accueil() {
   return (
     <>
-      <div>
+      <div class="main-content">
         <section>
           <NavBar />
         </section>
@@ -26,12 +26,12 @@ export default function Accueil() {
                   THE IDENTITY VERIFICATION PLATFORM
                 </button>
               </div>
-              <div class="text-title font-weight-title font-family-title leading-normal text-left font-bold text-cyan-color">
+              <div class="title text-title font-weight-title font-family-title leading-normal text-left font-bold text-cyan-color">
                 <span class="text-cyan-deep">Faster, more accurate, and <br /> built for you :</span>
                 <span>fraud prevention <br /> done right</span>
 
               </div>
-              <div class="text-cyan-deep text-left text-content font-weight-content font-family-content leading-normal-1 mt-5">
+              <div class="title-content text-cyan-deep text-left text-content font-weight-content font-family-content leading-normal-1 mt-5">
                 The only AI-powered identity verification platform form fraud prevention, compliance, and <br />
                 safeguarding your customers. Build trusted digital communities, improve UX, and drive <br />
                 growth for your business with Veriff.
@@ -41,7 +41,7 @@ export default function Accueil() {
                 <button class="text-nowrap rounded-md bg-white py-4 px-20 rounded-md text-cyan-deep font-semibold  text-sm">Contacter</button>
               </div>
               <div >
-                <h2 class="text-title-1 font-weight-title-1 font-family-title leading-normal text-left font-semibold mt-20">
+                <h2 class="title-1 text-title-1 font-weight-title-1 font-family-title leading-normal text-left font-semibold mt-20">
                   Make identity verification quick and easy by <br />
                   helping genuine users get verified the first time, <br />
                   while keeping fraudsters out
@@ -53,7 +53,7 @@ export default function Accueil() {
 
           {/* Grid section */}
           <div class='px-20'>
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 rounded-2xl bg-white items-center justify-center gap-y-5 py-10 px-5">
+            <div class="content-grid grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 rounded-2xl bg-white items-center justify-center gap-y-5 py-10 px-5">
               <div class="flex items-center justify-center gap-x-5  ">
                 <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
                   <div class="rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 flex items-center justify-center">
@@ -63,8 +63,8 @@ export default function Accueil() {
                   </div>
                 </div>
                 <div class="text-left">
-                  <div class="font-semibold text-title-4 font-weight-title-4 font-family-title-4">Large Couverture en Afrique</div>
-                  <div class="text-content-title-4"> The only AI-powered identity verification</div>
+                  <div class="title-4 font-semibold text-title-4 font-weight-title-4 font-family-title-4">Large Couverture en Afrique</div>
+                  <div class="title-content text-content-title-4"> The only AI-powered identity verification</div>
                 </div>
               </div>
               <div class="flex items-center justify-center gap-x-5   ">
@@ -76,8 +76,8 @@ export default function Accueil() {
                   </div>
                 </div>
                 <div class="text-left">
-                  <div class="font-semibold text-title-4 font-weight-title-4 font-family-title-4">Adverse media screening</div>
-                  <div class="text-content-title-4">The only AI-powered identity verification</div>
+                  <div class="font-semibold title-4 text-title-4 font-weight-title-4 font-family-title-4">Adverse media screening</div>
+                  <div class="title-content text-content-title-4">The only AI-powered identity verification</div>
                 </div>
               </div>
               <div class="flex items-center justify-center gap-x-5  ">
@@ -89,8 +89,8 @@ export default function Accueil() {
                   </div>
                 </div>
                 <div class="text-left">
-                  <div class="font-semibold text-title-4 font-weight-title-4 font-family-title-4">Enhanced due diligence (EDD) : </div>
-                  <div class="text-content-title-4">The only AI-powered identity verification</div>
+                  <div class="font-semibold title-4 text-title-4 font-weight-title-4 font-family-title-4">Enhanced due diligence (EDD) : </div>
+                  <div class="title-content text-content-title-4">The only AI-powered identity verification</div>
                 </div>
               </div>
               <div class="flex items-center justify-center gap-x-5  ">
@@ -102,8 +102,8 @@ export default function Accueil() {
                   </div>
                 </div>
                 <div class="text-left">
-                  <div class="font-semibold text-title-4 font-weight-title-4 font-family-title-4">PEP Screening</div>
-                  <div class="text-content-title-4">The only AI-powered identity verification</div>
+                  <div class="font-semibold title-4 text-title-4 font-weight-title-4 font-family-title-4">PEP Screening</div>
+                  <div class="title-content text-content-title-4">The only AI-powered identity verification</div>
                 </div>
               </div>
               <div class="flex items-center justify-center gap-x-5  ">
@@ -115,8 +115,8 @@ export default function Accueil() {
                   </div>
                 </div>
                 <div class="text-left">
-                  <div class="font-semibold text-title-4 font-weight-title-4 font-family-title-4">Ongoing monitoring</div>
-                  <div class="text-content-title-4">The only AI-powered identity verification</div>
+                  <div class="font-semibold title-4 text-title-4 font-weight-title-4 font-family-title-4">Ongoing monitoring</div>
+                  <div class="title-content text-content-title-4">The only AI-powered identity verification</div>
                 </div>
               </div>
               <div class="flex items-center justify-center gap-x-5  ">
@@ -128,19 +128,19 @@ export default function Accueil() {
                   </div>
                 </div>
                 <div class="text-left">
-                  <div class="font-semibold text-title-4 font-weight-title-4 font-family-title-4">Sanction screening</div>
-                  <div class="text-content-title-4">The only AI-powered identity verification</div>
+                  <div class="font-semibold title-4 text-title-4 font-weight-title-4 font-family-title-4">Sanction screening</div>
+                  <div class="title-content text-content-title-4">The only AI-powered identity verification</div>
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/*
-        Heads up! 👋
+          {/*
+          Heads up! 👋
 
-        This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
-      */}
+          This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
+        */}
 
         <section class="">
           <div className=" px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
@@ -217,16 +217,16 @@ export default function Accueil() {
           </div>
         </section>
 
-        {/*
-        Heads up! 👋
+          {/*
+          Heads up! 👋
 
-        This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
-      */}
+          This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
+        */}
 
         <section class="">
           <div className=" px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
             <div className="flex flex-wrap-reverse items-center justify-around  gap-y-8 gap-x-8 mx-10">
-            <div className=" flex items-center justify-center gap-10">
+              <div className=" flex items-center justify-center gap-10">
                 <a
                   className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color w-width-card-horiz h-height-card-horiz"
                   href="#"
@@ -244,7 +244,7 @@ export default function Accueil() {
               <div >
                 <h2 class="text-cyan-deep text-left  font-semibold text-title-3 font-weight-title-3 font-family-title-2 leading-normal mb-5 font-bold w-full">
                   Prendre des selfies pour vérifier <br /> l'authenticité</h2>
-                  <div class="text-left text-content font-weight-content font-family-content leading-loose font-semibold mb-10">
+                <div class="text-left text-content font-weight-content font-family-content leading-loose font-semibold mb-10">
                   Localement ou internationalement, vos achats en ligne ne connaissent plus de limite <br />
                   avec les carte virtuelles Visa MasterCard de chez SEKURE. En 2 minutes, créez et <br />
                   vérifiez votre compte Sekure pour obtenir votre carte virtuelle. Entre des frais d'entretien <br />
@@ -299,17 +299,17 @@ export default function Accueil() {
         </section>
 
 
-        {/*
-        Heads up! 👋
+          {/*
+          Heads up! 👋
 
-        This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
-      */}
+          This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
+        */}
 
         <section class="">
           <div className=" px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
             <div className="flex flex-wrap items-center justify-around  gap-y-8  ">
               <div class=" mx-10">
-              <h2 class="text-cyan-deep text-left  font-semibold text-title-3 font-weight-title-3 font-family-title-2 leading-normal mb-5 font-bold w-full">
+                <h2 class="text-cyan-deep text-left  font-semibold text-title-3 font-weight-title-3 font-family-title-2 leading-normal mb-5 font-bold w-full">
                   Prendre des selfies pour vérifier <br /> l'authenticité</h2>
                 <div class="text-left text-content font-weight-content font-family-content leading-loose font-semibold mb-10">
                   Localement ou internationalement, vos achats en ligne ne connaissent plus de limite <br />
@@ -318,7 +318,7 @@ export default function Accueil() {
                   inexistants et des frais de
                 </div>
                 <div class="grid grid-cols-2 items-center justify-center gap-10">
-                <div class="flex items-center justify-center gap-5">
+                  <div class="flex items-center justify-center gap-5">
                     <div class="flex items-center justify-center small-circle-check rounded-full bg-emerald-300 z-100">
                       <span class="icon text-white p-2">
                         <FontAwesomeIcon icon={faCheck} />
@@ -384,7 +384,7 @@ export default function Accueil() {
           {/* Grid section */}
           <div class="bg-cyan-deep rounded-3xl m-20 py-10 px-10">
 
-            <div class="text-title-1 font-weight-title font-family-title leading-normal font-bold text-cyan-color">
+            <div class="title-1 text-title-1 font-weight-title font-family-title leading-normal font-bold text-cyan-color">
               With Aibiometrics, anonymous strangers easyli <br />
               become your trustworthy users
             </div>

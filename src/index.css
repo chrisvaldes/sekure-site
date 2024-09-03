@@ -197,12 +197,6 @@ nav .nav-items .nav-item {
   border-radius: 2.5rem;
 }
 
-/* .card-vert{
-  width: 300px;
-  height: 175px;
-  
-} */
-
 .card-horiz{
   width: 205px;
   height: 300px;
@@ -380,4 +374,18 @@ form .logo-footer img {
     width: 40rem;
   }
  
+}
+ 
+
+@media (min-width:1400px) {
+ 
+  .section-faster .faster{
+    min-height: 70vh;
+  }
+  .section-faster{
+    min-height: 70vh;
+  }
+  .content-grid{
+
+  }
 }
