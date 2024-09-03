@@ -18,45 +18,44 @@ export default function Accueil() {
           <NavBar />
         </section>
 
-        <section class="section-prevention mx-10">
-          <div class="flex md:flex-wrap-reverse items-center justify-around">
-            <div class="content">
+        <section class="section-faster">
+          <div class="faster" style={{ backgroundImage: `url(${femme})`, backgroundPosition: "top right", backgroundRepeat: "no-repeat" }}>
+            <div class="pl-12 md:pl-20 lg:pl-24">
               <div class="flex">
-                <button class="text-nowrap rounded-md bg-white py-3 px-5 rounded-md  text-sm sm:text-sm md:text-md lg:text-lg my-5">THE IDENTITY VERIFICATION PLATFORM</button>
+                <button class="text-nowrap h-button-first w-button-first rounded-md bg-white text-cyan-deep py-3 px-5 text-sub-content font-weight-nav font-family-nav my-2 flex items-center justify-center">
+                  THE IDENTITY VERIFICATION PLATFORM
+                </button>
               </div>
-              <div class=" text-2xl sm:text-2xl md:text-3xl lg:text-4xl my-5 text-left font-bold text-cyan-color mt-5">
+              <div class=" text-title font-weight-title font-family-title leading-normal text-left font-bold text-cyan-color">
                 <span class="text-cyan-deep">Faster, more accurate, and <br /> built for you :</span>
                 <span>fraud prevention <br /> done right</span>
 
               </div>
-              <div class="text-cyan-deep text-left text-sm sm:text-sm md:text-md lg:text-lg my-5">
+              <div class="text-cyan-deep text-left text-content font-weight-content font-family-content leading-normal-1 mt-5">
                 The only AI-powered identity verification platform form fraud prevention, compliance, and <br />
                 safeguarding your customers. Build trusted digital communities, improve UX, and drive <br />
                 growth for your business with Veriff.
               </div>
               <div class="flex mt-10 gap-10">
-                <button class="text-nowrap rounded-md bg-cyan-deep py-4 px-5 rounded-md text-white font-semibold text-sm sm:text-sm md:text-md lg:text-lg">Commencer gratuitement</button>
-                <button class="text-nowrap rounded-md bg-white py-4 px-20 rounded-md text-cyan-deep font-bold text-sm sm:text-sm md:text-md lg:text-lg">Contacter</button>
+                <button class="text-nowrap rounded-md bg-cyan-deep py-4 px-5 rounded-md text-white  h-button-height w-button-width text-sm flex items-center justify-center">Commencer gratuitement</button>
+                <button class="text-nowrap rounded-md bg-white py-4 px-20 rounded-md text-cyan-deep font-semibold  text-sm">Contacter</button>
               </div>
               <div >
-                <h2 class="text-left text-2xl sm:text-2xl md:text-3xl lg:text-3xl font-semibold my-10">
+                <h2 class="text-title-1 font-weight-title-1 font-family-title leading-normal text-left font-semibold mt-20">
                   Make identity verification quick and easy by <br />
                   helping genuine users get verified the first time, <br />
                   while keeping fraudsters out
                 </h2>
               </div>
             </div>
-            <div class="image">
-              {/* <img src={logo} alt=""  class="object-cover w-full h-full image-background"/> */}
-              <img src={femme} alt="" class="object-fill  women-image" />
-            </div>
+             
           </div>
 
           {/* Grid section */}
-          <div class="card-grid-white items-center justify-center pr-10 md:gap-x-5 rounded-2xl">
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 rounded-2xl bg-white">
             <div class="flex items-center justify-center gap-5 grid-width">
               <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
-                <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 flex items-center justify-center">
+                <div class="rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 flex items-center justify-center">
                   <span class="icon text-white">
                     <FontAwesomeIcon icon={faCheck} />
                   </span>

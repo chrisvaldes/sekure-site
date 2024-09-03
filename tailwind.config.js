@@ -8,40 +8,55 @@ module.exports = {
       colors : {
         "cyan-color" : "#2CE5B1",
         "cyan-deep" : "#285246",
-        "circle-card" : "#F3F3F3",
-        "big-circle-card" : "#F3EFE0",
+        "nav-color" : "#5A5A5A"
+      },
+      width: {
+        "button-width": "215px",
+        "button-first" : "233px"
+      },
+      height: {
+        "button-height": "50px", 
+        "button-first" : "39px"
+      },
+      margin: {
+        "button-margin": "20px",
+      },
+      padding: {
+        "button-padding": "15px",
       },
       fontSize : {
-        "logo-size" : "18px",
-        "women-accueil-width" : "608px",
-        "women-accueil-height" : "671px",
-        "women-customer-width" : "430px",
-        "women-customer-height" : "345px",
-        "women-card-customer-width" : "690px",
-        "women-card-customer-heigh" : "649px",
-        "women-card-accueil-width" : "482px",
-        "women-card-accueil-height" : "437px",
-        "women-footer-width" : "486px",
-        "women-footer-height" : "409px",
-        "big-circle-width" : "134px",
-        "big-circle-height" : "134px",
-        "small-circle-width" : "57.43px",
-        "small-circle-height" : "54.43px",
-        "small-circle-width-1" : "30px",
-        "small-circle-height-1" : "30px",
-        "circle-width" : "180px",
-        "circle-height" : "179px"
+         "title" : "45px",
+         "title-1" : "35px",
+         "title-2" : "40px",
+         "title-3" : "30px",
+         "content" : "14px",
+         "sub-content" : "11px",
+         "width-card-horiz" : "441px",
+         "height-card-horiz" : "441px",
+         "width-card-vert" : "441px",
+         "height-card-vert" : "118px",
+         "nav" : "14px",
       },
-      spacing : {
-        "gap" : "13px",
-        "line-height" : "47px",
-        
+      lineHeight: {
+        "tight": "1.2", 
+        "normal": "1",  
+        "loose": "1.8", 
+        "normal-1" : "1.5"
       },
       fontWeight : {
-        "weight" : "700"
+        "weight-title" : "700",
+        "weight-title-1" : "500",
+        "weight-title-2" : "400",
+        "weight-title-3" : "700",
+        "weight-content" : "500",
+        "weight-sub-content" : "500",
+        "weight-nav" : "400"
       },
       fontFamily : {
-        "font-family" : "Satoshi",
+        "family-title" : "Satoshi",
+        "family-content" : "Satoshi",
+        "family-title" : "Lufga",
+        "family-nav" : "Inter"
       }
     },
   },
