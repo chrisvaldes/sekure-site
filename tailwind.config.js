@@ -13,14 +13,14 @@ module.exports = {
       width: {
         "button-width": "215px",
         "button-first" : "233px",
-        "width-card-horiz" : "441px",
+        "width-card-horiz" : "205px",
          "width-card-vert" : "441px",
       },
       height: {
         "button-height": "50px", 
         "button-first" : "39px",
         "height-card-vert" : "118px",
-        "height-card-horiz" : "441px",
+        "height-card-horiz" : "265px",
       },
       margin: {
         "button-margin": "20px",
@@ -57,7 +57,6 @@ module.exports = {
       fontFamily : {
         "family-title" : "Satoshi",
         "family-content" : "Satoshi",
-        "family-title" : "Lufga",
         "family-nav" : "Inter"
       }
     },

@@ -26,7 +26,7 @@ export default function Accueil() {
                   THE IDENTITY VERIFICATION PLATFORM
                 </button>
               </div>
-              <div class=" text-title font-weight-title font-family-title leading-normal text-left font-bold text-cyan-color">
+              <div class="text-title font-weight-title font-family-title leading-normal text-left font-bold text-cyan-color">
                 <span class="text-cyan-deep">Faster, more accurate, and <br /> built for you :</span>
                 <span>fraud prevention <br /> done right</span>
 
@@ -48,87 +48,89 @@ export default function Accueil() {
                 </h2>
               </div>
             </div>
-             
+
           </div>
 
           {/* Grid section */}
-          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 rounded-2xl bg-white items-center justify-center gap-y-5 py-10">
-            <div class="flex items-center justify-center gap-x-5  ">
-              <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
-                <div class="rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 flex items-center justify-center">
-                  <span class="icon text-white">
-                    <FontAwesomeIcon icon={faCheck} />
-                  </span>
+          <div class='px-20'>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 rounded-2xl bg-white items-center justify-center gap-y-5 py-10 px-5">
+              <div class="flex items-center justify-center gap-x-5  ">
+                <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
+                  <div class="rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 flex items-center justify-center">
+                    <span class="icon text-white">
+                      <FontAwesomeIcon icon={faCheck} />
+                    </span>
+                  </div>
+                </div>
+                <div class="text-left">
+                  <div class="font-semibold text-title-4 font-weight-title-4 font-family-title-4">Large Couverture en Afrique</div>
+                  <div class="text-content-title-4"> The only AI-powered identity verification</div>
                 </div>
               </div>
-              <div class="text-left">
-                <div class="font-semibold text-title-4 font-weight-title-4 font-family-title-4">Large Couverture en Afrique</div>
-                <div class="text-content-title-4"> The only AI-powered identity verification</div>
-              </div>
-            </div>
-            <div class="flex items-center justify-center gap-x-5   ">
-              <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
-                <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 bg-emerald-300 flex items-center justify-center">
-                  <span class="icon text-white">
-                    <FontAwesomeIcon icon={faCheck} />
-                  </span>
+              <div class="flex items-center justify-center gap-x-5   ">
+                <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
+                  <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 bg-emerald-300 flex items-center justify-center">
+                    <span class="icon text-white">
+                      <FontAwesomeIcon icon={faCheck} />
+                    </span>
+                  </div>
+                </div>
+                <div class="text-left">
+                  <div class="font-semibold text-title-4 font-weight-title-4 font-family-title-4">Adverse media screening</div>
+                  <div class="text-content-title-4">The only AI-powered identity verification</div>
                 </div>
               </div>
-              <div class="text-left">
-                <div class="font-semibold text-title-4 font-weight-title-4 font-family-title-4">Adverse media screening</div>
-                <div class="text-content-title-4">The only AI-powered identity verification</div>
-              </div>
-            </div>
-            <div class="flex items-center justify-center gap-x-5  ">
-              <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
-                <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 bg-emerald-300 flex items-center justify-center">
-                  <span class="icon text-white">
-                    <FontAwesomeIcon icon={faCheck} />
-                  </span>
+              <div class="flex items-center justify-center gap-x-5  ">
+                <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
+                  <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 bg-emerald-300 flex items-center justify-center">
+                    <span class="icon text-white">
+                      <FontAwesomeIcon icon={faCheck} />
+                    </span>
+                  </div>
+                </div>
+                <div class="text-left">
+                  <div class="font-semibold text-title-4 font-weight-title-4 font-family-title-4">Enhanced due diligence (EDD) : </div>
+                  <div class="text-content-title-4">The only AI-powered identity verification</div>
                 </div>
               </div>
-              <div class="text-left">
-                <div class="font-semibold text-title-4 font-weight-title-4 font-family-title-4">Enhanced due diligence (EDD) : </div>
-                <div class="text-content-title-4">The only AI-powered identity verification</div>
-              </div>
-            </div>
-            <div class="flex items-center justify-center gap-x-5  ">
-              <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
-                <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 bg-emerald-300 flex items-center justify-center">
-                  <span class="icon text-white">
-                    <FontAwesomeIcon icon={faCheck} />
-                  </span>
+              <div class="flex items-center justify-center gap-x-5  ">
+                <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
+                  <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 bg-emerald-300 flex items-center justify-center">
+                    <span class="icon text-white">
+                      <FontAwesomeIcon icon={faCheck} />
+                    </span>
+                  </div>
+                </div>
+                <div class="text-left">
+                  <div class="font-semibold text-title-4 font-weight-title-4 font-family-title-4">PEP Screening</div>
+                  <div class="text-content-title-4">The only AI-powered identity verification</div>
                 </div>
               </div>
-              <div class="text-left">
-                <div class="font-semibold text-title-4 font-weight-title-4 font-family-title-4">PEP Screening</div>
-                <div class="text-content-title-4">The only AI-powered identity verification</div>
-              </div>
-            </div>
-            <div class="flex items-center justify-center gap-x-5  ">
-              <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
-                <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 bg-emerald-300 flex items-center justify-center">
-                  <span class="icon text-white">
-                    <FontAwesomeIcon icon={faCheck} />
-                  </span>
+              <div class="flex items-center justify-center gap-x-5  ">
+                <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
+                  <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 bg-emerald-300 flex items-center justify-center">
+                    <span class="icon text-white">
+                      <FontAwesomeIcon icon={faCheck} />
+                    </span>
+                  </div>
+                </div>
+                <div class="text-left">
+                  <div class="font-semibold text-title-4 font-weight-title-4 font-family-title-4">Ongoing monitoring</div>
+                  <div class="text-content-title-4">The only AI-powered identity verification</div>
                 </div>
               </div>
-              <div class="text-left">
-                <div class="font-semibold text-title-4 font-weight-title-4 font-family-title-4">Ongoing monitoring</div>
-                <div class="text-content-title-4">The only AI-powered identity verification</div>
-              </div>
-            </div>
-            <div class="flex items-center justify-center gap-x-5  ">
-              <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
-                <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 bg-emerald-300 flex items-center justify-center">
-                  <span class="icon text-white">
-                    <FontAwesomeIcon icon={faCheck} />
-                  </span>
+              <div class="flex items-center justify-center gap-x-5  ">
+                <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
+                  <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 bg-emerald-300 flex items-center justify-center">
+                    <span class="icon text-white">
+                      <FontAwesomeIcon icon={faCheck} />
+                    </span>
+                  </div>
                 </div>
-              </div>
-              <div class="text-left">
-                <div class="font-semibold text-title-4 font-weight-title-4 font-family-title-4">Sanction screening</div>
-                <div class="text-content-title-4">The only AI-powered identity verification</div>
+                <div class="text-left">
+                  <div class="font-semibold text-title-4 font-weight-title-4 font-family-title-4">Sanction screening</div>
+                  <div class="text-content-title-4">The only AI-powered identity verification</div>
+                </div>
               </div>
             </div>
           </div>
@@ -224,25 +226,25 @@ export default function Accueil() {
         <section class="">
           <div className=" px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
             <div className="flex flex-wrap-reverse items-center justify-around  gap-y-8 gap-x-8 mx-10">
-              <div className=" flex flex-row md:flex-row lg:flex-row items-center justify-center gap-10 sm:flex-row">
+            <div className=" flex items-center justify-center gap-10">
                 <a
-                  className="rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color card-horiz"
+                  className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color w-width-card-horiz h-height-card-horiz"
                   href="#"
                 >
 
                 </a>
 
                 <a
-                  className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color card-horiz"
+                  className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color  w-width-card-horiz h-height-card-horiz"
                   href="#"
                 >
 
                 </a>
               </div>
               <div >
-                <h2 class="text-cyan-deep text-left text-xl sm:text-sm md:text-md lg:text-lg mb-5 font-bold w-full">
+                <h2 class="text-cyan-deep text-left  font-semibold text-title-3 font-weight-title-3 font-family-title-2 leading-normal mb-5 font-bold w-full">
                   Prendre des selfies pour vérifier <br /> l'authenticité</h2>
-                <div class="text-left  text-sm sm:text-sm md:text-md lg:text-lg mb-10">
+                  <div class="text-left text-content font-weight-content font-family-content leading-loose font-semibold mb-10">
                   Localement ou internationalement, vos achats en ligne ne connaissent plus de limite <br />
                   avec les carte virtuelles Visa MasterCard de chez SEKURE. En 2 minutes, créez et <br />
                   vérifiez votre compte Sekure pour obtenir votre carte virtuelle. Entre des frais d'entretien <br />
@@ -255,7 +257,7 @@ export default function Accueil() {
                         <FontAwesomeIcon icon={faCheck} />
                       </span>
                     </div>
-                    <div class="text-left text-sm sm:text-sm md:text-md lg:text-lg">
+                    <div class="text-left text-content-title-3 font-semibold">
                       Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                     </div>
                   </div>
@@ -265,7 +267,7 @@ export default function Accueil() {
                         <FontAwesomeIcon icon={faCheck} />
                       </span>
                     </div>
-                    <div class="text-left text-sm sm:text-sm md:text-md lg:text-lg">
+                    <div class="text-left text-content-title-3 font-semibold">
                       Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                     </div>
                   </div>
@@ -275,7 +277,7 @@ export default function Accueil() {
                         <FontAwesomeIcon icon={faCheck} />
                       </span>
                     </div>
-                    <div class="text-left text-sm sm:text-sm md:text-md lg:text-lg">
+                    <div class="text-left text-content-title-3 font-semibold">
                       Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                     </div>
                   </div>
@@ -285,7 +287,7 @@ export default function Accueil() {
                         <FontAwesomeIcon icon={faCheck} />
                       </span>
                     </div>
-                    <div class="text-left text-sm sm:text-sm md:text-md lg:text-lg">
+                    <div class="text-left text-content-title-3 font-semibold">
                       Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                     </div>
                   </div>
@@ -307,22 +309,22 @@ export default function Accueil() {
           <div className=" px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
             <div className="flex flex-wrap items-center justify-around  gap-y-8  ">
               <div class=" mx-10">
-                <h2 class="text-cyan-deep text-left text-xl sm:text-sm md:text-md lg:text-lg mb-5 font-bold w-full">
+              <h2 class="text-cyan-deep text-left  font-semibold text-title-3 font-weight-title-3 font-family-title-2 leading-normal mb-5 font-bold w-full">
                   Prendre des selfies pour vérifier <br /> l'authenticité</h2>
-                <div class="text-left  text-sm sm:text-sm md:text-md lg:text-lg mb-10">
+                <div class="text-left text-content font-weight-content font-family-content leading-loose font-semibold mb-10">
                   Localement ou internationalement, vos achats en ligne ne connaissent plus de limite <br />
                   avec les carte virtuelles Visa MasterCard de chez SEKURE. En 2 minutes, créez et <br />
                   vérifiez votre compte Sekure pour obtenir votre carte virtuelle. Entre des frais d'entretien <br />
                   inexistants et des frais de
                 </div>
                 <div class="grid grid-cols-2 items-center justify-center gap-10">
-                  <div class="flex items-center justify-center gap-5">
+                <div class="flex items-center justify-center gap-5">
                     <div class="flex items-center justify-center small-circle-check rounded-full bg-emerald-300 z-100">
                       <span class="icon text-white p-2">
                         <FontAwesomeIcon icon={faCheck} />
                       </span>
                     </div>
-                    <div class="text-left text-sm sm:text-sm md:text-md lg:text-lg">
+                    <div class="text-left text-content-title-3 font-semibold">
                       Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                     </div>
                   </div>
@@ -332,7 +334,7 @@ export default function Accueil() {
                         <FontAwesomeIcon icon={faCheck} />
                       </span>
                     </div>
-                    <div class="text-left text-sm sm:text-sm md:text-md lg:text-lg">
+                    <div class="text-left text-content-title-3 font-semibold">
                       Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                     </div>
                   </div>
@@ -342,7 +344,7 @@ export default function Accueil() {
                         <FontAwesomeIcon icon={faCheck} />
                       </span>
                     </div>
-                    <div class="text-left text-sm sm:text-sm md:text-md lg:text-lg">
+                    <div class="text-left text-content-title-3 font-semibold">
                       Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                     </div>
                   </div>
@@ -352,7 +354,7 @@ export default function Accueil() {
                         <FontAwesomeIcon icon={faCheck} />
                       </span>
                     </div>
-                    <div class="text-left text-sm sm:text-sm md:text-md lg:text-lg">
+                    <div class="text-left text-content-title-3 font-semibold">
                       Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                     </div>
                   </div>
@@ -361,14 +363,14 @@ export default function Accueil() {
 
               <div className=" flex flex-col md:flex-col lg:flex-col items-center justify-center gap-10 sm:flex-col">
                 <a
-                  className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color card-vert"
+                  className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color w-width-card-vert h-height-card-vert"
                   href="#"
                 >
 
                 </a>
 
                 <a
-                  className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color card-vert"
+                  className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color  w-width-card-vert h-height-card-vert"
                   href="#"
                 >
 
@@ -382,12 +384,12 @@ export default function Accueil() {
           {/* Grid section */}
           <div class="bg-cyan-deep rounded-3xl m-20 py-10 px-10">
 
-            <div class="text-cyan-color text-2xl sm:text-2xl md:text-3xl lg:text-5xl">
+            <div class="text-title-1 font-weight-title font-family-title leading-normal font-bold text-cyan-color">
               With Aibiometrics, anonymous strangers easyli <br />
               become your trustworthy users
             </div>
 
-            <div class="text-white text-sm sm:text-sm md:text-md lg:text-lg my-10">
+            <div class="text-content-title-3  text-white py-5">
               Orchestrate identity verification checks, code-free. Place checks at any stage customer journey for top anti-fraud protection and pass rates
               worldwide. Orgestrate identity verification
             </div>
@@ -523,9 +525,9 @@ export default function Accueil() {
                   </div>
                 </div>
                 <div class="flex mt-10 mb-20 gap-10">
-                      <button class="text-nowrap rounded-md bg-cyan-color py-4 px-10 rounded-md text-white font-semibold">Commencer</button>
-                      <button class="text-nowrap rounded-md bg-cyan-color py-4 px-10 rounded-md text-white font-semibold">Commencer</button>
-                    </div>
+                  <button class="text-nowrap rounded-md bg-cyan-color py-4 px-10 rounded-md text-white font-semibold">Commencer</button>
+                  <button class="text-nowrap rounded-md bg-cyan-color py-4 px-10 rounded-md text-white font-semibold">Commencer</button>
+                </div>
               </div>
             </div>
           </div>
@@ -725,7 +727,7 @@ export default function Accueil() {
                 <button class="text-nowrap text-white rounded-md bg-cyan-color py-4" style={{ padding: "1rem 2.5rem" }}>Commencer</button>
               </div>
             </div>
-            <div class="hidden lg:block" style={{ position: "relative", height:"50rem"}}>
+            <div class="hidden lg:block" style={{ position: "relative", height: "50rem" }}>
               <div
                 style={{
                   backgroundImage: `url(${smallphone})`,
