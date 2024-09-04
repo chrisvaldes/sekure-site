@@ -4,9 +4,8 @@ import React from 'react';
 import Footer from '../../Components/Footer';
 import NavBar from '../../Components/NavBar';
 import arrow from "../../images/arrow.png";
-import bigphone from "../../images/big-phone.png";
 import femme2 from "../../images/femme2.png";
-import smallphone from "../../images/small-phone.png";
+import phones from "../../images/phones.png";
 import femme from "../../images/women--background-accueil.png";
 import world from "../../images/world-bg.png";
 
@@ -69,7 +68,7 @@ export default function Accueil() {
               </div>
               <div class="flex items-center justify-center gap-x-5   ">
                 <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
-                  <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 bg-emerald-300 flex items-center justify-center">
+                  <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 bg-cyan-color flex items-center justify-center">
                     <span class="icon text-white">
                       <FontAwesomeIcon icon={faCheck} />
                     </span>
@@ -82,7 +81,7 @@ export default function Accueil() {
               </div>
               <div class="flex items-center justify-center gap-x-5  ">
                 <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
-                  <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 bg-emerald-300 flex items-center justify-center">
+                  <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 bg-cyan-color flex items-center justify-center">
                     <span class="icon text-white">
                       <FontAwesomeIcon icon={faCheck} />
                     </span>
@@ -95,7 +94,7 @@ export default function Accueil() {
               </div>
               <div class="flex items-center justify-center gap-x-5  ">
                 <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
-                  <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 bg-emerald-300 flex items-center justify-center">
+                  <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 bg-cyan-color flex items-center justify-center">
                     <span class="icon text-white">
                       <FontAwesomeIcon icon={faCheck} />
                     </span>
@@ -108,7 +107,7 @@ export default function Accueil() {
               </div>
               <div class="flex items-center justify-center gap-x-5  ">
                 <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
-                  <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 bg-emerald-300 flex items-center justify-center">
+                  <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 bg-cyan-color flex items-center justify-center">
                     <span class="icon text-white">
                       <FontAwesomeIcon icon={faCheck} />
                     </span>
@@ -121,7 +120,7 @@ export default function Accueil() {
               </div>
               <div class="flex items-center justify-center gap-x-5  ">
                 <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
-                  <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 bg-emerald-300 flex items-center justify-center">
+                  <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 bg-cyan-color flex items-center justify-center">
                     <span class="icon text-white">
                       <FontAwesomeIcon icon={faCheck} />
                     </span>
@@ -136,7 +135,7 @@ export default function Accueil() {
           </div>
         </section>
 
-          {/*
+        {/*
           Heads up! 👋
 
           This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
@@ -156,7 +155,7 @@ export default function Accueil() {
                 </div>
                 <div class="grid grid-cols-2 items-center justify-center gap-10">
                   <div class="flex items-center justify-center gap-5">
-                    <div class="flex items-center justify-center small-circle-check rounded-full bg-emerald-300 z-100">
+                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
                       <span class="icon text-white p-2">
                         <FontAwesomeIcon icon={faCheck} />
                       </span>
@@ -166,7 +165,7 @@ export default function Accueil() {
                     </div>
                   </div>
                   <div class="flex items-center justify-center gap-5">
-                    <div class="flex items-center justify-center small-circle-check rounded-full bg-emerald-300 z-100">
+                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
                       <span class="icon text-white p-2">
                         <FontAwesomeIcon icon={faCheck} />
                       </span>
@@ -176,7 +175,7 @@ export default function Accueil() {
                     </div>
                   </div>
                   <div class="flex items-center justify-center gap-5">
-                    <div class="flex items-center justify-center small-circle-check rounded-full bg-emerald-300 z-100">
+                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
                       <span class="icon text-white p-2">
                         <FontAwesomeIcon icon={faCheck} />
                       </span>
@@ -186,7 +185,7 @@ export default function Accueil() {
                     </div>
                   </div>
                   <div class="flex items-center justify-center gap-5">
-                    <div class="flex items-center justify-center small-circle-check rounded-full bg-emerald-300 z-100">
+                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
                       <span class="icon text-white p-2">
                         <FontAwesomeIcon icon={faCheck} />
                       </span>
@@ -217,7 +216,7 @@ export default function Accueil() {
           </div>
         </section>
 
-          {/*
+        {/*
           Heads up! 👋
 
           This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
@@ -252,7 +251,7 @@ export default function Accueil() {
                 </div>
                 <div class="grid grid-cols-2 items-center justify-center gap-10">
                   <div class="flex items-center justify-center gap-5">
-                    <div class="flex items-center justify-center small-circle-check rounded-full bg-emerald-300 z-100">
+                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
                       <span class="icon text-white p-2">
                         <FontAwesomeIcon icon={faCheck} />
                       </span>
@@ -262,7 +261,7 @@ export default function Accueil() {
                     </div>
                   </div>
                   <div class="flex items-center justify-center gap-5">
-                    <div class="flex items-center justify-center small-circle-check rounded-full bg-emerald-300 z-100">
+                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
                       <span class="icon text-white p-2">
                         <FontAwesomeIcon icon={faCheck} />
                       </span>
@@ -272,7 +271,7 @@ export default function Accueil() {
                     </div>
                   </div>
                   <div class="flex items-center justify-center gap-5">
-                    <div class="flex items-center justify-center small-circle-check rounded-full bg-emerald-300 z-100">
+                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
                       <span class="icon text-white p-2">
                         <FontAwesomeIcon icon={faCheck} />
                       </span>
@@ -282,7 +281,7 @@ export default function Accueil() {
                     </div>
                   </div>
                   <div class="flex items-center justify-center gap-5">
-                    <div class="flex items-center justify-center small-circle-check rounded-full bg-emerald-300 z-100">
+                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
                       <span class="icon text-white p-2">
                         <FontAwesomeIcon icon={faCheck} />
                       </span>
@@ -299,7 +298,7 @@ export default function Accueil() {
         </section>
 
 
-          {/*
+        {/*
           Heads up! 👋
 
           This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
@@ -319,7 +318,7 @@ export default function Accueil() {
                 </div>
                 <div class="grid grid-cols-2 items-center justify-center gap-10">
                   <div class="flex items-center justify-center gap-5">
-                    <div class="flex items-center justify-center small-circle-check rounded-full bg-emerald-300 z-100">
+                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
                       <span class="icon text-white p-2">
                         <FontAwesomeIcon icon={faCheck} />
                       </span>
@@ -329,7 +328,7 @@ export default function Accueil() {
                     </div>
                   </div>
                   <div class="flex items-center justify-center gap-5">
-                    <div class="flex items-center justify-center small-circle-check rounded-full bg-emerald-300 z-100">
+                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
                       <span class="icon text-white p-2">
                         <FontAwesomeIcon icon={faCheck} />
                       </span>
@@ -339,7 +338,7 @@ export default function Accueil() {
                     </div>
                   </div>
                   <div class="flex items-center justify-center gap-5">
-                    <div class="flex items-center justify-center small-circle-check rounded-full bg-emerald-300 z-100">
+                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
                       <span class="icon text-white p-2">
                         <FontAwesomeIcon icon={faCheck} />
                       </span>
@@ -349,7 +348,7 @@ export default function Accueil() {
                     </div>
                   </div>
                   <div class="flex items-center justify-center gap-5">
-                    <div class="flex items-center justify-center small-circle-check rounded-full bg-emerald-300 z-100">
+                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
                       <span class="icon text-white p-2">
                         <FontAwesomeIcon icon={faCheck} />
                       </span>
@@ -382,7 +381,7 @@ export default function Accueil() {
 
         <section>
           {/* Grid section */}
-          <div class="bg-cyan-deep rounded-3xl py-10 px-10">
+          <div class="bg-cyan-deep rounded-3xl py-10 px-5 mx-20">
 
             <div class="title-1 text-title-1 font-weight-title font-family-title leading-normal font-bold text-cyan-color">
               With Aibiometrics, anonymous strangers easyli <br />
@@ -395,7 +394,7 @@ export default function Accueil() {
             </div>
 
             <div class="card-anonymously gap-y-10 flex items-center justify-center">
-              <div class="sub-card-anonymously flex flex-col items-center justify-center bg-emerald-300 rounded-2xl ">
+              <div class="sub-card-anonymously flex flex-col items-center justify-center bg-cyan-color rounded-2xl ">
                 <div class=" text-3xl sm:text-3xl md:text-3xl lg:text-4xl font-bold text-emerald-800 pb-2">
                   6 secs
                 </div>
@@ -404,7 +403,7 @@ export default function Accueil() {
                 </div>
               </div>
 
-              <div class="sub-card-anonymously flex flex-col items-center justify-center bg-emerald-300 rounded-2xl ">
+              <div class="sub-card-anonymously flex flex-col items-center justify-center bg-cyan-color rounded-2xl ">
                 <div class=" text-3xl sm:text-3xl md:text-3xl lg:text-4xl font-bold text-cyan-deep pb-2">
                   95%
                 </div>
@@ -413,7 +412,7 @@ export default function Accueil() {
                 </div>
               </div>
 
-              <div class="sub-card-anonymously flex flex-col items-center justify-center bg-emerald-300 rounded-2xl ">
+              <div class="sub-card-anonymously flex flex-col items-center justify-center bg-cyan-color rounded-2xl ">
                 <div class=" text-3xl sm:text-3xl md:text-3xl lg:text-4xl font-bold text-cyan-deep pb-2">
                   11.5K+
                 </div>
@@ -422,7 +421,7 @@ export default function Accueil() {
                 </div>
               </div>
 
-              <div class="sub-card-anonymously flex flex-col items-center justify-center bg-emerald-300 rounded-2xl ">
+              <div class="sub-card-anonymously flex flex-col items-center justify-center bg-cyan-color rounded-2xl ">
                 <div class=" text-3xl sm:text-3xl md:text-3xl lg:text-4xl font-bold text-cyan-deep pb-2">
                   200 +
                 </div>
@@ -431,7 +430,7 @@ export default function Accueil() {
                 </div>
               </div>
 
-              <div class="sub-card-anonymously flex flex-col items-center justify-center bg-emerald-300 rounded-2xl ">
+              <div class="sub-card-anonymously flex flex-col items-center justify-center bg-cyan-color rounded-2xl ">
                 <div class=" text-3xl sm:text-3xl md:text-3xl lg:text-4xl font-bold text-cyan-deep pb-2">
                   95%
                 </div>
@@ -484,7 +483,7 @@ export default function Accueil() {
                 </div>
                 <div class="grid grid-cols-2 gap-5 items-center justify-center">
                   <div class="flex items-center justify-center gap-5">
-                    <div class="flex items-center justify-center small-circle-check rounded-full bg-emerald-300 z-100">
+                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
                       <span class="icon text-white p-2">
                         <FontAwesomeIcon icon={faCheck} />
                       </span>
@@ -494,7 +493,7 @@ export default function Accueil() {
                     </div>
                   </div>
                   <div class="flex items-center justify-center gap-5">
-                    <div class="flex items-center justify-center small-circle-check rounded-full bg-emerald-300 z-100">
+                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
                       <span class="icon text-white p-2">
                         <FontAwesomeIcon icon={faCheck} />
                       </span>
@@ -504,7 +503,7 @@ export default function Accueil() {
                     </div>
                   </div>
                   <div class="flex items-center justify-center gap-5">
-                    <div class="flex items-center justify-center small-circle-check rounded-full bg-emerald-300 z-100">
+                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
                       <span class="icon text-white p-2">
                         <FontAwesomeIcon icon={faCheck} />
                       </span>
@@ -514,7 +513,7 @@ export default function Accueil() {
                     </div>
                   </div>
                   <div class="flex items-center justify-center gap-5">
-                    <div class="flex items-center justify-center small-circle-check rounded-full bg-emerald-300 z-100">
+                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
                       <span class="icon text-white p-2">
                         <FontAwesomeIcon icon={faCheck} />
                       </span>
@@ -536,10 +535,10 @@ export default function Accueil() {
         <section class="world-section px-20   " style={{ backgroundImage: `url(${world})`, backgroundPosition: "top right", backgroundRepeat: "no-repeat" }}>
 
           <div class="">
-            <div class="world-button flex pt-40 sm:pt-40 md:pt-40 lg:pt-80">
-              <button class="text-nowrap rounded-md bg-white py-4 px-5 rounded-md">THE IDENTITY VERIFICATION PLATFORM</button>
+            <div class=" flex pt-40 sm:pt-40 md:pt-40 lg:pt-80">
+            <button class="text-nowrap h-button-first w-button-first rounded-md bg-white text-cyan-deep py-3 px-5 text-sub-content font-weight-nav font-family-nav my-2 flex items-center justify-center">THE IDENTITY VERIFICATION PLATFORM</button>
             </div>
-            <div class="world-title  text-lg sm:text-xl md:text-2xl lg:text-3xl text-left font-bold text-cyan-color mt-5 mb-10">
+            <div class="world-title text-title-3 font-weight-title-3 font-family-title-3 leading-normal text-left font-bold text-cyan-color mt-5 mb-10">
               <span class="text-cyan-deep">Des </span>
               <span>méthodes </span><span class="text-cyan-deep">De </span>
               <span>vérification </span>
@@ -548,17 +547,17 @@ export default function Accueil() {
               <span class="text-cyan-deep"> et du monde entier</span>
 
             </div>
-            <div class="world-description text-cyan-deep text-left text-lg ">
+            <div className='text-content text-left font-weight-content font-family-content leading-loose'>
               Orchestration identity checks, code-free. Place checks at any stage of the <br />
               customer journey for top anti-fraud protection and pass rates worldwide. Orgestration
             </div>
           </div>
 
           <div class="world-group">
-            <div class="text-cyan-deep   text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-left mb-10">
+            <div class="text-cyan-deep text-title-3 font-weight-title-3 font-family-title-3 leading-normal font-bold text-left my-10">
               <span>Tous les outils qu'il vous faut pour </span> <span class="text-cyan-color" > proteger <br /> votre plateforme de la fraude</span>
             </div>
-            <div class="text-left text-sm sm:text-sm md:text-md lg:text-lg pb-20">
+            <div className='text-content text-left font-weight-content font-family-content leading-loose pb-20'>
               Ochestration identity verification checks, code-free. Place checks at any stage of the customer journey for top anti-fraud protection and pass rates worldwide. Orchestrate <br />
               Ochestration identity verification checks, code-free. Place checks at any stage of the customer journey for top anti-fraud protection and pass rates worldwide.
             </div>
@@ -671,77 +670,62 @@ export default function Accueil() {
           </div>
         </section>
 
-        <section class="bg-white pt-10 pl-10">
-          <div class="flex flex-wrap items-center justify-center gap-20">
-            <div class="flex flex-col items-center justify-center text-left">
-              <div class="world-button flex pt-10 w-full">
-                <button class="text-nowrap rounded-md bg-white py-4 px-5 rounded-md">THE IDENTITY VERIFICATION PLATFORM</button>
-              </div>
-              <div class="text-cyan-deep left w-full font-bold  text-2xl sm:text-2xl md:text-3xl mb-5">
-                <span>Des interfaces intuitifves et <br /> orientées objectifs pour </span>
-                <span class="text-cyan-color">tester </span> <span>, <br /></span>
-                <span class="text-cyan-color">vérifier </span> <span>et </span>
-                <span class="text-cyan-color">analyser </span>
-              </div>
-              <div>
-                Orchestration identity verification checks, code-free. Place checks at any <br />
-                stage of the customer journey for top anti-fraud protection and pass <br />
-                rates wordwide. Orchestrate identity verification checks, code-free. Place <br />
-                checks at any stage of the customer journey for top anti-fraud rates <br />
-                worldwide
-              </div>
-              <div class="flex flex-col section-phone w-full p-5 rounded-2xl">
+        <section class="bg-white phone-section pt-20 pl-20  pb-16" style={{ backgroundImage: `url(${phones})`, backgroundPosition: "bottom right", backgroundRepeat: "no-repeat" }}>
+
+          <div class=" text-left" >
+            <div class=" flex pt-10 ">
+              <button class="text-nowrap h-button-first w-button-first rounded-md bg-white text-cyan-deep py-3 px-5 text-sub-content font-weight-nav font-family-nav my-2 flex items-center justify-center">THE IDENTITY VERIFICATION PLATFORM</button>
+            </div>
+            <div class="text-cyan-deep left w-full font-bold text-title-3 font-weight-title-3 font-family-title-3 leading-normal mb-5">
+              <span>Des interfaces intuitifves et <br /> orientées objectifs pour </span>
+              <span class="text-cyan-color">tester </span> <span>, <br /></span>
+              <span class="text-cyan-color">vérifier </span> <span>et </span>
+              <span class="text-cyan-color">analyser </span>
+            </div>
+            <div className='text-content font-weight-content font-family-content leading-loose'>
+              Orchestration identity verification checks, code-free. Place checks at any <br />
+              stage of the customer journey for top anti-fraud protection and pass <br />
+              rates wordwide. Orchestrate identity verification checks, code-free. Place <br />
+              checks at any stage of the customer journey for top anti-fraud rates <br />
+              worldwide
+            </div>
+            <div class="phones">
+              <div class="flex flex-col p-5 rounded-2xl" style={{ backgroundColor: "#E8FFF9" }}>
                 <div class="flex items-center">
                   <span></span>
                   <span class="text-cyan-color"> Real-time funnel metrics</span>
                 </div>
-                <div class="ml-10">
+                <div class="ml-10 font-weight-content font-family-content leading-loose">
                   Get immediate insights, Track completion status, manual <br />
                   reviews, and final accecptance rates.
                 </div>
               </div>
 
-              <div class="flex flex-col bg-gray-100 w-full p-3 mt-5 rounded-2xl">
+              <div class="flex flex-col bg-gray-100 p-3 mt-5 rounded-2xl">
                 <div class="flex items-center">
                   <span></span>
-                  <span class="text-cyan-deep font-bold"> Funnel Optimisation</span>
+                  <span class="text-cyan-deep font-bold title-4 text-title-4 font-weight-title-4 font-family-title-4"> Funnel Optimisation</span>
                 </div>
               </div>
 
-              <div class="flex flex-col bg-gray-100 w-full p-3 mt-5 rounded-2xl">
+              <div class="flex flex-col bg-gray-100   p-3 mt-5 rounded-2xl">
                 <div class="flex items-center">
                   <span></span>
-                  <span class="text-cyan-deep font-bold">Error analysis</span>
+                  <span class="text-cyan-deep font-bold title-4 text-title-4 font-weight-title-4 font-family-title-4">Error analysis</span>
                 </div>
               </div>
 
-              <div class="flex flex-col bg-gray-100 w-full p-3 mt-5 rounded-2xl">
+              <div class="flex flex-col bg-gray-100 p-3 mt-5 rounded-2xl">
                 <div class="flex items-center">
                   <span></span>
-                  <span class="text-cyan-deep font-bold"> Transparent Billing</span>
+                  <span class="text-cyan-deep font-bold font-boldtitle-4 text-title-4 font-weight-title-4 font-family-title-4"> Transparent Billing</span>
                 </div>
               </div>
 
-              <div class="flex w-full items-center justify-start gap-5 mt-10 mb-16  pl-5">
-                <button class="text-nowrap text-white rounded-md bg-cyan-color py-4" style={{ padding: "1rem 2.5rem" }}>Commencer</button>
-                <button class="text-nowrap text-white rounded-md bg-cyan-color py-4" style={{ padding: "1rem 2.5rem" }}>Commencer</button>
+              <div class="flex w-full items-center justify-start gap-5 mt-10 pl-5">
+              <button class="text-nowrap rounded-md bg-cyan-color py-4 px-5 rounded-md text-white  h-button-height w-button-width text-sm flex items-center justify-center">Commencer</button>
+              <button class="text-nowrap rounded-md bg-cyan-color py-4 px-5 rounded-md text-white  h-button-height w-button-width text-sm flex items-center justify-center">Commencer</button>
               </div>
-            </div>
-            <div class="hidden lg:block" style={{ position: "relative", height: "50rem" }}>
-              <div
-                style={{
-                  backgroundImage: `url(${smallphone})`,
-                  backgroundPosition: "left",
-                  backgroundRepeat: "no-repeat",
-                  position: "absolute", // Positionnez-le absolument
-                  top: "14rem", // Ajustez selon vos besoins
-                  left: "10rem", // Ajustez selon vos besoins
-                  width: "100%", // Ajustez selon vos besoins
-                  height: "100%", // Ajustez selon vos besoins
-                  zIndex: "2", // Assurez-vous qu'il est au-dessus
-                }}
-              />
-              <img src={bigphone} alt="" style={{ position: "relative", zIndex: "1" }} />
             </div>
           </div>
         </section>

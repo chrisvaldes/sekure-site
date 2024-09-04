@@ -27,6 +27,15 @@ module.exports = {
       },
       padding: {
         "button-padding": "15px",
+        100: '25rem',
+        104: '26rem',
+        108: '27rem',
+        112: '28rem',
+        116: '29rem',
+        120: '30rem',
+        128: '32rem',
+        136: '34rem',
+        144: '36rem', 
       },
       fontSize : {
          "title" : "45px",
