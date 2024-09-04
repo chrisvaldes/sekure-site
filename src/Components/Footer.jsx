@@ -8,8 +8,8 @@ import women from "../images/femme-footer.png";
 export default function Footer() {
     return (
         <>
-            <section class="section-footer bg-cyan-color pt-16 px-10" >
-                <div>
+            <section class="section-footer" >
+                <div className=' bg-cyan-color'>
                     <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 items-center justify-between footer-text gap-10">
                         <div class="flex flex-col">
                             <div class=" text-cyan-deep font-bold text-left title text-title font-weight-title font-family-title leading-normal footer-title">

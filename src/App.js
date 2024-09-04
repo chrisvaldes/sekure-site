@@ -5,6 +5,7 @@ import './App.css';
 // import Footer from './Components/Footer';
 import Accueil from './Pages/Accueil/Accueil';
 import Customer from './Pages/Customer/Customer';
+import Pricing from './Pages/Pricing/Pricing';
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
         <Routes>
           <Route path='/' Component={Accueil}/>
           <Route path='/customer' Component={Customer}/>
+          <Route path='/pricing' Component={Pricing}/>
+
         </Routes>
        </BrowserRouter>
     </div>
