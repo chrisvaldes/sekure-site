@@ -4,6 +4,7 @@ import React from 'react';
 import Footer from '../../Components/Footer';
 import NavBar from '../../Components/NavBar';
 import fichier from '../../images/fichier.png'
+import database from "../../images/database.png"
 
 export default function About() {
     return (
@@ -250,8 +251,144 @@ export default function About() {
                     </div>
                 </section>
 
-                <section className='h-screen'>
-
+                <section className=' pt-20'>
+                    <span className='text-cyan-color'>Why choose AIBIOM</span>
+                    <h2 className=' text-4xl  font-family-title leading-normal text-cyan-deep py-5'>
+                        Our approach is to break user identity into atomic attributes called <br />
+                        'merits'. A merit is an individual piece of information about a user that <br />
+                        can be used to improve a prediction of their future behavior.
+                    </h2>
+                    <div className='flex items-center justify-center'>
+                        <img src={database} alt="" />
+                    </div>
+                    <div className='px-32'>
+                        <h2 class="title-1 text-title-1 font-weight-title-1 font-family-title leading-normal text-left font-semibold pt-20 ">
+                            Make identity verification quick and easy by <br />
+                            helping genuine users get verified the first time, <br />
+                            while keeping fraudsters out
+                        </h2>
+                    </div>
+                    <div class='px-20'>
+                        <div class="content-grid grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 rounded-2xl items-center justify-center gap-y-5 py-10 px-5">
+                            <div class="flex items-center justify-center gap-x-5  ">
+                                <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
+                                    <div class="rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 flex items-center justify-center">
+                                        <span class="icon text-white">
+                                            <FontAwesomeIcon icon={faCheck} />
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="text-left">
+                                    <div class="title-4 font-semibold text-title-4 font-weight-title-4 font-family-title-4">Large Couverture en Afrique</div>
+                                    <div class="title-content text-content-title-4"> The only AI-powered identity verification</div>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-center gap-x-5   ">
+                                <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
+                                    <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 bg-cyan-color flex items-center justify-center">
+                                        <span class="icon text-white">
+                                            <FontAwesomeIcon icon={faCheck} />
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="text-left">
+                                    <div class="font-semibold title-4 text-title-4 font-weight-title-4 font-family-title-4">Adverse media screening</div>
+                                    <div class="title-content text-content-title-4">The only AI-powered identity verification</div>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-center gap-x-5  ">
+                                <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
+                                    <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 bg-cyan-color flex items-center justify-center">
+                                        <span class="icon text-white">
+                                            <FontAwesomeIcon icon={faCheck} />
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="text-left">
+                                    <div class="font-semibold title-4 text-title-4 font-weight-title-4 font-family-title-4">Enhanced due diligence (EDD) : </div>
+                                    <div class="title-content text-content-title-4">The only AI-powered identity verification</div>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-center gap-x-5  ">
+                                <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
+                                    <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 bg-cyan-color flex items-center justify-center">
+                                        <span class="icon text-white">
+                                            <FontAwesomeIcon icon={faCheck} />
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="text-left">
+                                    <div class="font-semibold title-4 text-title-4 font-weight-title-4 font-family-title-4">PEP Screening</div>
+                                    <div class="title-content text-content-title-4">The only AI-powered identity verification</div>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-center gap-x-5  ">
+                                <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
+                                    <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 bg-cyan-color flex items-center justify-center">
+                                        <span class="icon text-white">
+                                            <FontAwesomeIcon icon={faCheck} />
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="text-left">
+                                    <div class="font-semibold title-4 text-title-4 font-weight-title-4 font-family-title-4">Ongoing monitoring</div>
+                                    <div class="title-content text-content-title-4">The only AI-powered identity verification</div>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-center gap-x-5  ">
+                                <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
+                                    <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 bg-cyan-color flex items-center justify-center">
+                                        <span class="icon text-white">
+                                            <FontAwesomeIcon icon={faCheck} />
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="text-left">
+                                    <div class="font-semibold title-4 text-title-4 font-weight-title-4 font-family-title-4">Sanction screening</div>
+                                    <div class="title-content text-content-title-4">The only AI-powered identity verification</div>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-center gap-x-5  ">
+                                <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
+                                    <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 bg-cyan-color flex items-center justify-center">
+                                        <span class="icon text-white">
+                                            <FontAwesomeIcon icon={faCheck} />
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="text-left">
+                                    <div class="font-semibold title-4 text-title-4 font-weight-title-4 font-family-title-4">Sanction screening</div>
+                                    <div class="title-content text-content-title-4">The only AI-powered identity verification</div>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-center gap-x-5  ">
+                                <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
+                                    <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 bg-cyan-color flex items-center justify-center">
+                                        <span class="icon text-white">
+                                            <FontAwesomeIcon icon={faCheck} />
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="text-left">
+                                    <div class="font-semibold title-4 text-title-4 font-weight-title-4 font-family-title-4">Sanction screening</div>
+                                    <div class="title-content text-content-title-4">The only AI-powered identity verification</div>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-center gap-x-5  ">
+                                <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
+                                    <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 bg-cyan-color flex items-center justify-center">
+                                        <span class="icon text-white">
+                                            <FontAwesomeIcon icon={faCheck} />
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="text-left">
+                                    <div class="font-semibold title-4 text-title-4 font-weight-title-4 font-family-title-4">Sanction screening</div>
+                                    <div class="title-content text-content-title-4">The only AI-powered identity verification</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
 
                 <section>
