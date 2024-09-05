@@ -13,7 +13,7 @@ export default function NavBar() {
         <div className="flex h-16 items-center justify-between w-full">
           <div className="md:flex md:items-center md:gap-12">
             <a className="block text-teal-600" href="#">
-              <div class="flex items-center justify-center">
+              <div class="nav-logo flex items-center justify-center">
                 <Link href="#"
                   class="logo-title cursor-pointer py-1.5 text-cyan-deep">
                   AIBIOMETRICS
@@ -77,7 +77,7 @@ export default function NavBar() {
           </div>
 
           <div className="flex items-center gap-4">
-            <div className="sm:flex sm:gap-4">
+            <div className="nav-demo-button hidden sm:flex sm:gap-4">
               <a
                 className="rounded-md bg-cyan-color px-5 py-2.5 text-sm font-medium text-white shadow"
                 href="#"

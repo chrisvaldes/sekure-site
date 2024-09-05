@@ -13,11 +13,12 @@ export default function Accueil() {
   return (
     <>
       <div class="main-content">
+        
         <section>
           <NavBar />
         </section>
 
-        <section class="section-faster">
+        <section class="section-faster pt-20">
           <div class="faster" style={{ backgroundImage: `url(${femme})`, backgroundPosition: "top right", backgroundRepeat: "no-repeat" }}>
             <div class="pt-10 pl-12 md:pl-20 lg:pl-24">
               <div class="flex">
@@ -28,7 +29,6 @@ export default function Accueil() {
               <div class="title text-title font-weight-title font-family-title leading-normal text-left font-bold text-cyan-color">
                 <span class="text-cyan-deep">Faster, more accurate, and <br /> built for you :</span>
                 <span>fraud prevention <br /> done right</span>
-
               </div>
               <div class="title-content text-cyan-deep text-left text-content font-weight-content font-family-content leading-normal-1 mt-5">
                 The only AI-powered identity verification platform form fraud prevention, compliance, and <br />
@@ -47,7 +47,6 @@ export default function Accueil() {
                 </h2>
               </div>
             </div>
-
           </div>
 
           {/* Grid section */}
