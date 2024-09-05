@@ -6,6 +6,7 @@ import './App.css';
 import Accueil from './Pages/Accueil/Accueil';
 import Customer from './Pages/Customer/Customer';
 import Pricing from './Pages/Pricing/Pricing';
+import About from './Pages/About/About';
 
 function App() {
   return (
@@ -15,8 +16,8 @@ function App() {
           <Route path='/' Component={Accueil}/>
           <Route path='/customer' Component={Customer}/>
           <Route path='/pricing' Component={Pricing}/>
-
-        </Routes>
+          <Route path='/about' Component={About}/>
+          </Routes>
        </BrowserRouter>
     </div>
   );

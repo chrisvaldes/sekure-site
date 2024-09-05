@@ -14,7 +14,7 @@ export default function Pricing() {
                 </section>
                 <section className='bg-white pricing-section' style={{ backgroundImage: `url(${women})`, backgroundPosition: "bottom left", backgroundRepeat: "no-repeat" }} >
                     <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2  pt-28'>
-                        <div className='flex flex-col text-left px-10'>
+                        <div className='flex flex-col text-left px-10 items-center justity-center'>
                             <button className='flex items-center justify-center text-white text-sm py-1 bg-cyan-deep rounded-full w-36'>
                                 Contactez nous
                             </button>

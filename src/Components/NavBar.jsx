@@ -65,9 +65,9 @@ export default function NavBar() {
                 </li>
 
                 <li class="flex items-center justify-center gap-2">
-                  <a className="text-nav-color text-nav font-weight-nav font-family-nav  transition hover:text-gray-500/75 text-nowrap" href="#">
+                  <Link className="text-nav-color text-nav font-weight-nav font-family-nav  transition hover:text-gray-500/75 text-nowrap" to="/about">
                     About us
-                  </a>
+                  </Link>
                   <span class="text-emerald-300">
                     <FontAwesomeIcon icon={faChevronDown} />
                   </span>
