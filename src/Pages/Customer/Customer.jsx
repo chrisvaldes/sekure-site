@@ -1,4 +1,4 @@
-import { faCheck, faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRight, faCheck } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import Footer from '../../Components/Footer';
@@ -14,7 +14,7 @@ export default function Customer() {
                     <NavBar />
                 </section>
 
-                <section class="section-faster-1">
+                <section class="section-faster-1 pt-20">
 
                     <div class="faster" style={{ backgroundImage: `url(${femme})`, backgroundPosition: "top right", backgroundRepeat: "no-repeat" }}>
                         <div >
@@ -27,7 +27,7 @@ export default function Customer() {
                                     <span>+200 pays </span> <span class="text-cyan-deep">d'Afrique et du</span> <br />
                                     <span class="text-cyan-deep">monde</span>
                                 </div>
-                                <div class="title-content text-cyan-deep text-left text-content font-weight-content font-family-content leading-normal-1 pt-5">
+                                <div class="title-content text-cyan-deep text-left text-content font-weight-content font-family-content leading-normal-1 pt-5 pb-10">
                                     Know Your Customer (KYC) procedures are essential to any business that wants to accurately <br />
                                     verify customers ans assess potential risk. Verif helps businesses meet  regulatory <br />
                                     requirements and realize additional benefits.
@@ -429,34 +429,38 @@ export default function Customer() {
 
                 </section> */}
 
-                <section class="verification-section bg-cyan-color relative px-10 m-20">
+                <section class="verification-section relative px-10 m-20">
 
                     <div>
                         <img src={women} alt="Identity Verification" class="responsive-image absolute image-container" />
                     </div>
 
-                    <div class="text-left z-10 md:pl-48 sm:pl-20 lg:pl-96">
-                        <div class="flex">
-                            <button class="text-nowrap h-button-first w-button-first rounded-md bg-white text-cyan-deep py-3 px-5 text-sub-content font-weight-nav font-family-nav  flex items-center justify-center">
-                                THE IDENTITY VERIFICATION PLATFORM
-                            </button>
+                    <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 bg-cyan-color rounded-2xl'>
+                        <div className='' >
+
                         </div>
-                        <h2 className='text-cyan-deep text-left text-title-3 font-weight-title-3 font-family-title-2 leading-normal mb-2 font-bold w-full'>
-                            Show regulators you take financial <br /> crime seriously
-                        </h2>
-                        <p class="text-left text-content font-weight-content font-family-content leading-loose font-semibold mb-10">
-                            Orchestrate identity verification checks, code-free. Place checks at any stage of the <br />
-                            customer journey for top anti-fraud protection and pass rates worldwide.
-                        </p>
-                        <h2 className='text-cyan-deep text-left  text-title-3 font-weight-title-3 font-family-title-3 leading-normal mb-3  w-full'>
-                            Commencez maintenant avec une <br />
-                            demo gratuite
-                        </h2>
-                        <p class="text-left text-content font-weight-content font-family-content leading-loose font-semibold mb-10">
-                            Orchestrate identity verification checks, code-free. Place checks at any stage of the <br />
-                            customer journey for top anti-fraud protection and pass rates worldwide.</p>
+                        <div class="div-card-content px-5">
+                            <div class=" flex items-center justify-center pt-10 pb-10">
+                                <button class="text-nowrap h-button-first w-button-first rounded-md bg-white text-cyan-deep py-3 px-5 text-sub-content font-weight-nav font-family-nav  flex items-center justify-center">
+                                    THE IDENTITY VERIFICATION PLATFORM
+                                </button>
+                            </div>
+                            <h2 className='text-cyan-deep text-left text-title-3 font-weight-title-3 font-family-title-2 leading-normal mb-2 font-bold w-full'>
+                                Show regulators you take financial <br /> crime seriously
+                            </h2>
+                            <p class="text-left text-content font-weight-content font-family-content leading-loose font-semibold mt-5 mb-10">
+                                Orchestrate identity verification checks, code-free. Place checks at any stage of the <br />
+                                customer journey for top anti-fraud protection and pass rates worldwide.
+                            </p>
+                            <h2 className='text-cyan-deep text-left  text-title-3 font-weight-title-3 font-family-title-3 leading-normal mb-3  w-full'>
+                                Commencez maintenant avec une <br />
+                                demo gratuite
+                            </h2>
+                            <p class="text-left text-content font-weight-content font-family-content leading-loose font-semibold mt-5 mb-10">
+                                Orchestrate identity verification checks, code-free. Place checks at any stage of the <br />
+                                customer journey for top anti-fraud protection and pass rates worldwide.</p>
                             <div class="">
-                                <div class="flex items-center gap-10 ">
+                                <div class="flex flex-wrap items-center justify-center gap-10 pb-10">
                                     <button class="bg-cyan-deep  px-5 py-2 rounded-lg text-white flex items-center justify-center gap-5">
                                         <span class="text-nowrap" >Commencer Gratuitement</span>
                                         <div class="btn-circle rounded-full bg-white flex items-center justify-center">
@@ -475,6 +479,7 @@ export default function Customer() {
                                     </button>
                                 </div>
                             </div>
+                        </div>
                     </div>
                 </section>
 
