@@ -111,6 +111,7 @@ nav .nav-items .nav-item {
 
 .mini-nav-items .mini-nav-item {
   border-bottom: solid 5px #5edeaf;
+  border-bottom-left-radius: 8px;
 }
 
 .world-section {
@@ -134,12 +135,6 @@ nav .nav-items .nav-item {
   width: 30rem;
 }
 
-.big-circles {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 15rem);
-  align-items: center;
-  justify-content: center;
-}
 
 .big-circles .big-circle-detail {
   font-size: 12px;
@@ -171,7 +166,13 @@ nav .nav-items .nav-item {
   height: 2rem;
 }
 
-
+@media (min-width:1022.22px) {
+  .big-circles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
 
 .relation-onboard {
   display: grid;
