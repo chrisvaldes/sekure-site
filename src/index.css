@@ -45,7 +45,8 @@ nav .nav-items .nav-item {
 .main-section {
   background-repeat: no-repeat;
   background-image: url("../src/images/women--background-accueil.png");
-  background-position: right;
+  background-position: 100% 33.5%;
+
 }
 
 .card-grid {
