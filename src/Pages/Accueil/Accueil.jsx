@@ -143,12 +143,12 @@ export default function Accueil() {
 
         <section class="">
           <div className=" px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
-            <div className="make-selfie flex flex-wrap items-center justify-around  gap-y-8">
+            <div className="flex flex-wrap items-center justify-around  gap-y-8  ">
               <div class=" mx-10">
                 <h2 class="text-cyan-deep text-left  font-semibold text-title-3 font-weight-title-3 font-satoshi-2 leading-normal mb-5 font-bold w-full">
-                  Acceptez un maximum de docuements <br />
-                  pour vérifier les identité de vos utilisateurs dans leur region
-                 </h2>
+                  Detection et protection contre les <br />
+                  fraudes et schémas frauduleux
+                </h2>
                 <div class="text-left text-content font-weight-content font-family-content leading-loose font-semibold mb-10">
                   Localement ou internationalement, vos achats en ligne ne connaissent plus de limite <br />
                   avec les carte virtuelles Visa MasterCard de chez SEKURE. En 2 minutes, créez et <br />
@@ -211,7 +211,7 @@ export default function Accueil() {
                   className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color  w-width-card-vert h-height-card-vert"
                   href="#"
                 >
-                  <img src={cniPassport} alt="" className='absolute -top-12 right-0'/>
+                  <img src={cniPassport} alt="" className='absolute -top-12 right-0' />
                 </div>
               </div>
             </div>
@@ -226,7 +226,7 @@ export default function Accueil() {
 
         <section class="">
           <div className=" px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
-            <div className="flex flex-wrap-reverse items-center justify-around  gap-y-8 gap-x-8">
+            <div className="flex flex-wrap-reverse items-center justify-around  gap-y-28 gap-x-8">
               <div className=" relative flex items-center justify-center gap-10">
                 <div
                   className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color w-width-card-horiz h-height-card-horiz"
@@ -241,11 +241,13 @@ export default function Accueil() {
                 >
 
                 </div>
-                <img src={grandMere} alt="" className='absolute -top-28 left-10 grandMere'/>
+                <img src={grandMere} alt="" className='absolute -top-28 left-10 grandMere' />
               </div>
               <div >
                 <h2 class="text-cyan-deep text-left  font-semibold text-title-3 font-weight-title-3 font-satoshi-2 leading-normal mb-5 font-bold w-full">
-                  Prendre des selfies pour vérifier <br /> l'authenticité</h2>
+                  Identifications et Vérifications par scan <br />
+                  facial inteligent et rapide
+                </h2>
                 <div class="text-left text-content font-weight-content font-family-content leading-loose font-semibold mb-10">
                   Localement ou internationalement, vos achats en ligne ne connaissent plus de limite <br />
                   avec les carte virtuelles Visa MasterCard de chez SEKURE. En 2 minutes, créez et <br />
@@ -312,7 +314,9 @@ export default function Accueil() {
             <div className="flex flex-wrap items-center justify-around  gap-y-8  ">
               <div class=" mx-10">
                 <h2 class="text-cyan-deep text-left  font-semibold text-title-3 font-weight-title-3 font-satoshi-2 leading-normal mb-5 font-bold w-full">
-                  Prendre des selfies pour vérifier <br /> l'authenticité</h2>
+                  Detection et protection contre les <br />
+                  fraudes et schémas frauduleux
+                </h2>
                 <div class="text-left text-content font-weight-content font-family-content leading-loose font-semibold mb-10">
                   Localement ou internationalement, vos achats en ligne ne connaissent plus de limite <br />
                   avec les carte virtuelles Visa MasterCard de chez SEKURE. En 2 minutes, créez et <br />
@@ -363,7 +367,7 @@ export default function Accueil() {
                 </div>
               </div>
 
-              <div className="relative flex flex-col md:flex-col lg:flex-col items-center justify-center gap-10 sm:flex-col">
+              <div className="relative flex flex-col md:flex-col lg:flex-col items-center justify-center gap-10 sm:flex-col pt-10">
                 <div
                   className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color w-width-card-vert h-height-card-vert"
                   href="#"
@@ -375,7 +379,7 @@ export default function Accueil() {
                   className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color  w-width-card-vert h-height-card-vert"
                   href="#"
                 >
-                  <img src={groupGirl} alt="" className='absolute -top-5 -left-5 groupGirl'/>
+                  <img src={groupGirl} alt="" className='absolute -top-5 -left-5 groupGirl' />
                 </div>
               </div>
             </div>
