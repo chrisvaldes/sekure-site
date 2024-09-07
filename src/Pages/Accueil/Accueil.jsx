@@ -11,7 +11,7 @@ import world from "../../images/world-bg.png";
 
 export default function Accueil() {
   return (
-    <>
+    <div className='flex w-full'>
       <div className='main-Contain'>
 
         <section>
@@ -734,6 +734,6 @@ export default function Accueil() {
           <Footer />
         </section>
       </div>
-    </>
+    </div>
   )
 }

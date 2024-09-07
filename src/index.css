@@ -630,7 +630,7 @@ form .logo-footer img {
 /* Portrait and Landscape */
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {}
 
-@media (max-width: 360px) and (max-height: 740px) {
+@media (max-width: 360px) and (min-height: 740px) {
 
   .section-faster {
     background-size: cover;
@@ -641,7 +641,7 @@ form .logo-footer img {
 
   .content-grid {
     padding: 0 1rem;
-    background-color: cyan;
+    /* background-color: cyan; */
   }
 
   .group-button {
