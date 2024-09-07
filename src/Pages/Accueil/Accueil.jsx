@@ -564,7 +564,7 @@ export default function Accueil() {
 
             <div class="flex flex-wrap items-center justify-center gap-16 pb-10 lg:pb-16 px-10">
               <div class="flex items-center justiy-around gap-10">
-                <div class="">
+                <div class=" flex items-center justify-center">
                   <img src={cni} alt="" className='w-3/4 h-3/7' />
                 </div>
               </div>
