@@ -8,7 +8,7 @@ import women from "../../images/women-acceuil.png";
 
 export default function Customer() {
     return (
-        <>
+        <div className='flex w-full'>
             <div>
                 <section>
                     <NavBar />
@@ -677,6 +677,6 @@ export default function Customer() {
                 </section>
 
             </div>
-        </>
+        </div>
     )
 }
