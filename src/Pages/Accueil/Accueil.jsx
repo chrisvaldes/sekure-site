@@ -10,6 +10,9 @@ import grandMere from "../../images/grand-mère.png";
 import groupGirl from "../../images/group-girl.png";
 import world from "../../images/world-bg.png";
 import groupDatabase from "../../images/groupDatabase.png"
+import cni from "../../images/cni.png"
+import userCni from "../../images/userCni.png"
+import userPhone from "../../images/userPhone.png"
 
 export default function Accueil() {
   return (
@@ -230,14 +233,14 @@ export default function Accueil() {
             <div className="flex flex-wrap-reverse items-center justify-around  gap-y-28 gap-x-8">
               <div className=" relative flex items-center justify-center gap-10">
                 <div
-                  className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color w-width-card-horiz h-height-card-horiz"
+                  className="  rounded-3xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color w-width-card-horiz h-height-card-horiz"
                   href="#"
                 >
 
                 </div>
 
                 <div
-                  className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color  w-width-card-horiz h-height-card-horiz"
+                  className="  rounded-3xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color  w-width-card-horiz h-height-card-horiz"
                   href="#"
                 >
 
@@ -370,14 +373,14 @@ export default function Accueil() {
 
               <div className="relative flex flex-col md:flex-col lg:flex-col items-center justify-center gap-10 sm:flex-col pt-10">
                 <div
-                  className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color w-width-card-vert h-height-card-vert"
+                  className="  rounded-3xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color w-width-card-vert h-height-card-vert"
                   href="#"
                 >
 
                 </div>
 
                 <div
-                  className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color  w-width-card-vert h-height-card-vert"
+                  className="  rounded-3xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color  w-width-card-vert h-height-card-vert"
                   href="#"
                 >
                   <img src={groupGirl} alt="" className='absolute -top-5 -left-5 groupGirl' />
@@ -387,25 +390,25 @@ export default function Accueil() {
           </div>
         </section>
 
-                {/*
+        {/*
           Heads up! 👋
 
           This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
         */}
 
-<section class="">
+        <section class="">
           <div className=" px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
             <div className="flex flex-wrap-reverse items-center justify-around  gap-y-28 gap-x-8">
               <div className=" relative flex items-center justify-center gap-10">
                 <div
-                  className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color w-width-card-horiz h-height-card-horiz"
+                  className="  rounded-3xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color w-width-card-horiz h-height-card-horiz"
                   href="#"
                 >
 
                 </div>
 
                 <div
-                  className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color  w-width-card-horiz h-height-card-horiz"
+                  className="  rounded-3xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color  w-width-card-horiz h-height-card-horiz"
                   href="#"
                 >
 
@@ -413,7 +416,7 @@ export default function Accueil() {
                 <img src={groupDatabase} alt="" className='absolute -top-15 left-0 groupDatabase' />
               </div>
               <div >
-                <h2 class="text-cyan-deep text-left  font-semibold text-title-3 font-weight-title-3 font-satoshi-2 leading-normal mb-5 font-bold w-full">
+                <h2 class="text-cyan-deep text-left text-title-3 font-weight-title-3 font-satoshi leading-normal mb-5 font-bold w-full">
                   Identifications et Vérifications par scan <br />
                   facial inteligent et rapide
                 </h2>
@@ -562,26 +565,28 @@ export default function Accueil() {
             <div class="flex flex-wrap items-center justify-center gap-16 pb-10 lg:pb-16 px-10">
               <div class="flex items-center justiy-around gap-10">
                 <div class="">
-                  <img src={femme2} alt="" />
+                  <img src={cni} alt="" className='w-3/4 h-3/7' />
                 </div>
               </div>
-              <div class=" ">
-                <h2 class="text-cyan-deep text-left  text-2xl sm:text-2xl md:text-3xl mb-5 font-semibold">
-                  Tous les outils qu'il vous faut pour proteger <br /> votre plateforme de la fraude</h2>
-                <div class="text-left mb-10">
+              <div >
+                <h2 class="text-cyan-deep text-left text-title-3 font-weight-title-3 font-satoshi leading-normal mb-5 font-bold w-full">
+                  Identifications et Vérifications par scan <br />
+                  facial inteligent et rapide
+                </h2>
+                <div class="text-left text-content font-family-content font-normal leading-loose mb-10">
                   Localement ou internationalement, vos achats en ligne ne connaissent plus de limite <br />
                   avec les carte virtuelles Visa MasterCard de chez SEKURE. En 2 minutes, créez et <br />
                   vérifiez votre compte Sekure pour obtenir votre carte virtuelle. Entre des frais d'entretien <br />
                   inexistants et des frais de
                 </div>
-                <div class="grid grid-cols-2 gap-5 items-center justify-center">
+                <div class="grid grid-cols-2 items-center justify-center gap-10">
                   <div class="flex items-center justify-center gap-5">
                     <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
                       <span class="icon text-white p-2">
                         <FontAwesomeIcon icon={faCheck} />
                       </span>
                     </div>
-                    <div class="text-left text-xm">
+                    <div class="text-left text-content-title-3 font-semibold">
                       Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                     </div>
                   </div>
@@ -591,7 +596,7 @@ export default function Accueil() {
                         <FontAwesomeIcon icon={faCheck} />
                       </span>
                     </div>
-                    <div class="text-left">
+                    <div class="text-left text-content-title-3 font-semibold">
                       Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                     </div>
                   </div>
@@ -601,7 +606,7 @@ export default function Accueil() {
                         <FontAwesomeIcon icon={faCheck} />
                       </span>
                     </div>
-                    <div class="text-left">
+                    <div class="text-left text-content-title-3 font-semibold">
                       Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                     </div>
                   </div>
@@ -611,14 +616,10 @@ export default function Accueil() {
                         <FontAwesomeIcon icon={faCheck} />
                       </span>
                     </div>
-                    <div class="text-left">
+                    <div class="text-left text-content-title-3 font-semibold">
                       Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                     </div>
                   </div>
-                </div>
-                <div class="flex flex-wrap items-center justify-center mt-10 mb-20 gap-10">
-                  <button class="text-nowrap rounded-md bg-cyan-color py-4 px-10 rounded-md text-white font-semibold">Commencer</button>
-                  <button class="text-nowrap rounded-md bg-cyan-color py-4 px-10 rounded-md text-white font-semibold">Commencer</button>
                 </div>
               </div>
             </div>
@@ -764,62 +765,67 @@ export default function Accueil() {
         </section>
 
         {/* style={{ backgroundImage: `url(${phones})`, backgroundPosition: "bottom right", backgroundRepeat: "no-repeat" }} */}
-        <section class="bg-white phone-section pt-20 pl-20  pb-16" >
+        <section class="bg-white phone-section pt-10 pl-20 " >
+          <div className='flex flex-wrap items-center justify-around gap-x-10'>
+            <div class=" text-left" >
+              <div class=" flex">
+                <button class="text-nowrap h-button-first w-button-first rounded-md bg-white text-cyan-deep py-3 px-5 text-sub-content font-weight-nav font-family-nav my-2 flex items-center justify-center">THE IDENTITY VERIFICATION PLATFORM</button>
+              </div>
+              <div class="text-cyan-deep left w-full font-bold text-title-3 font-weight-title-3 font-satoshi-3 leading-normal mb-5">
+                <span>Des interfaces intuitifves et <br /> orientées objectifs pour </span>
+                <span class="text-cyan-color">tester </span> <span>, <br /></span>
+                <span class="text-cyan-color">vérifier </span> <span>et </span>
+                <span class="text-cyan-color">analyser </span>
+              </div>
+              <div className='text-content font-weight-content font-family-content leading-loose'>
+                Orchestration identity verification checks, code-free. Place checks at any <br />
+                stage of the customer journey for top anti-fraud protection and pass <br />
+                rates wordwide. Orchestrate identity verification checks, code-free. Place <br />
+                checks at any stage of the customer journey for top anti-fraud rates <br />
+                worldwide
+              </div>
+              <div class="phones">
+                <div class="active-card flex flex-col p-5 rounded-2xl" style={{ backgroundColor: "#E8FFF9" }}>
+                  <div class="flex items-center">
+                    <span></span>
+                    <span class="text-cyan-color"> Real-time funnel metrics</span>
+                  </div>
+                  <div class="ml-10 font-weight-content font-family-content leading-loose">
+                    Get immediate insights, Track completion status, manual <br />
+                    reviews, and final accecptance rates.
+                  </div>
+                </div>
 
-          <div class=" text-left" >
-            <div class=" flex pt-10 ">
-              <button class="text-nowrap h-button-first w-button-first rounded-md bg-white text-cyan-deep py-3 px-5 text-sub-content font-weight-nav font-family-nav my-2 flex items-center justify-center">THE IDENTITY VERIFICATION PLATFORM</button>
+                <div class="active-card flex flex-col bg-gray-100 p-3 mt-5 rounded-2xl">
+                  <div class="flex items-center">
+                    <span></span>
+                    <span class="text-cyan-deep font-bold title-4 text-title-4 font-weight-title-4 font-satoshi-4"> Funnel Optimisation</span>
+                  </div>
+                </div>
+
+                <div class="active-card flex flex-col bg-gray-100   p-3 mt-5 rounded-2xl">
+                  <div class="flex items-center">
+                    <span></span>
+                    <span class="text-cyan-deep font-bold title-4 text-title-4 font-weight-title-4 font-satoshi-4">Error analysis</span>
+                  </div>
+                </div>
+
+                <div class="active-card flex flex-col bg-gray-100 p-3 mt-5 rounded-2xl">
+                  <div class="flex items-center">
+                    <span></span>
+                    <span class="text-cyan-deep font-bold font-boldtitle-4 text-title-4 font-weight-title-4 font-satoshi-4"> Transparent Billing</span>
+                  </div>
+                </div>
+
+                <div class="flex items-center justify-start gap-10 mt-10 pl-5">
+                  <button class="text-nowrap rounded-md bg-cyan-color py-4 px-5 rounded-md text-white  h-button-height w-button-width text-sm flex items-center justify-center">Commencer</button>
+                  <button class="text-nowrap rounded-md bg-cyan-color py-4 px-5 rounded-md text-white  h-button-height w-button-width text-sm flex items-center justify-center">Commencer</button>
+                </div>
+              </div>
             </div>
-            <div class="text-cyan-deep left w-full font-bold text-title-3 font-weight-title-3 font-satoshi-3 leading-normal mb-5">
-              <span>Des interfaces intuitifves et <br /> orientées objectifs pour </span>
-              <span class="text-cyan-color">tester </span> <span>, <br /></span>
-              <span class="text-cyan-color">vérifier </span> <span>et </span>
-              <span class="text-cyan-color">analyser </span>
-            </div>
-            <div className='text-content font-weight-content font-family-content leading-loose'>
-              Orchestration identity verification checks, code-free. Place checks at any <br />
-              stage of the customer journey for top anti-fraud protection and pass <br />
-              rates wordwide. Orchestrate identity verification checks, code-free. Place <br />
-              checks at any stage of the customer journey for top anti-fraud rates <br />
-              worldwide
-            </div>
-            <div class="phones">
-              <div class="active-card flex flex-col p-5 rounded-2xl" style={{ backgroundColor: "#E8FFF9" }}>
-                <div class="flex items-center">
-                  <span></span>
-                  <span class="text-cyan-color"> Real-time funnel metrics</span>
-                </div>
-                <div class="ml-10 font-weight-content font-family-content leading-loose">
-                  Get immediate insights, Track completion status, manual <br />
-                  reviews, and final accecptance rates.
-                </div>
-              </div>
-
-              <div class="active-card flex flex-col bg-gray-100 p-3 mt-5 rounded-2xl">
-                <div class="flex items-center">
-                  <span></span>
-                  <span class="text-cyan-deep font-bold title-4 text-title-4 font-weight-title-4 font-satoshi-4"> Funnel Optimisation</span>
-                </div>
-              </div>
-
-              <div class="active-card flex flex-col bg-gray-100   p-3 mt-5 rounded-2xl">
-                <div class="flex items-center">
-                  <span></span>
-                  <span class="text-cyan-deep font-bold title-4 text-title-4 font-weight-title-4 font-satoshi-4">Error analysis</span>
-                </div>
-              </div>
-
-              <div class="active-card flex flex-col bg-gray-100 p-3 mt-5 rounded-2xl">
-                <div class="flex items-center">
-                  <span></span>
-                  <span class="text-cyan-deep font-bold font-boldtitle-4 text-title-4 font-weight-title-4 font-satoshi-4"> Transparent Billing</span>
-                </div>
-              </div>
-
-              <div class="flex items-center justify-start gap-10 mt-10 pl-5">
-                <button class="text-nowrap rounded-md bg-cyan-color py-4 px-5 rounded-md text-white  h-button-height w-button-width text-sm flex items-center justify-center">Commencer</button>
-                <button class="text-nowrap rounded-md bg-cyan-color py-4 px-5 rounded-md text-white  h-button-height w-button-width text-sm flex items-center justify-center">Commencer</button>
-              </div>
+            <div className='relative group-cni' >
+              <img src={userCni} alt="" className='abosolute userCni'/>
+              <img src={userPhone} alt="" className='absolute userPhone'/>
             </div>
           </div>
         </section>
