@@ -670,7 +670,8 @@ export default function Accueil() {
           </div>
         </section>
 
-        <section class="bg-white phone-section pt-20 pl-20  pb-16" style={{ backgroundImage: `url(${phones})`, backgroundPosition: "bottom right", backgroundRepeat: "no-repeat" }}>
+        {/* style={{ backgroundImage: `url(${phones})`, backgroundPosition: "bottom right", backgroundRepeat: "no-repeat" }} */}
+        <section class="bg-white phone-section pt-20 pl-20  pb-16" >
 
           <div class=" text-left" >
             <div class=" flex pt-10 ">
@@ -722,7 +723,7 @@ export default function Accueil() {
                 </div>
               </div>
 
-              <div class="flex flex-wrap items-center justify-start gap-10 mt-10 pl-5">
+              <div class="flex items-center justify-start gap-10 mt-10 pl-5">
                 <button class="text-nowrap rounded-md bg-cyan-color py-4 px-5 rounded-md text-white  h-button-height w-button-width text-sm flex items-center justify-center">Commencer</button>
                 <button class="text-nowrap rounded-md bg-cyan-color py-4 px-5 rounded-md text-white  h-button-height w-button-width text-sm flex items-center justify-center">Commencer</button>
               </div>

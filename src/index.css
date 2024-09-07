@@ -43,9 +43,16 @@ nav .nav-items .nav-item {
 }
 
 .main-section {
+  
   background-repeat: no-repeat;
   background-image: url("../src/images/women--background-accueil.png");
   background-position: 100% 33.5%;
+
+}
+.phone-section{
+  background-repeat: no-repeat;
+  background-image: url("../src/images/phones.png");
+  background-position: 100% 100%;
 
 }
 
