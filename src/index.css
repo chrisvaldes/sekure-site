@@ -272,6 +272,10 @@ form .logo-footer img {
   width: 110%;
   height: 110%;
 }
+.groupDatabase{
+  width: 100%;
+  height: 150%;
+}
 /* .verification-section {
   display: flex;
   align-items:center;

@@ -4,11 +4,12 @@ import React from 'react';
 import Footer from '../../Components/Footer';
 import NavBar from '../../Components/NavBar';
 import arrow from "../../images/arrow.png";
+import cniPassport from "../../images/cni-passport.png";
 import femme2 from "../../images/femme2.png";
-import world from "../../images/world-bg.png";
-import cniPassport from "../../images/cni-passport.png"
 import grandMere from "../../images/grand-mère.png";
-import groupGirl from "../../images/group-girl.png"
+import groupGirl from "../../images/group-girl.png";
+import world from "../../images/world-bg.png";
+import groupDatabase from "../../images/groupDatabase.png"
 
 export default function Accueil() {
   return (
@@ -386,6 +387,90 @@ export default function Accueil() {
           </div>
         </section>
 
+                {/*
+          Heads up! 👋
+
+          This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
+        */}
+
+<section class="">
+          <div className=" px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+            <div className="flex flex-wrap-reverse items-center justify-around  gap-y-28 gap-x-8">
+              <div className=" relative flex items-center justify-center gap-10">
+                <div
+                  className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color w-width-card-horiz h-height-card-horiz"
+                  href="#"
+                >
+
+                </div>
+
+                <div
+                  className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color  w-width-card-horiz h-height-card-horiz"
+                  href="#"
+                >
+
+                </div>
+                <img src={groupDatabase} alt="" className='absolute -top-15 left-0 groupDatabase' />
+              </div>
+              <div >
+                <h2 class="text-cyan-deep text-left  font-semibold text-title-3 font-weight-title-3 font-satoshi-2 leading-normal mb-5 font-bold w-full">
+                  Identifications et Vérifications par scan <br />
+                  facial inteligent et rapide
+                </h2>
+                <div class="text-left text-content font-weight-content font-family-content leading-loose font-semibold mb-10">
+                  Localement ou internationalement, vos achats en ligne ne connaissent plus de limite <br />
+                  avec les carte virtuelles Visa MasterCard de chez SEKURE. En 2 minutes, créez et <br />
+                  vérifiez votre compte Sekure pour obtenir votre carte virtuelle. Entre des frais d'entretien <br />
+                  inexistants et des frais de
+                </div>
+                <div class="grid grid-cols-2 items-center justify-center gap-10">
+                  <div class="flex items-center justify-center gap-5">
+                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
+                      <span class="icon text-white p-2">
+                        <FontAwesomeIcon icon={faCheck} />
+                      </span>
+                    </div>
+                    <div class="text-left text-content-title-3 font-semibold">
+                      Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
+                    </div>
+                  </div>
+                  <div class="flex items-center justify-center gap-5">
+                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
+                      <span class="icon text-white p-2">
+                        <FontAwesomeIcon icon={faCheck} />
+                      </span>
+                    </div>
+                    <div class="text-left text-content-title-3 font-semibold">
+                      Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
+                    </div>
+                  </div>
+                  <div class="flex items-center justify-center gap-5">
+                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
+                      <span class="icon text-white p-2">
+                        <FontAwesomeIcon icon={faCheck} />
+                      </span>
+                    </div>
+                    <div class="text-left text-content-title-3 font-semibold">
+                      Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
+                    </div>
+                  </div>
+                  <div class="flex items-center justify-center gap-5">
+                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
+                      <span class="icon text-white p-2">
+                        <FontAwesomeIcon icon={faCheck} />
+                      </span>
+                    </div>
+                    <div class="text-left text-content-title-3 font-semibold">
+                      Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
         <section>
           {/* Grid section */}
           <div class="bg-cyan-deep rounded-3xl py-10 px-5 mx-20">
@@ -448,6 +533,7 @@ export default function Accueil() {
             </div>
           </div>
         </section>
+
 
         <section class="bg-white">
           <div class="text-left text-2xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-cyan-deep ml-20 sm:ml-20 md:ml-20 lg:ml-40  pt-10">
