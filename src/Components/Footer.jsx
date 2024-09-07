@@ -10,8 +10,8 @@ export default function Footer() {
         <>
             <section class="section-footer" >
                 <div className='section-footer-element bg-cyan-color'>
-                    <div class="footer-section-background  grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 items-center justify-between footer-text gap-10">
-                        <div class="flex flex-col pt-10">
+                    <div class="footer-section-background  grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 items-center justify-between">
+                        <div class="flex flex-col items-center justify-center pt-10">
                             <div class=" text-cyan-deep font-bold text-left title text-title font-weight-title font-family-title leading-normal footer-title">
                                 Notre API Robuste supportera <br />
                                 votre business <br />
@@ -25,7 +25,7 @@ export default function Footer() {
                                 questions, and set up your account
                             </div>
                             <div class="">
-                                <div class="flex group-button-footer items-center gap-10 ">
+                                <div class="flex items-center gap-10 ">
                                     <button class="bg-cyan-deep  px-5 py-3 rounded-lg text-white flex items-center justify-center gap-5">
                                         <span class="text-nowrap" >Commencer Gratuitement</span>
                                         <div class="btn-circle rounded-full bg-white flex items-center justify-center">

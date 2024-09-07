@@ -656,16 +656,7 @@ form .logo-footer img {
     height: 55%;
     left: 5.5rem;
   }
-  .group-button-footer{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-  }
-  .footer-section-background{
-    background-position: center;
-    background-size: contain;
-  }
+  
 }
 @media (max-width:754.13px) {
    
