@@ -25,7 +25,7 @@ export default function Accueil() {
 
         <section class="main-section pt-20 w-full">
           <div class="section-faster " >
-            <div class="pt-10 pl-12 md:pl-20 lg:pl-24">
+            <div class="pt-10 md:pl-20 lg:pl-24">
               <div class="flex identity-button">
                 <button class="text-nowrap h-button-first w-button-first rounded-md bg-white text-cyan-deep py-3 px-5 text-sub-content font-weight-nav font-family-nav my-2 flex items-center justify-center">
                   THE IDENTITY VERIFICATION PLATFORM
