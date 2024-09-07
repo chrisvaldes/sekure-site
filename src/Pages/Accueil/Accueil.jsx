@@ -12,21 +12,22 @@ import world from "../../images/world-bg.png";
 export default function Accueil() {
   return (
     <>
-      <div class="main-content">
-        
+      <div className='main-Contain'>
+
         <section>
           <NavBar />
         </section>
 
-        <section class="section-faster pt-20">
-          <div class="faster" style={{ backgroundImage: `url(${femme})`, backgroundPosition: "top right", backgroundRepeat: "no-repeat" }}>
+        <section class="pt-20 w-full">
+          {/* style={{ backgroundImage: `url(${femme})`, backgroundPosition: "top right", backgroundRepeat: "no-repeat" }} */}
+          <div class="section-faster " >
             <div class="pt-10 pl-12 md:pl-20 lg:pl-24">
-              <div class="flex">
+              <div class="flex identity-button">
                 <button class="text-nowrap h-button-first w-button-first rounded-md bg-white text-cyan-deep py-3 px-5 text-sub-content font-weight-nav font-family-nav my-2 flex items-center justify-center">
                   THE IDENTITY VERIFICATION PLATFORM
                 </button>
               </div>
-              <div class="title text-title font-weight-title font-family-title leading-normal text-left font-bold text-cyan-color">
+              <div class="title text-title font-weight-title font-family-title leading-normal text-center sm:text-left md:text-left lg:text-left font-bold text-cyan-color">
                 <span class="text-cyan-deep">Faster, more accurate, and <br /> built for you :</span>
                 <span>fraud prevention <br /> done right</span>
               </div>
@@ -35,7 +36,7 @@ export default function Accueil() {
                 safeguarding your customers. Build trusted digital communities, improve UX, and drive <br />
                 growth for your business with Veriff.
               </div>
-              <div class="flex mt-5 gap-10">
+              <div class="flex group-button mt-5 gap-10 ">
                 <button class="text-nowrap rounded-md bg-cyan-deep py-4 px-5 rounded-md text-white  h-button-height w-button-width text-sm flex items-center justify-center">Commencer gratuitement</button>
                 <button class="text-nowrap rounded-md bg-white py-4 px-20 rounded-md text-cyan-deep font-semibold  text-sm">Contacter</button>
               </div>
@@ -50,8 +51,8 @@ export default function Accueil() {
           </div>
 
           {/* Grid section */}
-          <div class='px-20'>
-            <div class="content-grid grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 rounded-2xl bg-white items-center justify-center gap-y-5 py-10 px-5">
+          <div class='content-grid px-20'>
+            <div class=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 rounded-2xl bg-white items-center justify-center gap-y-5 py-10 px-5">
               <div class="flex items-center justify-center gap-x-5  ">
                 <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
                   <div class="rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 flex items-center justify-center">
@@ -142,7 +143,7 @@ export default function Accueil() {
 
         <section class="">
           <div className=" px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
-            <div className="flex flex-wrap items-center justify-around  gap-y-8">
+            <div className="make-selfie flex flex-wrap items-center justify-around  gap-y-8">
               <div class=" mx-10">
                 <h2 class="text-cyan-deep text-left  font-semibold text-title-3 font-weight-title-3 font-family-title-2 leading-normal mb-5 font-bold w-full">
                   Prendre des selfies pour vérifier <br /> l'authenticité</h2>
@@ -196,9 +197,9 @@ export default function Accueil() {
                 </div>
               </div>
 
-              <div className=" flex flex-col md:flex-col lg:flex-col items-center justify-center gap-10 sm:flex-col">
+              <div className=" flex flex-col items-center justify-center md:flex-col lg:flex-col items-center justify-center gap-10 sm:flex-col">
                 <a
-                  className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color w-width-card-vert h-height-card-vert"
+                  className="rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color w-width-card-vert h-height-card-vert"
                   href="#"
                 >
 
@@ -522,7 +523,7 @@ export default function Accueil() {
                     </div>
                   </div>
                 </div>
-                <div class="flex mt-10 mb-20 gap-10">
+                <div class="flex flex-wrap items-center justify-center mt-10 mb-20 gap-10">
                   <button class="text-nowrap rounded-md bg-cyan-color py-4 px-10 rounded-md text-white font-semibold">Commencer</button>
                   <button class="text-nowrap rounded-md bg-cyan-color py-4 px-10 rounded-md text-white font-semibold">Commencer</button>
                 </div>
@@ -535,7 +536,7 @@ export default function Accueil() {
 
           <div class="">
             <div class=" flex pt-40 sm:pt-40 md:pt-40 lg:pt-80">
-            <button class="text-nowrap h-button-first w-button-first rounded-md bg-white text-cyan-deep py-3 px-5 text-sub-content font-weight-nav font-family-nav my-2 flex items-center justify-center">THE IDENTITY VERIFICATION PLATFORM</button>
+              <button class="text-nowrap h-button-first w-button-first rounded-md bg-white text-cyan-deep py-3 px-5 text-sub-content font-weight-nav font-family-nav my-2 flex items-center justify-center">THE IDENTITY VERIFICATION PLATFORM</button>
             </div>
             <div class="world-title text-title-3 font-weight-title-3 font-family-title-3 leading-normal text-left font-bold text-cyan-color mt-5 mb-10">
               <span class="text-cyan-deep">Des </span>
@@ -689,7 +690,7 @@ export default function Accueil() {
               worldwide
             </div>
             <div class="phones">
-              <div class="flex flex-col p-5 rounded-2xl" style={{ backgroundColor: "#E8FFF9" }}>
+              <div class="active-card flex flex-col p-5 rounded-2xl" style={{ backgroundColor: "#E8FFF9" }}>
                 <div class="flex items-center">
                   <span></span>
                   <span class="text-cyan-color"> Real-time funnel metrics</span>
@@ -700,30 +701,30 @@ export default function Accueil() {
                 </div>
               </div>
 
-              <div class="flex flex-col bg-gray-100 p-3 mt-5 rounded-2xl">
+              <div class="active-card flex flex-col bg-gray-100 p-3 mt-5 rounded-2xl">
                 <div class="flex items-center">
                   <span></span>
                   <span class="text-cyan-deep font-bold title-4 text-title-4 font-weight-title-4 font-family-title-4"> Funnel Optimisation</span>
                 </div>
               </div>
 
-              <div class="flex flex-col bg-gray-100   p-3 mt-5 rounded-2xl">
+              <div class="active-card flex flex-col bg-gray-100   p-3 mt-5 rounded-2xl">
                 <div class="flex items-center">
                   <span></span>
                   <span class="text-cyan-deep font-bold title-4 text-title-4 font-weight-title-4 font-family-title-4">Error analysis</span>
                 </div>
               </div>
 
-              <div class="flex flex-col bg-gray-100 p-3 mt-5 rounded-2xl">
+              <div class="active-card flex flex-col bg-gray-100 p-3 mt-5 rounded-2xl">
                 <div class="flex items-center">
                   <span></span>
                   <span class="text-cyan-deep font-bold font-boldtitle-4 text-title-4 font-weight-title-4 font-family-title-4"> Transparent Billing</span>
                 </div>
               </div>
 
-              <div class="flex w-full items-center justify-start gap-5 mt-10 pl-5">
-              <button class="text-nowrap rounded-md bg-cyan-color py-4 px-5 rounded-md text-white  h-button-height w-button-width text-sm flex items-center justify-center">Commencer</button>
-              <button class="text-nowrap rounded-md bg-cyan-color py-4 px-5 rounded-md text-white  h-button-height w-button-width text-sm flex items-center justify-center">Commencer</button>
+              <div class="flex flex-wrap items-center justify-start gap-10 mt-10 pl-5">
+                <button class="text-nowrap rounded-md bg-cyan-color py-4 px-5 rounded-md text-white  h-button-height w-button-width text-sm flex items-center justify-center">Commencer</button>
+                <button class="text-nowrap rounded-md bg-cyan-color py-4 px-5 rounded-md text-white  h-button-height w-button-width text-sm flex items-center justify-center">Commencer</button>
               </div>
             </div>
           </div>
