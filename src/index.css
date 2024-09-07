@@ -562,7 +562,7 @@ form .logo-footer img {
   }
 }
 
-@media (max-width:630px) {
+@media (max-width:770px) {
   .main-section {
     background-color: green;
     background-repeat: no-repeat; 
