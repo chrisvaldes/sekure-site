@@ -20,7 +20,7 @@ module.exports = {
         "button-height": "50px", 
         "button-first" : "39px",
         "height-card-vert" : "118px",
-        "height-card-horiz" : "265px",
+        "height-card-horiz" : "264px",
       },
       margin: {
         "button-margin": "20px",
@@ -64,9 +64,8 @@ module.exports = {
         "weight-nav" : "400"
       },
       fontFamily : {
-        "family-title" : "Satoshi",
-        "family-content" : "Satoshi",
-        "family-nav" : "Inter"
+        "satoshi" : ["Satoshi", "sans-serif"],
+        "inter" : ["Inter", "sand-serif"]
       }
     },
   },

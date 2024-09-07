@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #f3f3f3;
@@ -264,7 +264,14 @@ form .logo-footer img {
 .icon-bars:hover {
   cursor: pointer;
 }
-
+.grandMere{
+  width: 95%;
+  height: 142.2%;
+}
+.groupGirl{
+  width: 110%;
+  height: 110%;
+}
 /* .verification-section {
   display: flex;
   align-items:center;
@@ -563,8 +570,7 @@ form .logo-footer img {
 }
 
 @media (max-width:770px) {
-  .main-section {
-    background-color: green;
+  .main-section { 
     background-repeat: no-repeat; 
     background-position: 30% 36%;
   }

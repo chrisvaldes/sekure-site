@@ -5,9 +5,10 @@ import Footer from '../../Components/Footer';
 import NavBar from '../../Components/NavBar';
 import arrow from "../../images/arrow.png";
 import femme2 from "../../images/femme2.png";
-import phones from "../../images/phones.png";
-import femme from "../../images/women--background-accueil.png";
 import world from "../../images/world-bg.png";
+import cniPassport from "../../images/cni-passport.png"
+import grandMere from "../../images/grand-mère.png";
+import groupGirl from "../../images/group-girl.png"
 
 export default function Accueil() {
   return (
@@ -19,7 +20,6 @@ export default function Accueil() {
         </section>
 
         <section class="main-section pt-20 w-full">
-          {/* style={{ backgroundImage: `url(${femme})`, backgroundPosition: "top right", backgroundRepeat: "no-repeat" }} */}
           <div class="section-faster " >
             <div class="pt-10 pl-12 md:pl-20 lg:pl-24">
               <div class="flex identity-button">
@@ -27,7 +27,7 @@ export default function Accueil() {
                   THE IDENTITY VERIFICATION PLATFORM
                 </button>
               </div>
-              <div class="title text-title font-weight-title font-family-title leading-normal text-center sm:text-left md:text-left lg:text-left font-bold text-cyan-color">
+              <div class="title text-title font-weight-title font-satoshi leading-normal text-center sm:text-left md:text-left lg:text-left font-bold text-cyan-color">
                 <span class="text-cyan-deep">Faster, more accurate, and <br /> built for you :</span>
                 <span>fraud prevention <br /> done right</span>
               </div>
@@ -41,7 +41,7 @@ export default function Accueil() {
                 <button class="text-nowrap rounded-md bg-white py-4 px-20 rounded-md text-cyan-deep font-semibold  text-sm">Contacter</button>
               </div>
               <div >
-                <h2 class="title-1 text-title-1 font-weight-title-1 font-family-title leading-normal text-left font-semibold py-20 ">
+                <h2 class="title-1 text-cyan-deep text-title-1 font-medium font-satoshi leading-normal text-left font-bold py-20 ">
                   Make identity verification quick and easy by <br />
                   helping genuine users get verified the first time, <br />
                   while keeping fraudsters out
@@ -62,7 +62,7 @@ export default function Accueil() {
                   </div>
                 </div>
                 <div class="text-left">
-                  <div class="title-4 font-semibold text-title-4 font-weight-title-4 font-family-title-4">Large Couverture en Afrique</div>
+                  <div class="title-4 font-semibold text-title-4 font-weight-title-4 font-satoshi-4">Large Couverture en Afrique</div>
                   <div class="title-content text-content-title-4"> The only AI-powered identity verification</div>
                 </div>
               </div>
@@ -75,7 +75,7 @@ export default function Accueil() {
                   </div>
                 </div>
                 <div class="text-left">
-                  <div class="font-semibold title-4 text-title-4 font-weight-title-4 font-family-title-4">Adverse media screening</div>
+                  <div class="font-semibold title-4 text-title-4 font-weight-title-4 font-satoshi-4">Adverse media screening</div>
                   <div class="title-content text-content-title-4">The only AI-powered identity verification</div>
                 </div>
               </div>
@@ -88,7 +88,7 @@ export default function Accueil() {
                   </div>
                 </div>
                 <div class="text-left">
-                  <div class="font-semibold title-4 text-title-4 font-weight-title-4 font-family-title-4">Enhanced due diligence (EDD) : </div>
+                  <div class="font-semibold title-4 text-title-4 font-weight-title-4 font-satoshi-4">Enhanced due diligence (EDD) : </div>
                   <div class="title-content text-content-title-4">The only AI-powered identity verification</div>
                 </div>
               </div>
@@ -101,7 +101,7 @@ export default function Accueil() {
                   </div>
                 </div>
                 <div class="text-left">
-                  <div class="font-semibold title-4 text-title-4 font-weight-title-4 font-family-title-4">PEP Screening</div>
+                  <div class="font-semibold title-4 text-title-4 font-weight-title-4 font-satoshi-4">PEP Screening</div>
                   <div class="title-content text-content-title-4">The only AI-powered identity verification</div>
                 </div>
               </div>
@@ -114,7 +114,7 @@ export default function Accueil() {
                   </div>
                 </div>
                 <div class="text-left">
-                  <div class="font-semibold title-4 text-title-4 font-weight-title-4 font-family-title-4">Ongoing monitoring</div>
+                  <div class="font-semibold title-4 text-title-4 font-weight-title-4 font-satoshi-4">Ongoing monitoring</div>
                   <div class="title-content text-content-title-4">The only AI-powered identity verification</div>
                 </div>
               </div>
@@ -127,7 +127,7 @@ export default function Accueil() {
                   </div>
                 </div>
                 <div class="text-left">
-                  <div class="font-semibold title-4 text-title-4 font-weight-title-4 font-family-title-4">Sanction screening</div>
+                  <div class="font-semibold title-4 text-title-4 font-weight-title-4 font-satoshi-4">Sanction screening</div>
                   <div class="title-content text-content-title-4">The only AI-powered identity verification</div>
                 </div>
               </div>
@@ -145,8 +145,10 @@ export default function Accueil() {
           <div className=" px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
             <div className="make-selfie flex flex-wrap items-center justify-around  gap-y-8">
               <div class=" mx-10">
-                <h2 class="text-cyan-deep text-left  font-semibold text-title-3 font-weight-title-3 font-family-title-2 leading-normal mb-5 font-bold w-full">
-                  Prendre des selfies pour vérifier <br /> l'authenticité</h2>
+                <h2 class="text-cyan-deep text-left  font-semibold text-title-3 font-weight-title-3 font-satoshi-2 leading-normal mb-5 font-bold w-full">
+                  Acceptez un maximum de docuements <br />
+                  pour vérifier les identité de vos utilisateurs dans leur region
+                 </h2>
                 <div class="text-left text-content font-weight-content font-family-content leading-loose font-semibold mb-10">
                   Localement ou internationalement, vos achats en ligne ne connaissent plus de limite <br />
                   avec les carte virtuelles Visa MasterCard de chez SEKURE. En 2 minutes, créez et <br />
@@ -197,20 +199,20 @@ export default function Accueil() {
                 </div>
               </div>
 
-              <div className=" flex flex-col items-center justify-center md:flex-col lg:flex-col items-center justify-center gap-10 sm:flex-col">
-                <a
+              <div className=" relative flex flex-col items-center justify-center md:flex-col lg:flex-col items-center justify-center gap-10 sm:flex-col">
+                <div
                   className="rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color w-width-card-vert h-height-card-vert"
                   href="#"
                 >
 
-                </a>
+                </div>
 
-                <a
+                <div
                   className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color  w-width-card-vert h-height-card-vert"
                   href="#"
                 >
-
-                </a>
+                  <img src={cniPassport} alt="" className='absolute -top-12 right-0'/>
+                </div>
               </div>
             </div>
           </div>
@@ -225,23 +227,24 @@ export default function Accueil() {
         <section class="">
           <div className=" px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
             <div className="flex flex-wrap-reverse items-center justify-around  gap-y-8 gap-x-8">
-              <div className=" flex items-center justify-center gap-10">
-                <a
+              <div className=" relative flex items-center justify-center gap-10">
+                <div
                   className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color w-width-card-horiz h-height-card-horiz"
                   href="#"
                 >
 
-                </a>
+                </div>
 
-                <a
+                <div
                   className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color  w-width-card-horiz h-height-card-horiz"
                   href="#"
                 >
 
-                </a>
+                </div>
+                <img src={grandMere} alt="" className='absolute -top-28 left-10 grandMere'/>
               </div>
               <div >
-                <h2 class="text-cyan-deep text-left  font-semibold text-title-3 font-weight-title-3 font-family-title-2 leading-normal mb-5 font-bold w-full">
+                <h2 class="text-cyan-deep text-left  font-semibold text-title-3 font-weight-title-3 font-satoshi-2 leading-normal mb-5 font-bold w-full">
                   Prendre des selfies pour vérifier <br /> l'authenticité</h2>
                 <div class="text-left text-content font-weight-content font-family-content leading-loose font-semibold mb-10">
                   Localement ou internationalement, vos achats en ligne ne connaissent plus de limite <br />
@@ -308,7 +311,7 @@ export default function Accueil() {
           <div className=" px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
             <div className="flex flex-wrap items-center justify-around  gap-y-8  ">
               <div class=" mx-10">
-                <h2 class="text-cyan-deep text-left  font-semibold text-title-3 font-weight-title-3 font-family-title-2 leading-normal mb-5 font-bold w-full">
+                <h2 class="text-cyan-deep text-left  font-semibold text-title-3 font-weight-title-3 font-satoshi-2 leading-normal mb-5 font-bold w-full">
                   Prendre des selfies pour vérifier <br /> l'authenticité</h2>
                 <div class="text-left text-content font-weight-content font-family-content leading-loose font-semibold mb-10">
                   Localement ou internationalement, vos achats en ligne ne connaissent plus de limite <br />
@@ -360,20 +363,20 @@ export default function Accueil() {
                 </div>
               </div>
 
-              <div className=" flex flex-col md:flex-col lg:flex-col items-center justify-center gap-10 sm:flex-col">
-                <a
+              <div className="relative flex flex-col md:flex-col lg:flex-col items-center justify-center gap-10 sm:flex-col">
+                <div
                   className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color w-width-card-vert h-height-card-vert"
                   href="#"
                 >
 
-                </a>
+                </div>
 
-                <a
+                <div
                   className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color  w-width-card-vert h-height-card-vert"
                   href="#"
                 >
-
-                </a>
+                  <img src={groupGirl} alt="" className='absolute -top-5 -left-5 groupGirl'/>
+                </div>
               </div>
             </div>
           </div>
@@ -383,7 +386,7 @@ export default function Accueil() {
           {/* Grid section */}
           <div class="bg-cyan-deep rounded-3xl py-10 px-5 mx-20">
 
-            <div class="title-1 text-title-1 font-weight-title font-family-title leading-normal font-bold text-cyan-color">
+            <div class="title-1 text-title-1 font-weight-title font-satoshi leading-normal font-bold text-cyan-color">
               With Aibiometrics, anonymous strangers easyli <br />
               become your trustworthy users
             </div>
@@ -538,7 +541,7 @@ export default function Accueil() {
             <div class=" flex pt-40 sm:pt-40 md:pt-40 lg:pt-80">
               <button class="text-nowrap h-button-first w-button-first rounded-md bg-white text-cyan-deep py-3 px-5 text-sub-content font-weight-nav font-family-nav my-2 flex items-center justify-center">THE IDENTITY VERIFICATION PLATFORM</button>
             </div>
-            <div class="world-title text-title-3 font-weight-title-3 font-family-title-3 leading-normal text-left font-bold text-cyan-color mt-5 mb-10">
+            <div class="world-title text-title-3 font-weight-title-3 font-satoshi-3 leading-normal text-left font-bold text-cyan-color mt-5 mb-10">
               <span class="text-cyan-deep">Des </span>
               <span>méthodes </span><span class="text-cyan-deep">De </span>
               <span>vérification </span>
@@ -554,7 +557,7 @@ export default function Accueil() {
           </div>
 
           <div class="world-group">
-            <div class="text-cyan-deep text-title-3 font-weight-title-3 font-family-title-3 leading-normal font-bold text-left my-10">
+            <div class="text-cyan-deep text-title-3 font-weight-title-3 font-satoshi-3 leading-normal font-bold text-left my-10">
               <span>Tous les outils qu'il vous faut pour </span> <span class="text-cyan-color" > proteger <br /> votre plateforme de la fraude</span>
             </div>
             <div className='text-content text-left font-weight-content font-family-content leading-loose pb-20'>
@@ -677,7 +680,7 @@ export default function Accueil() {
             <div class=" flex pt-10 ">
               <button class="text-nowrap h-button-first w-button-first rounded-md bg-white text-cyan-deep py-3 px-5 text-sub-content font-weight-nav font-family-nav my-2 flex items-center justify-center">THE IDENTITY VERIFICATION PLATFORM</button>
             </div>
-            <div class="text-cyan-deep left w-full font-bold text-title-3 font-weight-title-3 font-family-title-3 leading-normal mb-5">
+            <div class="text-cyan-deep left w-full font-bold text-title-3 font-weight-title-3 font-satoshi-3 leading-normal mb-5">
               <span>Des interfaces intuitifves et <br /> orientées objectifs pour </span>
               <span class="text-cyan-color">tester </span> <span>, <br /></span>
               <span class="text-cyan-color">vérifier </span> <span>et </span>
@@ -705,21 +708,21 @@ export default function Accueil() {
               <div class="active-card flex flex-col bg-gray-100 p-3 mt-5 rounded-2xl">
                 <div class="flex items-center">
                   <span></span>
-                  <span class="text-cyan-deep font-bold title-4 text-title-4 font-weight-title-4 font-family-title-4"> Funnel Optimisation</span>
+                  <span class="text-cyan-deep font-bold title-4 text-title-4 font-weight-title-4 font-satoshi-4"> Funnel Optimisation</span>
                 </div>
               </div>
 
               <div class="active-card flex flex-col bg-gray-100   p-3 mt-5 rounded-2xl">
                 <div class="flex items-center">
                   <span></span>
-                  <span class="text-cyan-deep font-bold title-4 text-title-4 font-weight-title-4 font-family-title-4">Error analysis</span>
+                  <span class="text-cyan-deep font-bold title-4 text-title-4 font-weight-title-4 font-satoshi-4">Error analysis</span>
                 </div>
               </div>
 
               <div class="active-card flex flex-col bg-gray-100 p-3 mt-5 rounded-2xl">
                 <div class="flex items-center">
                   <span></span>
-                  <span class="text-cyan-deep font-bold font-boldtitle-4 text-title-4 font-weight-title-4 font-family-title-4"> Transparent Billing</span>
+                  <span class="text-cyan-deep font-bold font-boldtitle-4 text-title-4 font-weight-title-4 font-satoshi-4"> Transparent Billing</span>
                 </div>
               </div>
 
