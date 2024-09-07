@@ -610,15 +610,20 @@ form .logo-footer img {
     align-items: center;
     justify-content: center;
   }
-   
   .userCni{
-    width: 60%; 
+    width: 90%; 
   }
   .userPhone{
     width: 18%;
     height: 55%;
-    left: 9.5rem;
+    left: 1.5rem;
   }
+}
+.footer-section-background{
+  background-repeat: no-repeat;
+  background-image: url("../src/images/femme-footer.png");
+  background-position: bottom right;
+  background-size: contain;
 }
 @media (max-width:960.00px) {
   .group-cni{
@@ -651,6 +656,16 @@ form .logo-footer img {
     height: 55%;
     left: 5.5rem;
   }
+  .group-button-footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-section-background{
+    background-position: center;
+    background-size: contain;
+  }
 }
 @media (max-width:754.13px) {
    
@@ -677,4 +692,3 @@ form .logo-footer img {
   }
 }
 
- 

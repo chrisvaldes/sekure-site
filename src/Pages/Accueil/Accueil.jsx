@@ -23,9 +23,9 @@ export default function Accueil() {
           <NavBar />
         </section>
 
-        <section class="main-section pt-20 w-full">
+        <section class="main-section pt-20 px-10  w-full">
           <div class="section-faster " >
-            <div class="pt-10 px-20 md:pl-20 lg:pl-24">
+            <div class="pt-10 pl-12 md:pl-20 lg:pl-24">
               <div class="flex identity-button">
                 <button class="text-nowrap h-button-first w-button-first rounded-md bg-white text-cyan-deep py-3 px-5 text-sub-content font-weight-nav font-family-nav my-2 flex items-center justify-center">
                   THE IDENTITY VERIFICATION PLATFORM
@@ -765,8 +765,8 @@ export default function Accueil() {
         </section>
 
         {/* style={{ backgroundImage: `url(${phones})`, backgroundPosition: "bottom right", backgroundRepeat: "no-repeat" }} */}
-        <section class="bg-white phone-section pt-10" >
-          <div className='flex flex-wrap items-center justify-around gap-x-10 gap-y-10 group-cni-content'>
+        <section class="bg-white phone-section pt-10 pl-20 " >
+          <div className='flex flex-wrap items-center justify-around gap-x-10 gap-y-10 groupcni'>
             <div class=" text-left" >
               <div class=" flex">
                 <button class="text-nowrap h-button-first w-button-first rounded-md bg-white text-cyan-deep py-3 px-5 text-sub-content font-weight-nav font-family-nav my-2 flex items-center justify-center">THE IDENTITY VERIFICATION PLATFORM</button>
@@ -824,7 +824,7 @@ export default function Accueil() {
               </div>
             </div>
             <div className='relative group-cni' >
-              <img src={userCni} alt="" className='abosolute userCni'/>
+              <img src={userCni} alt="" className='w-full h-full userCni'/>
               <img src={userPhone} alt="" className='absolute userPhone'/>
             </div>
           </div>

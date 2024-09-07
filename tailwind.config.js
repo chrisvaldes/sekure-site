@@ -15,9 +15,11 @@ module.exports = {
         "button-first" : "233px",
         "width-card-horiz" : "205px",
          "width-card-vert" : "441px",
+         "button-footer" : "277px"
       },
       height: {
-        "button-height": "50px", 
+        "button-height": "50px",
+        "button-footer" : "50px",
         "button-first" : "39px",
         "height-card-vert" : "118px",
         "height-card-horiz" : "264px",
@@ -47,6 +49,8 @@ module.exports = {
          "content" : "14px",
          "sub-content" : "11px",         
          "nav" : "14px",
+         "footer-title" : "40px",
+         "button" : "12px"
       },
       lineHeight: {
         "tight": "1.2", 
