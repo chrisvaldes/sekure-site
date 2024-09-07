@@ -616,7 +616,7 @@ form .logo-footer img {
   .userPhone{
     width: 18%;
     height: 55%;
-    left: 9rem;
+    left: 9.5rem;
   }
 }
 @media (max-width:960.00px) {
@@ -643,15 +643,15 @@ form .logo-footer img {
     left: 6rem;
   }
 }
-@media (max-width:800.00px) {
+@media (max-width:805.33px) {
    
   .userPhone{
     width: 18%;
     height: 55%;
-    left: 5.4rem;
+    left: 5.5rem;
   }
 }
-@media (max-width:750.00px) {
+@media (max-width:754.13px) {
    
   .userPhone{
     width: 18%;
@@ -665,5 +665,13 @@ form .logo-footer img {
     width: 18%;
     height: 55%;
     left: 4.8rem;
+  }
+}
+@media (max-width:666.67px) {
+   
+  .userPhone{
+    width: 18%;
+    height: 55%;
+    left: 4.4rem;
   }
 }
