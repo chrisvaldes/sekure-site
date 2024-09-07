@@ -9,7 +9,7 @@ export default function Footer() {
     return (
         <>
             <section class="section-footer" >
-                <div className='section-footer-element bg-cyan-color'>
+                <div className='section-footer-element bg-cyan-color px-10'>
                     <div class="footer-section-background  grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 items-center justify-between">
                         <div class="flex flex-col items-center justify-center pt-10">
                             <div class=" text-cyan-deep font-bold text-left title text-title font-weight-title font-family-title leading-normal footer-title">
