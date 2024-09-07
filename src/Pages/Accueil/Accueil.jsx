@@ -18,7 +18,7 @@ export default function Accueil() {
           <NavBar />
         </section>
 
-        <section class="pt-20 w-full">
+        <section class="main-section pt-20 w-full">
           {/* style={{ backgroundImage: `url(${femme})`, backgroundPosition: "top right", backgroundRepeat: "no-repeat" }} */}
           <div class="section-faster " >
             <div class="pt-10 pl-12 md:pl-20 lg:pl-24">
