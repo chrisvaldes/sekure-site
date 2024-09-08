@@ -628,7 +628,7 @@ export default function Accueil() {
           </div>
         </section>
 
-        <section class="world-section px-20   " style={{ backgroundImage: `url(${world})`, backgroundPosition: "top right", backgroundRepeat: "no-repeat" }}>
+        <section class="world-section px-20 " style={{ backgroundImage: `url(${world})`, backgroundPosition: "top right", backgroundRepeat: "no-repeat" }}>
 
           <div class="">
             <div class=" flex pt-40 sm:pt-40 md:pt-40 lg:pt-80">
@@ -874,7 +874,7 @@ export default function Accueil() {
 
         {/* style={{ backgroundImage: `url(${phones})`, backgroundPosition: "bottom right", backgroundRepeat: "no-repeat" }} */}
         <section class="bg-white phone-section pt-10 " >
-          <div className='flex flex-wrap items-center justify-around gap-x-10 gap-y-10 groupcni'>
+          <div className='flex flex-wrap items-center justify-around gap-x-10 gap-y-10 groupcni px-5'>
             <div class=" text-left" >
               <div class=" flex">
                 <button class="text-nowrap h-button-first w-button-first rounded-md bg-white text-cyan-deep py-3 px-5 text-sub-content font-weight-nav font-family-nav my-2 flex items-center justify-center">THE IDENTITY VERIFICATION PLATFORM</button>
