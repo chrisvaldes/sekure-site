@@ -24,7 +24,7 @@ export default function Footer() {
                                 questions, and set up your account
                             </p>
                             <div class="w-full">
-                                <div class="flex items-center justify-center gap-5 w-full">
+                                <div class="flex items-center justify-start gap-5 w-full">
                                     <button class="bg-cyan-deep px-5 h-button-footer w-button-footer  rounded-lg text-white flex items-center justify-center gap-5">
                                         <span class="text-nowrap" >Commencer Gratuitement</span>
                                         <div class="btn-circle rounded-full bg-white flex items-center justify-center">
