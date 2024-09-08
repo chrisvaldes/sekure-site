@@ -471,7 +471,7 @@ export default function Customer() {
                                 Orchestrate identity verification checks, code-free. Place checks at any stage of the <br />
                                 customer journey for top anti-fraud protection and pass rates worldwide.</p>
                             <div class="">
-                                <div class="flex items-center justify-start gap-5 pb-10">
+                                <div class="flex flex-wrap items-center justify-center gap-5 pb-10">
                                     <button class="bg-cyan-deep  px-5 py-2 rounded-lg text-white flex items-center justify-center gap-5">
                                         <span class="text-nowrap" >Commencer Gratuitement</span>
                                         <div class="btn-circle rounded-full bg-white flex items-center justify-center">
