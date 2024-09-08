@@ -8,7 +8,6 @@ body {
     sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin: 0 2rem;
   background-color: #f3f3f3;
   /* background-color: blue; */
 
@@ -334,7 +333,7 @@ form .logo-footer img {
   }
 }
 
-@media (max-width:1023.20px) {
+@media (max-width:1023.36px) {
   .verification-section .image-hand-phone {
     display: none;
   }
@@ -355,25 +354,23 @@ form .logo-footer img {
   }
 }
 @media (min-width:640px){
-  .hand-phone-content { 
+  .hand-phone-content {
     background-image: url("../src/images/handPhone.png");
     background-repeat: no-repeat;
-    background-position: 100% 5%;
+    background-position: 100% -25%;
 
   }
 }
 @media (max-width:640px){
-  .hand-phone-content { 
+  .hand-phone-content {
     background-image: url("../src/images/handPhone.png");
     background-repeat: no-repeat;
-    background-position: 100% 0%;
-
+    background-position: bottom;
   }
 }
- 
 @media (min-width:1024px){
   .hand-phone-content {
-     background-image: none;
+    background-image: none;
   }
 }
 .verification-section {
