@@ -54,7 +54,8 @@ nav .nav-items .nav-item {
   background-repeat: no-repeat;
   background-image: url("../src/images/femme.png");
   background-position: right bottom;
-
+  overflow: visible;
+  background-size: contain;
 }
 
 .userPhone {
