@@ -873,7 +873,7 @@ export default function Accueil() {
         </section>
 
         {/* style={{ backgroundImage: `url(${phones})`, backgroundPosition: "bottom right", backgroundRepeat: "no-repeat" }} */}
-        <section class="bg-white phone-section pt-10 pl-20 " >
+        <section class="bg-white phone-section pt-10 " >
           <div className='flex flex-wrap items-center justify-around gap-x-10 gap-y-10 groupcni'>
             <div class=" text-left" >
               <div class=" flex">
