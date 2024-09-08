@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import logo from "../images/logo-white.png";
 // import women from "../images/women-picture.png"
-import women from "../images/femme-footer.png";
 
 export default function Footer() {
     return (
@@ -12,19 +11,19 @@ export default function Footer() {
                 <div className='section-footer-element bg-cyan-color px-10'>
                     <div class="footer-section-background  grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 items-center justify-between">
                         <div class="flex flex-col items-center justify-center pt-10">
-                            <div class=" text-cyan-deep font-bold text-left title text-title font-weight-title font-family-title leading-normal footer-title">
+                            <h2 class=" text-cyan-deep font-bold text-left title text-title font-weight-title font-family-title leading-normal footer-title">
                                 Notre API Robuste supportera <br />
                                 votre business <br />
                                 <span className='text-white'>Acceptez plus facilement vos utilisateurs</span>
-                            </div>
-                            <div class="text-white text-left   my-10">
+                            </h2>
+                            <p class="text-white text-left w-full  my-10">
                                 We are equipped to help you level up your KYC/AML compliance stack. Our team is ready to <br />
                                 understand your needs, answer questions, and set up your account.  We are equipped to help you <br />
                                 level up your KYC/AML compliance stack. Our team is ready to <br />
                                 understand your needs, answer <br />
                                 questions, and set up your account
-                            </div>
-                            <div class="">
+                            </p>
+                            <div class="w-full">
                                 <div class="flex items-center gap-10 ">
                                     <button class="bg-cyan-deep  px-5 py-3 rounded-lg text-white flex items-center justify-center gap-5">
                                         <span class="text-nowrap" >Commencer Gratuitement</span>
