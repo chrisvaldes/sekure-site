@@ -1,4 +1,11 @@
-import React from 'react'
+import { faArrowRight, faCheck } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React from 'react';
+import Footer from '../../Components/Footer';
+import NavBar from '../../Components/NavBar';
+import tchapoCni from "../../images/TchapoCni.png";
+import women from "../../images/women-acceuil.png";
+import handPhone from "../../images/handPhone.png"
 
 export default function Screening() {
     return (
@@ -34,7 +41,7 @@ export default function Screening() {
 
                     {/* Grid section */}
                     <div className='w-full'>
-                        <div class="bg-cyan-color grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 rounded-2xl gap-y-5 py-10 px-5">
+                        <div class="bg-cyan-deep grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 rounded-2xl gap-y-5 py-10 px-5">
                             <div class="flex items-center justify-center gap-10 ">
                                 <div class=" rounded-full bg-white flex items-center justify-center px-4 py-3 text-cyan-color">
                                     <span class="icon">
