@@ -8,19 +8,21 @@ import women from "../../images/women-acceuil.png";
 
 export default function Customer() {
     return (
-        <div className=''>
-            <div>
+        <div className='flex w-full'>
+            <div className='main-Contain'>
                 <section>
                     <NavBar />
                 </section>
 
-                <section class="section-faster-1 pt-20">
+                <section class="w-full pt-20">
 
-                    <div class="faster" style={{ backgroundImage: `url(${femme})`, backgroundPosition: "top right", backgroundRepeat: "no-repeat" }}>
+                    <div class="main-section-customer" >
                         <div >
                             <div class="pl-12 md:pl-20 lg:pl-24 pt-10">
                                 <div class="flex">
-                                    <button class="text-nowrap h-button-first w-button-first rounded-md bg-white text-cyan-deep py-3 px-5 text-sub-content font-weight-nav font-family-nav my-2 flex items-center justify-center">THE IDENTITY VERIFICATION PLATFORM</button>
+                                    <button class="text-nowrap h-button-first w-button-first rounded-md bg-white text-cyan-deep py-3 px-5 text-sub-content font-weight-nav font-family-nav my-2 flex items-center justify-center">
+                                        THE IDENTITY VERIFICATION PLATFORM
+                                    </button>
                                 </div>
                                 <div class="title text-title font-weight-title font-family-title leading-normal text-left font-bold text-cyan-color mt-5">
                                     <span class="uppercase text-cyan-deep">KYC </span>Rapide <span class="text-cyan-deep">et</span> <span>flexible</span> <span class="text-cyan-deep">pour</span> <br />
@@ -37,8 +39,8 @@ export default function Customer() {
                     </div>
 
                     {/* Grid section */}
-                    <div className='px-20'>
-                        <div class="bg-cyan-color grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 rounded-2xl items-center justify-center gap-y-5 py-10 px-5">
+                    <div className='w-full'>
+                        <div class="bg-cyan-color grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 rounded-2xl gap-y-5 py-10 px-5">
                             <div class="flex items-center justify-center gap-10 ">
                                 <div class=" rounded-full bg-white flex items-center justify-center px-4 py-3 text-cyan-color">
                                     <span class="icon">
@@ -111,7 +113,7 @@ export default function Customer() {
                 </section>
 
 
-                <div class="text-left mx-20">
+                <div class="text-left px-20">
                     <h2 class="text-cyan-deep text-2xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold pt-20 pb-10">
                         Make identity verification quick and easy by <br />
                         helping genuine users get verified the  first time, <br />
@@ -121,7 +123,7 @@ export default function Customer() {
 
                 <section class="">
                     <div className=" px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
-                        <div className="flex flex-wrap-reverse items-center justify-around  gap-y-8 gap-x-8 mx-10">
+                        <div className="flex flex-wrap-reverse items-center justify-around  gap-y-8 gap-x-8">
                             <div className=" flex flex-row md:flex-row lg:flex-row items-center justify-center gap-10 sm:flex-row">
                                 <a
                                     className="rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color h-height-card-horiz w-width-card-horiz"
@@ -203,7 +205,7 @@ export default function Customer() {
                 <section class="">
                     <div className=" px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
                         <div className="flex flex-wrap items-center justify-around  gap-y-8">
-                            <div class=" mx-10">
+                            <div class=" ">
                                 <h2 class="text-cyan-deep text-left text-xl sm:text-sm md:text-md lg:text-lg mb-5 font-bold w-full">
                                     Prendre des selfies pour vérifier <br /> l'authenticité</h2>
                                 <div class="text-left  text-sm sm:text-sm md:text-md lg:text-lg mb-10">
@@ -277,7 +279,7 @@ export default function Customer() {
 
                 <section class="">
                     <div className=" px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
-                        <div className="flex flex-wrap-reverse items-center justify-around  gap-y-8 gap-x-8 mx-10">
+                        <div className="flex flex-wrap-reverse items-center justify-around  gap-y-8 gap-x-8">
                             <div className=" flex flex-row md:flex-row lg:flex-row items-center justify-center gap-10 sm:flex-row">
                                 <a
                                     className="rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color h-height-card-horiz w-width-card-horiz"
@@ -352,8 +354,8 @@ export default function Customer() {
 
 
                 <section class="bg-white py-10">
-                    <div className='mx-10'>
-                        <div class=" mx-20">
+                    <div className=''>
+                        <div class="">
                             <h2 class="text-cyan-deep text-2xl sm:text-2xl md:text-3xl lg:text-4xl  font-semibold pt-20 pb-10">
                                 Comply with regulations and onboard more <br />
                                 customer
@@ -429,7 +431,7 @@ export default function Customer() {
 
                 </section> */}
 
-                <section class="verification-section relative px-10 m-20">
+                <section class="verification-section relative w-full">
 
                     <div>
                         <img src={women} alt="Identity Verification" class="responsive-image absolute image-container" />
@@ -440,7 +442,7 @@ export default function Customer() {
 
                         </div>
                         <div class="div-card-content px-5">
-                            <div class=" flex items-center justify-center pt-10 pb-10">
+                            <div class=" flex items-center pt-10 pb-10">
                                 <button class="text-nowrap h-button-first w-button-first rounded-md bg-white text-cyan-deep py-3 px-5 text-sub-content font-weight-nav font-family-nav  flex items-center justify-center">
                                     THE IDENTITY VERIFICATION PLATFORM
                                 </button>
@@ -483,7 +485,7 @@ export default function Customer() {
                     </div>
                 </section>
 
-                <section>
+                {/* <section>
                     <h2 class="mt-20 text-2xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-cyan-deep mx-20">Our approach is to break user identity into  atomic attributes called 'merits". <br />
                         A merit is and individual piece of information about a user that cant be used <br />
                         to improve a prediction of their future behavior.
@@ -670,7 +672,7 @@ export default function Customer() {
                             </span>
                         </div>
                     </div>
-                </section>
+                </section> */}
 
                 <section>
                     <Footer />

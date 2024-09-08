@@ -29,7 +29,7 @@ export default function NavBar() {
             <nav aria-label="Global" class="">
               <ul className="flex items-center gap-6 text-sm">
                 <li class="flex items-center justify-center gap-2">
-                  <Link className="text-nav-color text-nav font-weight-nav font-family-nav transition hover:text-gray-500/75" to="/">
+                  <Link className="text-nav-color text-nav font-weight-nav font-family-nav transition hover:text-gray-500/75" to="/accueil">
                     Accueil
                   </Link>
                   <span class="text-emerald-300">
@@ -38,7 +38,7 @@ export default function NavBar() {
                 </li>
 
                 <li class="flex items-center justify-center gap-2">
-                  <Link className="text-nav-color text-nav font-weight-nav font-family-nav  transition hover:text-gray-500/75 text-nowrap" to="/customer">
+                  <Link className="text-nav-color text-nav font-weight-nav font-family-nav  transition hover:text-gray-500/75 text-nowrap" to="/">
                     Know your customer
                   </Link>
                   <span class="text-emerald-300">

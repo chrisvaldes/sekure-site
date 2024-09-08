@@ -50,6 +50,13 @@ nav .nav-items .nav-item {
 
 }
 
+.main-section-customer{
+  background-repeat: no-repeat;
+  background-image: url("../src/images/femme.png");
+  background-position: right bottom;
+
+}
+
 .userPhone{
   top : 50%;
   left: -4%;
@@ -525,17 +532,9 @@ form .logo-footer img {
   height: 40rem;
 }
 
-.section-faster {
-  /* background-size: 40%; */
-  /* padding-top: 8rem 4rem 0 4rem; */
-}
-
+ 
 @media (max-width:828px) {
-  .section-faster {
-    /* padding : 8rem 4rem 0 4rem; */
-    /* background-size: 100%; */
-  }
-
+   
   .section-faster .faster {
     background-repeat: no-repeat;
     background-size: cover;
@@ -598,6 +597,12 @@ form .logo-footer img {
   .main-section { 
     background-repeat: no-repeat; 
     background-position: 30% 36%;
+  }
+}
+@media (max-width:770px) {
+  .main-section-customer { 
+    background-repeat: no-repeat; 
+    background-position: 40% 100%;
   }
 }
 

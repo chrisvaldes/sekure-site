@@ -13,8 +13,8 @@ function App() {
     <div className="App">
        <BrowserRouter>
         <Routes>
-          <Route path='/' Component={Accueil}/>
-          <Route path='/customer' Component={Customer}/>
+          <Route path='/accueil' Component={Accueil}/>
+          <Route path='/' Component={Customer}/>
           <Route path='/pricing' Component={Pricing}/>
           <Route path='/about' Component={About}/>
           </Routes>
