@@ -8,7 +8,7 @@ import women from "../../images/women-acceuil.png";
 
 export default function Customer() {
     return (
-        <div className='flex w-full'>
+        <div className=''>
             <div>
                 <section>
                     <NavBar />

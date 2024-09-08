@@ -544,19 +544,22 @@ export default function Accueil() {
               votre plateforme de la fraude
             </span>
           </div>
-          <div>
-            <ul class="flex mini-nav-items items-center justify-around bg-emerald-100 rounded-full my-10">
+          <div className='mx-20'>
+            <ul class="flex mini-nav-items items-center justify-around bg-gray-100 rounded-xl my-10 gap-x-5 px-5">
+              <li class="text-xl py-5 mini-nav-item-active">
+                <a href="">Vérification d'identité</a>
+              </li>
               <li class="text-xl py-5 mini-nav-item">
-                <a href="">Identity Verification</a>
+                <a href="">Vérification biométrique</a>
               </li>
-              <li class="text-xl py-5">
-                <a href="">Know Your Customer</a>
+              <li class="text-xl py-5 mini-nav-item">
+                <a href="">Preuve d'adresse</a>
               </li>
-              <li class="text-xl py-5">
-                <a href="">Biometric Verification</a>
+              <li class="text-xl py-5 mini-nav-item">
+                <a href="">Detection d'appareil</a>
               </li>
-              <li class="text-xl py-5">
-                <a href="">Fraud Mitigation</a>
+              <li class="text-xl py-5 mini-nav-item">
+                <a href="">Sactions</a>
               </li>
             </ul>
 

@@ -109,9 +109,21 @@ nav .nav-items .nav-item {
   height: 8rem;
 }
 
-.mini-nav-items .mini-nav-item {
-  border-bottom: solid 5px #5edeaf;
-  border-bottom-left-radius: 8px;
+.mini-nav-items .mini-nav-item-active {
+  border-bottom: solid 5px #5edeaf; 
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Satoshi;
+  line-height: 30px;
+  text-wrap: nowrap;
+}
+
+.mini-nav-items .mini-nav-item { 
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Satoshi;
+  line-height: 30px;
+  text-wrap: nowrap;
 }
 
 .world-section {
