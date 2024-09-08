@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import Footer from '../../Components/Footer';
 import NavBar from '../../Components/NavBar';
-import femme from "../../images/femme.png";
+import tchapoCni from "../../images/TchapoCni.png";
 import women from "../../images/women-acceuil.png";
 
 export default function Customer() {
@@ -123,26 +123,29 @@ export default function Customer() {
 
                 <section class="">
                     <div className=" px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
-                        <div className="flex flex-wrap-reverse items-center justify-around  gap-y-8 gap-x-8">
-                            <div className=" flex flex-row md:flex-row lg:flex-row items-center justify-center gap-10 sm:flex-row">
-                                <a
-                                    className="rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color h-height-card-horiz w-width-card-horiz"
+                        <div className="flex flex-wrap-reverse items-center justify-around  gap-y-28 gap-x-8">
+                            <div className=" relative flex items-center justify-center gap-10">
+                                <div
+                                    className="  rounded-3xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color w-width-card-horiz h-height-card-horiz"
                                     href="#"
                                 >
 
-                                </a>
+                                </div>
 
-                                <a
-                                    className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color h-height-card-horiz w-width-card-horiz"
+                                <div
+                                    className="  rounded-3xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color  w-width-card-horiz h-height-card-horiz"
                                     href="#"
                                 >
 
-                                </a>
+                                </div>
+                                <img src={tchapoCni} alt="" className='absolute top-8 left-2 tchapoCni' />
                             </div>
                             <div >
-                                <h2 class="text-cyan-deep text-left text-xl sm:text-sm md:text-md lg:text-lg mb-5 font-bold w-full">
-                                    Prendre des selfies pour vérifier <br /> l'authenticité</h2>
-                                <div class="text-left  text-sm sm:text-sm md:text-md lg:text-lg mb-10">
+                                <h2 class="text-cyan-deep text-left  font-semibold text-title-3 font-weight-title-3 font-satoshi-2 leading-normal mb-5 font-bold w-full">
+                                    Identifications et Vérifications par scan <br />
+                                    facial inteligent et rapide
+                                </h2>
+                                <div class="text-left text-content font-weight-content font-family-content leading-loose font-semibold mb-10">
                                     Localement ou internationalement, vos achats en ligne ne connaissent plus de limite <br />
                                     avec les carte virtuelles Visa MasterCard de chez SEKURE. En 2 minutes, créez et <br />
                                     vérifiez votre compte Sekure pour obtenir votre carte virtuelle. Entre des frais d'entretien <br />
@@ -150,42 +153,42 @@ export default function Customer() {
                                 </div>
                                 <div class="grid grid-cols-2 items-center justify-center gap-10">
                                     <div class="flex items-center justify-center gap-5">
-                                        <div class="flex items-center justify-center small-circle-check rounded-full bg-emerald-300 z-100">
+                                        <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
                                             <span class="icon text-white p-2">
                                                 <FontAwesomeIcon icon={faCheck} />
                                             </span>
                                         </div>
-                                        <div class="text-left text-sm sm:text-sm md:text-md lg:text-lg">
+                                        <div class="text-left text-content-title-3 font-semibold">
                                             Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                                         </div>
                                     </div>
                                     <div class="flex items-center justify-center gap-5">
-                                        <div class="flex items-center justify-center small-circle-check rounded-full bg-emerald-300 z-100">
+                                        <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
                                             <span class="icon text-white p-2">
                                                 <FontAwesomeIcon icon={faCheck} />
                                             </span>
                                         </div>
-                                        <div class="text-left text-sm sm:text-sm md:text-md lg:text-lg">
+                                        <div class="text-left text-content-title-3 font-semibold">
                                             Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                                         </div>
                                     </div>
                                     <div class="flex items-center justify-center gap-5">
-                                        <div class="flex items-center justify-center small-circle-check rounded-full bg-emerald-300 z-100">
+                                        <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
                                             <span class="icon text-white p-2">
                                                 <FontAwesomeIcon icon={faCheck} />
                                             </span>
                                         </div>
-                                        <div class="text-left text-sm sm:text-sm md:text-md lg:text-lg">
+                                        <div class="text-left text-content-title-3 font-semibold">
                                             Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                                         </div>
                                     </div>
                                     <div class="flex items-center justify-center gap-5">
-                                        <div class="flex items-center justify-center small-circle-check rounded-full bg-emerald-300 z-100">
+                                        <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
                                             <span class="icon text-white p-2">
                                                 <FontAwesomeIcon icon={faCheck} />
                                             </span>
                                         </div>
-                                        <div class="text-left text-sm sm:text-sm md:text-md lg:text-lg">
+                                        <div class="text-left text-content-title-3 font-semibold">
                                             Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                                         </div>
                                     </div>
@@ -197,10 +200,10 @@ export default function Customer() {
                 </section>
 
                 {/*
-        Heads up! 👋
+                    Heads up! 👋
 
-        This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
-      */}
+                    This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
+                */}
 
                 <section class="">
                     <div className=" px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
@@ -258,20 +261,21 @@ export default function Customer() {
                                 </div>
                             </div>
 
-                            <div className=" flex flex-col md:flex-col lg:flex-col items-center justify-center gap-10 sm:flex-col">
-                                <a
+                            <div className="relative flex flex-col md:flex-col lg:flex-col items-center justify-center gap-10 sm:flex-col">
+                                <div
                                     className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color h-height-card-vert w-width-card-vert"
                                     href="#"
                                 >
 
-                                </a>
+                                </div>
 
-                                <a
+                                <div
                                     className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color  h-height-card-vert w-width-card-vert"
                                     href="#"
                                 >
 
-                                </a>
+                                </div>
+                                <img src={tchapoCni} alt="" className='absolute top-8 left-2 tchapoCni' />
                             </div>
                         </div>
                     </div>
@@ -279,26 +283,29 @@ export default function Customer() {
 
                 <section class="">
                     <div className=" px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
-                        <div className="flex flex-wrap-reverse items-center justify-around  gap-y-8 gap-x-8">
-                            <div className=" flex flex-row md:flex-row lg:flex-row items-center justify-center gap-10 sm:flex-row">
-                                <a
-                                    className="rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color h-height-card-horiz w-width-card-horiz"
+                        <div className="flex flex-wrap-reverse items-center justify-around  gap-y-28 gap-x-8">
+                            <div className=" relative flex items-center justify-center gap-10">
+                                <div
+                                    className="  rounded-3xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color w-width-card-horiz h-height-card-horiz"
                                     href="#"
                                 >
 
-                                </a>
+                                </div>
 
-                                <a
-                                    className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color h-height-card-horiz w-width-card-horiz"
+                                <div
+                                    className="  rounded-3xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color  w-width-card-horiz h-height-card-horiz"
                                     href="#"
                                 >
 
-                                </a>
+                                </div>
+                                <img src={tchapoCni} alt="" className='absolute top-8 left-2 tchapoCni' />
                             </div>
                             <div >
-                                <h2 class="text-cyan-deep text-left text-xl sm:text-sm md:text-md lg:text-lg mb-5 font-bold w-full">
-                                    Prendre des selfies pour vérifier <br /> l'authenticité</h2>
-                                <div class="text-left  text-sm sm:text-sm md:text-md lg:text-lg mb-10">
+                                <h2 class="text-cyan-deep text-left  font-semibold text-title-3 font-weight-title-3 font-satoshi-2 leading-normal mb-5 font-bold w-full">
+                                    Identifications et Vérifications par scan <br />
+                                    facial inteligent et rapide
+                                </h2>
+                                <div class="text-left text-content font-weight-content font-family-content leading-loose font-semibold mb-10">
                                     Localement ou internationalement, vos achats en ligne ne connaissent plus de limite <br />
                                     avec les carte virtuelles Visa MasterCard de chez SEKURE. En 2 minutes, créez et <br />
                                     vérifiez votre compte Sekure pour obtenir votre carte virtuelle. Entre des frais d'entretien <br />
@@ -306,42 +313,42 @@ export default function Customer() {
                                 </div>
                                 <div class="grid grid-cols-2 items-center justify-center gap-10">
                                     <div class="flex items-center justify-center gap-5">
-                                        <div class="flex items-center justify-center small-circle-check rounded-full bg-emerald-300 z-100">
+                                        <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
                                             <span class="icon text-white p-2">
                                                 <FontAwesomeIcon icon={faCheck} />
                                             </span>
                                         </div>
-                                        <div class="text-left text-sm sm:text-sm md:text-md lg:text-lg">
+                                        <div class="text-left text-content-title-3 font-semibold">
                                             Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                                         </div>
                                     </div>
                                     <div class="flex items-center justify-center gap-5">
-                                        <div class="flex items-center justify-center small-circle-check rounded-full bg-emerald-300 z-100">
+                                        <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
                                             <span class="icon text-white p-2">
                                                 <FontAwesomeIcon icon={faCheck} />
                                             </span>
                                         </div>
-                                        <div class="text-left text-sm sm:text-sm md:text-md lg:text-lg">
+                                        <div class="text-left text-content-title-3 font-semibold">
                                             Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                                         </div>
                                     </div>
                                     <div class="flex items-center justify-center gap-5">
-                                        <div class="flex items-center justify-center small-circle-check rounded-full bg-emerald-300 z-100">
+                                        <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
                                             <span class="icon text-white p-2">
                                                 <FontAwesomeIcon icon={faCheck} />
                                             </span>
                                         </div>
-                                        <div class="text-left text-sm sm:text-sm md:text-md lg:text-lg">
+                                        <div class="text-left text-content-title-3 font-semibold">
                                             Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                                         </div>
                                     </div>
                                     <div class="flex items-center justify-center gap-5">
-                                        <div class="flex items-center justify-center small-circle-check rounded-full bg-emerald-300 z-100">
+                                        <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
                                             <span class="icon text-white p-2">
                                                 <FontAwesomeIcon icon={faCheck} />
                                             </span>
                                         </div>
-                                        <div class="text-left text-sm sm:text-sm md:text-md lg:text-lg">
+                                        <div class="text-left text-content-title-3 font-semibold">
                                             Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                                         </div>
                                     </div>
