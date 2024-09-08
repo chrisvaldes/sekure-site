@@ -5,6 +5,7 @@ import Footer from '../../Components/Footer';
 import NavBar from '../../Components/NavBar';
 import tchapoCni from "../../images/TchapoCni.png";
 import women from "../../images/women-acceuil.png";
+import handPhone from "../../images/handPhone.png"
 
 export default function Customer() {
     return (
@@ -438,54 +439,57 @@ export default function Customer() {
 
                 </section> */}
 
-                <section class="verification-section relative w-full">
+                <section class="">
 
-                    <div>
-                        <img src={women} alt="Identity Verification" class="responsive-image absolute image-container" />
-                    </div>
-
-                    <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 bg-cyan-color rounded-2xl'>
-                        <div className='' >
-
-                        </div>
-                        <div class="div-card-content px-5">
-                            <div class=" flex items-center pt-10 pb-10">
-                                <button class="text-nowrap h-button-first w-button-first rounded-md bg-white text-cyan-deep py-3 px-5 text-sub-content font-weight-nav font-family-nav  flex items-center justify-center">
-                                    THE IDENTITY VERIFICATION PLATFORM
-                                </button>
+                    <div className='verification-section w-full bg-cyan-color rounded-2xl '>
+                        <div className='relative grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2'>
+                            <div className='absolute image-hand-phone'>
+                                {/* <img src={handPhone} alt="Identity Verification" class="" /> */}
                             </div>
-                            <h2 className='text-cyan-deep text-left text-title-3 font-weight-title-3 font-family-title-2 leading-normal mb-2 font-bold w-full'>
-                                Show regulators you take financial <br /> crime seriously
-                            </h2>
-                            <p class="text-left text-content font-weight-content font-family-content leading-loose font-semibold mt-5 mb-10">
-                                Orchestrate identity verification checks, code-free. Place checks at any stage of the <br />
-                                customer journey for top anti-fraud protection and pass rates worldwide.
-                            </p>
-                            <h2 className='text-cyan-deep text-left  text-title-3 font-weight-title-3 font-family-title-3 leading-normal mb-3  w-full'>
-                                Commencez maintenant avec une <br />
-                                demo gratuite
-                            </h2>
-                            <p class="text-left text-content font-weight-content font-family-content leading-loose font-semibold mt-5 mb-10">
-                                Orchestrate identity verification checks, code-free. Place checks at any stage of the <br />
-                                customer journey for top anti-fraud protection and pass rates worldwide.</p>
-                            <div class="">
-                                <div class="flex flex-wrap items-center justify-center gap-10 pb-10">
-                                    <button class="bg-cyan-deep  px-5 py-2 rounded-lg text-white flex items-center justify-center gap-5">
-                                        <span class="text-nowrap" >Commencer Gratuitement</span>
-                                        <div class="btn-circle rounded-full bg-white flex items-center justify-center">
-                                            <span class="icon text-cyan-deep">
-                                                <FontAwesomeIcon icon={faArrowRight} />
-                                            </span>
-                                        </div>
+                            <div className='hand-phone-empty'>
+
+                            </div>
+
+
+                            <div class="hand-phone-content flex flex-col pr-10 w-full">
+                                <div class=" flex items-center pt-10 pb-10">
+                                    <button class="text-nowrap h-button-first w-button-first rounded-md bg-white text-cyan-deep py-3 px-5 text-sub-content font-weight-nav font-family-nav  flex items-center justify-center">
+                                        THE IDENTITY VERIFICATION PLATFORM
                                     </button>
-                                    <button class=" bg-cyan-deep  px-10 py-2 rounded-lg text-white flex items-center justify-between gap-5">
-                                        <span class="text-white text-nowrap">Contacter</span>
-                                        <div class="btn-circle rounded-full bg-white flex items-center justify-center">
-                                            <span class="icon text-cyan-deep">
-                                                <FontAwesomeIcon icon={faArrowRight} />
-                                            </span>
-                                        </div>
-                                    </button>
+                                </div>
+                                <h2 className='text-cyan-deep text-nowrap text-left text-title-3 font-weight-title-3 font-family-title-2 leading-normal mb-2 font-bold w-full'>
+                                    Show regulators you take financial <br /> crime seriously
+                                </h2>
+                                <p class="text-left text-nowrap text-content font-weight-content font-family-content leading-loose font-semibold mt-5 mb-10">
+                                    Orchestrate identity verification checks, code-free. Place checks at any stage of the <br />
+                                    customer journey for top anti-fraud protection and pass rates worldwide.
+                                </p>
+                                <h2 className='text-cyan-deep text-nowrap text-left  text-title-3 font-weight-title-3 font-family-title-3 leading-normal mb-3  w-full'>
+                                    Commencez maintenant avec une <br />
+                                    demo gratuite
+                                </h2>
+                                <p class="text-left text-nowrap text-content font-weight-content font-family-content leading-loose font-semibold mt-5 mb-10">
+                                    Orchestrate identity verification checks, code-free. Place checks at any stage of the <br />
+                                    customer journey for top anti-fraud protection and pass rates worldwide.</p>
+                                <div class="">
+                                    <div class="flex items-center justify-start gap-10 pb-10">
+                                        <button class="bg-cyan-deep  px-5 py-2 rounded-lg text-white flex items-center justify-center gap-5">
+                                            <span class="text-nowrap" >Commencer Gratuitement</span>
+                                            <div class="btn-circle rounded-full bg-white flex items-center justify-center">
+                                                <span class="icon text-cyan-deep">
+                                                    <FontAwesomeIcon icon={faArrowRight} />
+                                                </span>
+                                            </div>
+                                        </button>
+                                        <button class=" bg-cyan-deep  px-5 py-2 rounded-lg text-white flex items-center justify-between gap-5">
+                                            <span class="text-white text-nowrap pr-5">Contacter</span>
+                                            <div class="btn-circle rounded-full bg-white flex items-center justify-center">
+                                                <span class="icon text-cyan-deep">
+                                                    <FontAwesomeIcon icon={faArrowRight} />
+                                                </span>
+                                            </div>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>

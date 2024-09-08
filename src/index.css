@@ -8,6 +8,7 @@ body {
     sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0 2rem;
   background-color: #f3f3f3;
   /* background-color: blue; */
 
@@ -50,21 +51,23 @@ nav .nav-items .nav-item {
 
 }
 
-.main-section-customer{
+.main-section-customer {
   background-repeat: no-repeat;
   background-image: url("../src/images/femme.png");
   background-position: right bottom;
 
 }
 
-.userPhone{
-  top : 50%;
+.userPhone {
+  top: 50%;
   left: -4%;
 }
+
 .userCni {
- top: 0;
- left: 0;
+  top: 0;
+  left: 0;
 }
+
 /* .phone-section {
   background-repeat: no-repeat;
   background-image: url("../src/images/phones.png");
@@ -117,7 +120,7 @@ nav .nav-items .nav-item {
 }
 
 .mini-nav-items .mini-nav-item-active {
-  border-bottom: solid 5px #5edeaf; 
+  border-bottom: solid 5px #5edeaf;
   font-size: 14px;
   font-weight: 400;
   font-family: Satoshi;
@@ -125,7 +128,7 @@ nav .nav-items .nav-item {
   text-wrap: nowrap;
 }
 
-.mini-nav-items .mini-nav-item { 
+.mini-nav-items .mini-nav-item {
   font-size: 14px;
   font-weight: 400;
   font-family: Satoshi;
@@ -292,152 +295,139 @@ form .logo-footer img {
 .icon-bars:hover {
   cursor: pointer;
 }
-.grandMere{
+
+.grandMere {
   width: 95%;
   height: 142.2%;
 }
-.tchapoCni{
+
+.tchapoCni {
   width: 95%;
   height: 100%;
 }
-.groupGirl{
+
+.groupGirl {
   width: 110%;
   height: 110%;
 }
-.groupDatabase{
+
+.groupDatabase {
   width: 100%;
   height: 150%;
 }
-/* .verification-section {
-  display: flex;
-  align-items:center;
-  justify-content:center;
-  border-radius: 15px;
-  height: 120%;
-} */
 
-
-.verification-section .image-container {
-  /* flex: 1; */
-  top: -2rem;
-  left: -3rem;
-  width: 42%;
-  height: 106%;
-  justify-content: center;
-  align-items: center;
+.image-hand-phone {
+  
+  top: -7%;
+  left: 3%;
+  width: 37.2%;
+  height: 107%;
+  background-image: url("../src/images/handPhone.png");
+  background-repeat: no-repeat;
 }
 
-@media (max-width:1369.67px) {
-  .verification-section .image-container {
-    /* flex: 1; */
-    top: -2rem;
-    left: -3rem;
-    width: 42%;
-    height: 105.5%;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-@media (max-width:1289px) {
-  .verification-section .image-container {
-    /* flex: 1; */
-    top: -2rem;
-    left: -3rem;
-    width: 42%;
-    height: 104%;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-@media (max-width:1288.73px) {
-  .verification-section .image-container {
-    /* flex: 1; */
-    top: -2rem;
-    left: -3rem;
-    width: 42%;
-    height: 105%;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-@media (max-width:1288px) {
-  .verification-section .image-container {
-    /* flex: 1; */
-    top: -2rem;
-    left: -3rem;
-    width: 42%;
-    height: 105%;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-@media (max-width:1266.67px) {
-  .verification-section .image-container {
-    /* flex: 1; */
-    top: -2rem;
-    left: -3rem;
-    width: 42%;
-    height: 104.2%;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .verification-section {
-    height: 105%;
-  }
-}
-
-@media (max-width:1200px) {
-  .verification-section .image-container {
-    /* flex: 1; */
-    top: -2rem;
-    left: -3rem;
-    width: 45%;
-    height: 104.4%;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-@media (max-width:1188px) {
-  .verification-section .image-container {
-    /* flex: 1; */
-    top: -2rem;
-    left: -3rem;
+@media (max-width:1240px) {
+  .verification-section .image-hand-phone {
+    left: 3%;
     width: 50%;
-    height: 104.5%;
-    justify-content: center;
-    align-items: center;
+    height: 107%;
   }
 }
 
-@media (max-width:1148px) {
-  .verification-section .image-container {
-    /* flex: 1; */
-    top: -2rem;
-    left: -3rem;
-    width: 50%;
-    height: 104.2%;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-@media (max-width:1023.27px) {
-  .verification-section .image-container {
-    /* flex: 1; */
+@media (max-width:1023.20px) {
+  .verification-section .image-hand-phone {
     display: none;
   }
 
-  .verification-section .div-card-content {
-    padding: 2rem 5rem;
+  .wrap-hand-phone {
+    position: absolute;
+    padding: 0 5rem;
+    background-image: url("../src/images/handPhone.png");
+    background-repeat: no-repeat;
+  }
+
+  .hand-phone-content {
+    padding: 0 4rem;
+    background-image: url("../src/images/handPhone.png");
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+
   }
 }
+@media (min-width:640px){
+  .hand-phone-content { 
+    background-image: url("../src/images/handPhone.png");
+    background-repeat: no-repeat;
+    background-position: 100% 5%;
 
+  }
+}
+@media (max-width:640px){
+  .hand-phone-content { 
+    background-image: url("../src/images/handPhone.png");
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+
+  }
+}
+ 
+@media (min-width:1024px){
+  .hand-phone-content {
+     background-image: none;
+  }
+}
+.verification-section {
+  margin-bottom: 40rem;
+}
+
+
+/* .verification-section .image-hand-phone{
+  top: -2rem;
+  left: 10rem;
+  width: 100%;
+  height: 104%; 
+}
+
+@media (max-width:1093px) {
+  .verification-section .image-hand-phone{
+    top: -2rem;
+    left: 0;
+    width: 65%;
+    height: 104.7%;
+  }
+}
+@media (max-width:1048px) {
+  .verification-section .image-hand-phone{
+    top: -2rem;
+    left: 0;
+    width: 68%;
+    height: 104.4%;
+  }
+}
+@media (max-width:1029px) {
+  .verification-section .image-hand-phone{
+    top: -2rem;
+    left: 0;
+    width: 65%;
+    height: 104%;
+  }
+}
+@media (min-width:1025.60px) {
+  .verification-section .image-hand-phone{
+    top: -2rem;
+    left: 0;
+    width: 65%;
+    height: 104.25%;
+  }
+}
+@media (min-width:1045.50px) {
+  .verification-section .image-hand-phone{
+    top: -2rem;
+    left: 0;
+    width: 65%;
+    height: 104.4%;
+  }
+} */
 
 .pricing-section {
   min-height: 150vh;
@@ -536,9 +526,9 @@ form .logo-footer img {
   height: 40rem;
 }
 
- 
+
 @media (max-width:828px) {
-   
+
   .section-faster .faster {
     background-repeat: no-repeat;
     background-size: cover;
@@ -598,14 +588,15 @@ form .logo-footer img {
 }
 
 @media (max-width:770px) {
-  .main-section { 
-    background-repeat: no-repeat; 
+  .main-section {
+    background-repeat: no-repeat;
     background-position: 30% 36%;
   }
 }
+
 @media (max-width:770px) {
-  .main-section-customer { 
-    background-repeat: no-repeat; 
+  .main-section-customer {
+    background-repeat: no-repeat;
     background-position: 40% 100%;
   }
 }
@@ -627,81 +618,91 @@ form .logo-footer img {
 }
 
 @media (max-width:1483.87px) {
-  .group-cni{
+  .group-cni {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .userCni{
-    width: 90%; 
+
+  .userCni {
+    width: 90%;
   }
-  .userPhone{
+
+  .userPhone {
     width: 18%;
     height: 55%;
     left: 1.5rem;
   }
 }
-.footer-section-background{
+
+.footer-section-background {
   background-repeat: no-repeat;
   background-image: url("../src/images/femme-footer.png");
   background-position: bottom right;
   background-size: contain;
 }
+
 @media (max-width:960.00px) {
-  .group-cni{
+  .group-cni {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .userCni{
+
+  .userCni {
     width: 70%;
     height: 100%;
   }
-  .userPhone{
+
+  .userPhone {
     width: 18%;
     height: 55%;
     left: 6.5rem;
   }
 }
+
 @media (max-width:890.00px) {
-   
-  .userPhone{
+
+  .userPhone {
     width: 18%;
     height: 55%;
     left: 6rem;
   }
 }
+
 @media (max-width:805.33px) {
-   
-  .userPhone{
+
+  .userPhone {
     width: 18%;
     height: 55%;
     left: 5.5rem;
   }
-  
+
 }
+
 @media (max-width:754.13px) {
-   
-  .userPhone{
+
+  .userPhone {
     width: 18%;
     height: 55%;
     left: 5rem;
   }
 }
+
 @media (max-width:700.00px) {
-   
-  .userPhone{
+
+  .userPhone {
     width: 18%;
     height: 55%;
     left: 4.8rem;
   }
 }
+
 @media (max-width:666.67px) {
-   
-  .userPhone{
+
+  .userPhone {
     width: 18%;
     height: 55%;
     left: 4.3rem;
   }
 }
-
