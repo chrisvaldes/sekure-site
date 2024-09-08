@@ -29,7 +29,7 @@ export default function NavBar() {
             <nav aria-label="Global" class="">
               <ul className="flex items-center gap-6 text-sm">
                 <li class="flex items-center justify-center gap-2">
-                  <Link className="text-nav-color text-nav font-weight-nav font-family-nav transition hover:text-gray-500/75" to="/accueil">
+                  <Link className="text-nav-color text-nav font-weight-nav font-family-nav transition hover:text-gray-500/75" to="/">
                     Accueil
                   </Link>
                   <span class="text-emerald-300">
@@ -38,7 +38,7 @@ export default function NavBar() {
                 </li>
 
                 <li class="flex items-center justify-center gap-2">
-                  <Link className="text-nav-color text-nav font-weight-nav font-family-nav  transition hover:text-gray-500/75 text-nowrap" to="/">
+                  <Link className="text-nav-color text-nav font-weight-nav font-family-nav  transition hover:text-gray-500/75 text-nowrap" to="/customer">
                     Know your customer
                   </Link>
                   <span class="text-emerald-300">
@@ -47,9 +47,9 @@ export default function NavBar() {
                 </li>
 
                 <li class="flex items-center justify-center gap-2">
-                  <a className="text-nav-color text-nav font-weight-nav font-family-nav  transition hover:text-gray-500/75 text-nowrap" href="#">
+                  <Link className="text-nav-color text-nav font-weight-nav font-family-nav  transition hover:text-gray-500/75 text-nowrap" to="/screening">
                     AML Screening
-                  </a>
+                  </Link>
                   <span class="text-emerald-300">
                     <FontAwesomeIcon icon={faChevronDown} />
                   </span>
