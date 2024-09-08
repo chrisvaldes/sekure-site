@@ -203,7 +203,7 @@ nav .nav-items .nav-item {
 
 .grid-footer {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 15rem);
+  grid-template-columns: repeat(auto-fit, 12rem);
   align-items: center;
   justify-content: center;
   border-radius: 2.5rem;
