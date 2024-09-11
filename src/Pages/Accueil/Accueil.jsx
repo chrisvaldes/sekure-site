@@ -12,6 +12,7 @@ import groupDatabase from "../../images/groupDatabase.png";
 import userCni from "../../images/userCni.png";
 import userPhone from "../../images/userPhone.png";
 import world from "../../images/world-bg.png";
+import MiniNavBar from '../../Components/MiniNavBar';
 
 export default function Accueil() {
   return (
@@ -244,7 +245,7 @@ export default function Accueil() {
                 >
 
                 </div>
-                <img src={grandMere} alt="" className='absolute -top-28 left-10 grandMere' />
+                <img src={grandMere} alt="" className='absolute grandMere' />
               </div>
               <div >
                 <h2 class="text-cyan-deep text-left  font-semibold text-title-3 font-weight-title-3 font-satoshi-2 leading-normal mb-5 font-bold w-full">
@@ -382,7 +383,7 @@ export default function Accueil() {
                   className="  rounded-3xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color  w-width-card-vert h-height-card-vert"
                   href="#"
                 >
-                  <img src={groupGirl} alt="" className='absolute -top-5 -left-5 groupGirl' />
+                  <img src={groupGirl} alt="" className='absolute -top-1 -left-5 groupGirl' />
                 </div>
               </div>
             </div>
@@ -536,98 +537,8 @@ export default function Accueil() {
           </div>
         </section>
 
-
-        <section class="bg-white">
-          <div class="text-left text-2xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-cyan-deep ml-20 sm:ml-20 md:ml-20 lg:ml-40  pt-10">
-            <span class="">
-              Tous les outils qu'il vous faut pour proteger <br />
-              votre plateforme de la fraude
-            </span>
-          </div>
-          <div className='mx-20'>
-            <ul class="flex mini-nav-items items-center justify-around bg-gray-100 rounded-xl my-10 gap-x-5 px-5">
-              <li class="text-xl py-5 mini-nav-item-active">
-                <a href="">Vérification d'identité</a>
-              </li>
-              <li class="text-xl py-5 mini-nav-item">
-                <a href="">Vérification biométrique</a>
-              </li>
-              <li class="text-xl py-5 mini-nav-item">
-                <a href="">Preuve d'adresse</a>
-              </li>
-              <li class="text-xl py-5 mini-nav-item">
-                <a href="">Detection d'appareil</a>
-              </li>
-              <li class="text-xl py-5 mini-nav-item">
-                <a href="">Sactions</a>
-              </li>
-            </ul>
-
-
-            <div class="flex flex-wrap items-center justify-center gap-16 pb-10 lg:pb-16 px-10">
-              <div class="flex items-center justiy-around gap-10">
-                <div class=" flex items-center justify-center">
-                  <img src={cni} alt="" className='w-3/4 h-3/7' />
-                </div>
-              </div>
-              <div >
-                <h2 class="text-cyan-deep text-left text-title-3 font-weight-title-3 font-satoshi leading-normal mb-5 font-bold w-full">
-                  Identifications et Vérifications par scan <br />
-                  facial inteligent et rapide
-                </h2>
-                <div class="text-left text-content font-family-content font-normal leading-loose mb-10">
-                  Localement ou internationalement, vos achats en ligne ne connaissent plus de limite <br />
-                  avec les carte virtuelles Visa MasterCard de chez SEKURE. En 2 minutes, créez et <br />
-                  vérifiez votre compte Sekure pour obtenir votre carte virtuelle. Entre des frais d'entretien <br />
-                  inexistants et des frais de
-                </div>
-                <div class="grid grid-cols-2 items-center justify-center gap-10">
-                  <div class="flex items-center justify-center gap-5">
-                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
-                      <span class="icon text-white p-2">
-                        <FontAwesomeIcon icon={faCheck} />
-                      </span>
-                    </div>
-                    <div class="text-left text-content-title-3 font-semibold">
-                      Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
-                    </div>
-                  </div>
-                  <div class="flex items-center justify-center gap-5">
-                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
-                      <span class="icon text-white p-2">
-                        <FontAwesomeIcon icon={faCheck} />
-                      </span>
-                    </div>
-                    <div class="text-left text-content-title-3 font-semibold">
-                      Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
-                    </div>
-                  </div>
-                  <div class="flex items-center justify-center gap-5">
-                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
-                      <span class="icon text-white p-2">
-                        <FontAwesomeIcon icon={faCheck} />
-                      </span>
-                    </div>
-                    <div class="text-left text-content-title-3 font-semibold">
-                      Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
-                    </div>
-                  </div>
-                  <div class="flex items-center justify-center gap-5">
-                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
-                      <span class="icon text-white p-2">
-                        <FontAwesomeIcon icon={faCheck} />
-                      </span>
-                    </div>
-                    <div class="text-left text-content-title-3 font-semibold">
-                      Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
+          <MiniNavBar/>
+ 
         <section class="world-section px-20 " style={{ backgroundImage: `url(${world})`, backgroundPosition: "top right", backgroundRepeat: "no-repeat" }}>
 
           <div class="">
