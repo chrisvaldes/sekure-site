@@ -251,7 +251,7 @@ export default function NavBar() {
             </Link>
           </li>
           <li class="flex items-center justify-between gap-2 py-2 px-3 rounded-lg hover:bg-cyan-200">
-            <Link className="flex items-center justify-between w-full text-nav-color text-nav font-weight-nav font-family-nav transition hover:text-gray-500/75" to="/princing">
+            <Link className="flex items-center justify-between w-full text-nav-color text-nav font-weight-nav font-family-nav transition hover:text-gray-500/75" to="/pricing">
               <span>Pricing</span>
               <span class="text-emerald-300">
                 <FontAwesomeIcon icon={faChevronDown} />
