@@ -130,7 +130,7 @@ export default function NavBar() {
         <nav
           id="sidebar"
           ref={sidebarRef}
-          className={`fixed left-0 bottom-0 flex w-3/12 px-2 transform flex-col overflow-y-auto bg-gray-700 pt-20 pb-8 h-full transition-transform duration-300 ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'}`}
+          className={`fixed containerSidebarNav left-0 bottom-0 flex w-5/12 sm:w-4/12 md:w-3/12 px-2 transform flex-col overflow-y-auto bg-gray-700 pt-20 pb-8 h-full transition-transform duration-300 ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'}`}
         >
 
           {/* <div className="px-4 pb-6">

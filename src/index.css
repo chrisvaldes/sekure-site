@@ -138,6 +138,9 @@ nav .nav-items .nav-item {
   text-wrap: nowrap;
 }
 
+
+
+
 /* .world-section {
   min-height: 100vh;
 } */
@@ -310,7 +313,7 @@ form .logo-footer img {
   height: 316.7px;
 }
 
-.cni{
+.cni {
   width: 441px;
   height: 447.24px;
 }
@@ -326,7 +329,7 @@ form .logo-footer img {
 }
 
 .image-hand-phone {
-  
+
   top: -7%;
   left: 3%;
   width: 37.2%;
@@ -363,7 +366,8 @@ form .logo-footer img {
 
   }
 }
-@media (min-width:640px){
+
+@media (min-width:640px) {
   .hand-phone-content {
     background-image: url("../src/images/handPhone.png");
     background-repeat: no-repeat;
@@ -371,18 +375,21 @@ form .logo-footer img {
 
   }
 }
-@media (max-width:640px){
+
+@media (max-width:640px) {
   .hand-phone-content {
     background-image: url("../src/images/handPhone.png");
     background-repeat: no-repeat;
     background-position: bottom;
   }
 }
-@media (min-width:1024px){
+
+@media (min-width:1024px) {
   .hand-phone-content {
     background-image: none;
   }
 }
+
 .verification-section {
   margin-bottom: 40rem;
 }
