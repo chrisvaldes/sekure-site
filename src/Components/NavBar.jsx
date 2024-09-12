@@ -58,16 +58,50 @@ export default function NavBar() {
             <div className="nav-items">
               <nav aria-label="Global">
                 <ul className="flex items-center gap-6 text-sm">
-                  {['Accueil', 'Know your customer', 'AML Screening', 'Pricing', 'About us'].map((text, index) => (
-                    <li className="flex items-center justify-center gap-2" key={index}>
-                      <Link className="text-nav-color text-nav font-weight-nav font-family-nav transition hover:text-gray-500/75" to={`/${text.toLowerCase().replace(/\s+/g, '-')}`}>
-                        {text}
-                      </Link>
-                      <span className="text-emerald-300">
-                        <FontAwesomeIcon icon={faChevronDown} />
-                      </span>
-                    </li>
-                  ))}
+                  <li class="flex items-center justify-center gap-2">
+                    <Link className="text-nav-color text-nav font-weight-nav font-family-nav transition hover:text-gray-500/75" to="/">
+                      Accueil
+                    </Link>
+                    <span class="text-emerald-300">
+                      <FontAwesomeIcon icon={faChevronDown} />
+                    </span>
+                  </li>
+
+                  <li class="flex items-center justify-center gap-2">
+                    <Link className="text-nav-color text-nav font-weight-nav font-family-nav  transition hover:text-gray-500/75 text-nowrap" to="/customer">
+                      Know your customer
+                    </Link>
+                    <span class="text-emerald-300">
+                      <FontAwesomeIcon icon={faChevronDown} />
+                    </span>
+                  </li>
+
+                  <li class="flex items-center justify-center gap-2">
+                    <a className="text-nav-color text-nav font-weight-nav font-family-nav  transition hover:text-gray-500/75 text-nowrap" href="/screening">
+                      AML Screening
+                    </a>
+                    <span class="text-emerald-300">
+                      <FontAwesomeIcon icon={faChevronDown} />
+                    </span>
+                  </li>
+
+                  <li class="flex items-center justify-center gap-2">
+                    <Link className="text-nav-color text-nav font-weight-nav font-family-nav  transition hover:text-gray-500/75 text-nowrap" to="/pricing">
+                      Pricing
+                    </Link>
+                    <span class="text-emerald-300">
+                      <FontAwesomeIcon icon={faChevronDown} />
+                    </span>
+                  </li>
+
+                  <li class="flex items-center justify-center gap-2">
+                    <Link className="text-nav-color text-nav font-weight-nav font-family-nav  transition hover:text-gray-500/75 text-nowrap" to="/about">
+                      About us
+                    </Link>
+                    <span class="text-emerald-300">
+                      <FontAwesomeIcon icon={faChevronDown} />
+                    </span>
+                  </li>
                 </ul>
               </nav>
             </div>
@@ -218,7 +252,7 @@ export default function NavBar() {
           </li>
           <li class="flex items-center justify-between gap-2 py-2 px-3 rounded-lg hover:bg-cyan-200">
             <Link className="flex items-center justify-between w-full text-nav-color text-nav font-weight-nav font-family-nav transition hover:text-gray-500/75" to="/princing">
-            <span>Pricing</span>
+              <span>Pricing</span>
               <span class="text-emerald-300">
                 <FontAwesomeIcon icon={faChevronDown} />
               </span>
@@ -226,12 +260,12 @@ export default function NavBar() {
           </li>
           <li class="flex items-center justify-between gap-2 py-2 px-3 rounded-lg hover:bg-cyan-200">
             <Link className="flex items-center justify-between w-full text-nav-color text-nav font-weight-nav font-family-nav transition hover:text-gray-500/75" to="/about">
-            <span>About Us</span>
+              <span>About Us</span>
               <span class="text-emerald-300">
                 <FontAwesomeIcon icon={faChevronDown} />
               </span>
             </Link>
-          </li> 
+          </li>
         </nav>
       </div>
 
