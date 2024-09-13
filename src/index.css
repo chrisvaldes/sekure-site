@@ -355,17 +355,17 @@ form .logo-footer img {
     background-image: url("../src/images/handPhone.png");
     background-repeat: no-repeat;
     background-position: 100% -25%;
-
-  }
-}
-
-@media (max-width:640px) {
-  .hand-phone-content {
-    background-image: url("../src/images/handPhone.png");
-    background-repeat: no-repeat;
     background-position: bottom;
   }
 }
+
+/* @media (max-width:640px) {
+  .hand-phone-content {
+    background-image: url("../src/images/handPhone.png");
+    background-repeat: no-repeat;
+    
+  }
+} */
 
 @media (min-width:1024px) {
   .hand-phone-content {
@@ -701,5 +701,14 @@ form .logo-footer img {
     width: 18%;
     height: 55%;
     left: 5.4rem;
+  }
+}
+@media (max-width:577px) {
+  .main-section{
+    background-image: none; 
+  }
+  .title{
+    text-align: left;
+    font-size: 2.6rem;
   }
 }
