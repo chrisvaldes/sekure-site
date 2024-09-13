@@ -55,7 +55,7 @@ export default function Accueil() {
           </div>
 
           {/* Grid section */}
-          <div class='px-20 w-full'>
+          <div class='w-full'>
             <div class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 rounded-2xl bg-white items-center justify-center gap-y-5 py-10 px-5">
               <div class="flex items-center justify-center gap-x-5  ">
                 <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">

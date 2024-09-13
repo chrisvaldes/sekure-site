@@ -1,4 +1,4 @@
-import { faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect, useRef, useState } from "react";
 import { Link } from 'react-router-dom';
@@ -126,11 +126,11 @@ export default function NavBar() {
       </nav>
 
       {/* Sidebar */}
-      <div id="containerSidebar" className="z-40">
+      <div>
         <nav
           id="sidebar"
           ref={sidebarRef}
-          className={`fixed containerSidebarNav left-0 bottom-0 flex w-5/12 sm:w-4/12 md:w-3/12 px-2 transform flex-col overflow-y-auto bg-gray-700 pt-20 pb-8 h-full transition-transform duration-300 ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'}`}
+          className={`fixed containerSidebarNav left-0 bottom-0 flex w-5/12 sm:w-4/12 md:w-3/12 px-2 transform flex-col overflow-y-auto   pt-20 pb-8 h-full transition-transform duration-300 ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'}`}
         >
 
           {/* <div className="px-4 pb-6">
