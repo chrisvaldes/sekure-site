@@ -1,51 +1,51 @@
-import { faCheck } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import Footer from '../../Components/Footer';
 import NavBar from '../../Components/NavBar';
+import groupDatabase from '../../image/page-1/groupDatabase.png';
+import image3 from '../../image/page-1/image3.png';
+import image1 from '../../image/page-1/image1.png';
+import image2 from '../../image/page-1/image2.png';
+import picture1 from '../../image/page-1/picture1.png';
+import picture2 from '../../image/page-1/picture2.png';
+
+import smallCircle from "../../image/page-1/small-circle.png";
 import arrow from "../../images/arrow.png";
-import cniPassport from "../../images/cni-passport.png";
-import cni from "../../images/cni.png";
-import grandMere from "../../images/grand-mère.png";
-import groupGirl from "../../images/group-girl.png";
-import groupDatabase from "../../images/groupDatabase.png";
-import userCni from "../../images/userCni.png";
-import userPhone from "../../images/userPhone.png";
+
 import world from "../../images/world-bg.png";
-import MiniNavBar from '../../Components/MiniNavBar';
+
 
 export default function Accueil() {
   return (
-    <div className='flex w-full'>
-      <div className='main-Contain'>
+    <div className=''>
+      <div className=' '>
 
         <section>
           <NavBar />
         </section>
 
         <section class="main-section pt-20 px-10  w-full">
-          <div class="section-faster " >
-            <div class="pt-10 pl-12 md:pl-20 lg:pl-24">
+          <div class="w-full" >
+            <div class="w-full">
               <div class="flex identity-button">
                 <button class="text-nowrap h-button-first w-button-first rounded-md bg-white text-cyan-deep py-3 px-5 text-sub-content font-weight-nav font-family-nav my-2 flex items-center justify-center">
                   THE IDENTITY VERIFICATION PLATFORM
                 </button>
               </div>
-              <div class="title text-title font-weight-title font-satoshi leading-normal text-center sm:text-left md:text-left lg:text-left font-bold text-cyan-color">
-                <span class="text-cyan-deep">Faster, more accurate, and <br /> built for you :</span>
+              <div class="page1-title">
+                <span class="text-cyan-deep">Faster, more accurate, and <br /> built for you : </span>
                 <span>fraud prevention <br /> done right</span>
               </div>
-              <div class="title-content text-cyan-deep text-left text-content font-weight-content font-family-content leading-normal-1 mt-5">
+              <div class="page1-content">
                 The only AI-powered identity verification platform form fraud prevention, compliance, and <br />
                 safeguarding your customers. Build trusted digital communities, improve UX, and drive <br />
                 growth for your business with Veriff.
               </div>
               <div class="flex group-button mt-5 gap-10 ">
-                <button class="text-nowrap rounded-md bg-cyan-deep py-4 px-5 rounded-md text-white  h-button-height w-button-width text-sm flex items-center justify-center">Commencer gratuitement</button>
-                <button class="text-nowrap rounded-md bg-white py-4 px-20 rounded-md text-cyan-deep font-semibold  text-sm">Contacter</button>
+                <button class="btn-page1">Commencer gratuitement</button>
+                <button class="btn-next-page1">Contacter</button>
               </div>
               <div >
-                <h2 class="title-1 text-cyan-deep text-title-1 font-medium font-satoshi leading-normal text-left font-bold py-20 ">
+                <h2 class="page1-title2">
                   Make identity verification quick and easy by <br />
                   helping genuine users get verified the first time, <br />
                   while keeping fraudsters out
@@ -56,83 +56,56 @@ export default function Accueil() {
 
           {/* Grid section */}
           <div class='w-full'>
-            <div class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 rounded-2xl bg-white items-center justify-center gap-y-5 py-10 px-5">
-              <div class="flex items-center justify-center gap-x-5  ">
-                <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
-                  <div class="rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 flex items-center justify-center">
-                    <span class="icon text-white">
-                      <FontAwesomeIcon icon={faCheck} />
-                    </span>
-                  </div>
+            <div class="w-full grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 rounded-2xl bg-white items-center justify-center gap-y-5 py-10 px-5">
+              <div class="relative flex items-center justify-center">
+                <div class="absolute top-0 left-0">
+                  <img src={image3} alt=""/>
                 </div>
-                <div class="text-left">
-                  <div class="title-4 font-semibold text-title-4 font-weight-title-4 font-satoshi-4">Large Couverture en Afrique</div>
-                  <div class="title-content text-content-title-4"> The only AI-powered identity verification</div>
-                </div>
-              </div>
-              <div class="flex items-center justify-center gap-x-5   ">
-                <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
-                  <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 bg-cyan-color flex items-center justify-center">
-                    <span class="icon text-white">
-                      <FontAwesomeIcon icon={faCheck} />
-                    </span>
-                  </div>
-                </div>
-                <div class="text-left">
-                  <div class="font-semibold title-4 text-title-4 font-weight-title-4 font-satoshi-4">Adverse media screening</div>
-                  <div class="title-content text-content-title-4">The only AI-powered identity verification</div>
+                <div class="text-left pl-24 sm:pl-0 md:pl-16 lg:pl-20">
+                  <h4 className='section-card1-title'>
+                    Rendez la vérification facile et <br />rapide pour vos utilisateurs
+                  </h4>
+                  <p className='section-card1-content'>
+                    Offrez à vos utilisateurs une expérience de <br />
+                    vérification fluide et sans tracas. Grâce à notre <br />
+                    technologie de pointe, la vérification d'identité <br />
+                    devient un processus simple et rapide.
+                  </p>
                 </div>
               </div>
-              <div class="flex items-center justify-center gap-x-5  ">
-                <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
-                  <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 bg-cyan-color flex items-center justify-center">
-                    <span class="icon text-white">
-                      <FontAwesomeIcon icon={faCheck} />
-                    </span>
-                  </div>
+              <div class="relative flex items-center justify-center">
+                <div class="absolute top-0 left-0">
+                  <img src={image2} alt=""/>
                 </div>
-                <div class="text-left">
-                  <div class="font-semibold title-4 text-title-4 font-weight-title-4 font-satoshi-4">Enhanced due diligence (EDD) : </div>
-                  <div class="title-content text-content-title-4">The only AI-powered identity verification</div>
-                </div>
-              </div>
-              <div class="flex items-center justify-center gap-x-5  ">
-                <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
-                  <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 bg-cyan-color flex items-center justify-center">
-                    <span class="icon text-white">
-                      <FontAwesomeIcon icon={faCheck} />
-                    </span>
-                  </div>
-                </div>
-                <div class="text-left">
-                  <div class="font-semibold title-4 text-title-4 font-weight-title-4 font-satoshi-4">PEP Screening</div>
-                  <div class="title-content text-content-title-4">The only AI-powered identity verification</div>
+                <div class="text-left pl-24 sm:pl-0 md:pl-16 lg:pl-20">
+                  <h4 className='section-card1-title'>
+                  Decouvrez qui vous acceptez <br /> dans votre plateforme
+                  </h4>
+                  <p className='section-card1-content'>
+                  Atteignez des utilisateurs dans toute l'Afrique <br />
+                  et au-delà. Notre plateforme globale vous permet <br />
+                  d'accepter des utilisateurs de diverses régions, <br />
+                  en surmontant les obstacles géographiques et <br />
+                  linguistiques.
+                  </p>
                 </div>
               </div>
-              <div class="flex items-center justify-center gap-x-5  ">
-                <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
-                  <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 bg-cyan-color flex items-center justify-center">
-                    <span class="icon text-white">
-                      <FontAwesomeIcon icon={faCheck} />
-                    </span>
-                  </div>
+              <div class="relative flex items-center justify-center">
+                <div class="absolute top-0 left-0">
+                  <img src={image1} alt=""/>
                 </div>
-                <div class="text-left">
-                  <div class="font-semibold title-4 text-title-4 font-weight-title-4 font-satoshi-4">Ongoing monitoring</div>
-                  <div class="title-content text-content-title-4">The only AI-powered identity verification</div>
-                </div>
-              </div>
-              <div class="flex items-center justify-center gap-x-5  ">
-                <div class="flex items-center justify-center bg-gray-200 p-3 sm:p-3 lg:p-5 rounded-full">
-                  <div class="  rounded-full bg-cyan-color px-1 sm:px-1 md:px-1 lg:px-2 lg:py-1 bg-cyan-color flex items-center justify-center">
-                    <span class="icon text-white">
-                      <FontAwesomeIcon icon={faCheck} />
-                    </span>
-                  </div>
-                </div>
-                <div class="text-left">
-                  <div class="font-semibold title-4 text-title-4 font-weight-title-4 font-satoshi-4">Sanction screening</div>
-                  <div class="title-content text-content-title-4">The only AI-powered identity verification</div>
+                <div class="text-left pl-24 sm:pl-0 md:pl-16 lg:pl-20">
+                  <h4 className='section-card1-title'>
+                  Decouvrez qui vous acceptez <br />
+                  dans votre plateforme
+                  </h4>
+                  <p className='section-card1-content'>
+                  En combinant l'analyse biométrique avec des <br />
+                  vérifications approfondies d'antécédents et une <br />
+                  collecte de données rigoureuse, nous vous offrons <br /> 
+                  une visibilité inégalée sur l'identité de ceux que <br />
+                  vous accueillez sur votre plateforme.
+                  </p>
                 </div>
               </div>
             </div>
@@ -144,16 +117,17 @@ export default function Accueil() {
 
           This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
         */}
-
+        {/* problems  */}
         <section class="">
           <div className=" px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
-            <div className="flex flex-wrap items-center justify-around  gap-y-8  ">
+            <div className="flex flex-wrap items-center justify-center  gap-y-8  ">
               <div class=" mx-10">
-                <h2 class="text-cyan-deep text-left  font-semibold text-title-3 font-weight-title-3 font-satoshi-2 leading-normal mb-5 font-bold w-full">
-                  Detection et protection contre les <br />
-                  fraudes et schémas frauduleux
+                <h2 class="page-title3">
+                  Acceptez un maximum de documents <br />
+                  pour vérifier les identité de vos <br />
+                  utilisateurs dans leur region
                 </h2>
-                <div class="text-left text-content font-weight-content font-family-content leading-loose font-semibold mb-10">
+                <div class="page-title3-content">
                   Localement ou internationalement, vos achats en ligne ne connaissent plus de limite <br />
                   avec les carte virtuelles Visa MasterCard de chez SEKURE. En 2 minutes, créez et <br />
                   vérifiez votre compte Sekure pour obtenir votre carte virtuelle. Entre des frais d'entretien <br />
@@ -161,42 +135,34 @@ export default function Accueil() {
                 </div>
                 <div class="grid grid-cols-2 items-center justify-center gap-10">
                   <div class="flex items-center justify-center gap-5">
-                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
-                      <span class="icon text-white p-2">
-                        <FontAwesomeIcon icon={faCheck} />
-                      </span>
+                    <div class="">
+                      <img src={smallCircle} alt="" />
                     </div>
-                    <div class="text-left text-content-title-3 font-semibold">
+                    <div class="small-circle-content">
                       Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                     </div>
                   </div>
                   <div class="flex items-center justify-center gap-5">
-                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
-                      <span class="icon text-white p-2">
-                        <FontAwesomeIcon icon={faCheck} />
-                      </span>
+                    <div class="">
+                      <img src={smallCircle} alt="" />
                     </div>
-                    <div class="text-left text-content-title-3 font-semibold">
+                    <div class="small-circle-content">
                       Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                     </div>
                   </div>
                   <div class="flex items-center justify-center gap-5">
-                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
-                      <span class="icon text-white p-2">
-                        <FontAwesomeIcon icon={faCheck} />
-                      </span>
+                    <div class="">
+                      <img src={smallCircle} alt="" />
                     </div>
-                    <div class="text-left text-content-title-3 font-semibold">
+                    <div class="small-circle-content">
                       Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                     </div>
                   </div>
                   <div class="flex items-center justify-center gap-5">
-                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
-                      <span class="icon text-white p-2">
-                        <FontAwesomeIcon icon={faCheck} />
-                      </span>
+                    <div class="">
+                      <img src={smallCircle} alt="" />
                     </div>
-                    <div class="text-left text-content-title-3 font-semibold">
+                    <div class="small-circle-content">
                       Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                     </div>
                   </div>
@@ -204,7 +170,7 @@ export default function Accueil() {
               </div>
 
               <div className=" relative flex flex-col items-center justify-center md:flex-col lg:flex-col items-center justify-center gap-10 sm:flex-col">
-                <div
+                {/* <div
                   className="rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color w-width-card-vert h-height-card-vert"
                   href="#"
                 >
@@ -212,11 +178,13 @@ export default function Accueil() {
                 </div>
 
                 <div
-                  className="  rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color  w-width-card-vert h-height-card-vert"
+                  className="flex rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color  w-width-card-vert h-height-card-vert"
                   href="#"
                 >
                   <img src={cniPassport} alt="" className='absolute -top-12 right-0' />
-                </div>
+                </div> */}
+                <img src={picture1} alt="" className='cover w-96' />
+
               </div>
             </div>
           </div>
@@ -228,11 +196,12 @@ export default function Accueil() {
           This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
         */}
 
+        {/* problems  */}
         <section class="">
           <div className=" px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
             <div className="flex flex-wrap-reverse items-center justify-around  gap-y-28 gap-x-8">
               <div className=" relative flex items-center justify-center gap-10">
-                <div
+                {/* <div
                   className="  rounded-3xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color w-width-card-horiz h-height-card-horiz"
                   href="#"
                 >
@@ -244,15 +213,16 @@ export default function Accueil() {
                   href="#"
                 >
 
-                </div>
-                <img src={grandMere} alt="" className='absolute grandMere' />
+                </div> */}
+                <img src={picture2} alt="" className='' />
               </div>
-              <div >
-                <h2 class="text-cyan-deep text-left  font-semibold text-title-3 font-weight-title-3 font-satoshi-2 leading-normal mb-5 font-bold w-full">
-                  Identifications et Vérifications par scan <br />
-                  facial inteligent et rapide
+              <div class=" mx-10">
+                <h2 class="page-title3">
+                  Acceptez un maximum de documents <br />
+                  pour vérifier les identité de vos <br />
+                  utilisateurs dans leur region
                 </h2>
-                <div class="text-left text-content font-weight-content font-family-content leading-loose font-semibold mb-10">
+                <div class="page-title3-content">
                   Localement ou internationalement, vos achats en ligne ne connaissent plus de limite <br />
                   avec les carte virtuelles Visa MasterCard de chez SEKURE. En 2 minutes, créez et <br />
                   vérifiez votre compte Sekure pour obtenir votre carte virtuelle. Entre des frais d'entretien <br />
@@ -260,42 +230,34 @@ export default function Accueil() {
                 </div>
                 <div class="grid grid-cols-2 items-center justify-center gap-10">
                   <div class="flex items-center justify-center gap-5">
-                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
-                      <span class="icon text-white p-2">
-                        <FontAwesomeIcon icon={faCheck} />
-                      </span>
+                    <div class="">
+                      <img src={smallCircle} alt="" />
                     </div>
-                    <div class="text-left text-content-title-3 font-semibold">
+                    <div class="small-circle-content">
                       Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                     </div>
                   </div>
                   <div class="flex items-center justify-center gap-5">
-                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
-                      <span class="icon text-white p-2">
-                        <FontAwesomeIcon icon={faCheck} />
-                      </span>
+                    <div class="">
+                      <img src={smallCircle} alt="" />
                     </div>
-                    <div class="text-left text-content-title-3 font-semibold">
+                    <div class="small-circle-content">
                       Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                     </div>
                   </div>
                   <div class="flex items-center justify-center gap-5">
-                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
-                      <span class="icon text-white p-2">
-                        <FontAwesomeIcon icon={faCheck} />
-                      </span>
+                    <div class="">
+                      <img src={smallCircle} alt="" />
                     </div>
-                    <div class="text-left text-content-title-3 font-semibold">
+                    <div class="small-circle-content">
                       Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                     </div>
                   </div>
                   <div class="flex items-center justify-center gap-5">
-                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
-                      <span class="icon text-white p-2">
-                        <FontAwesomeIcon icon={faCheck} />
-                      </span>
+                    <div class="">
+                      <img src={smallCircle} alt="" />
                     </div>
-                    <div class="text-left text-content-title-3 font-semibold">
+                    <div class="small-circle-content">
                       Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                     </div>
                   </div>
@@ -312,16 +274,17 @@ export default function Accueil() {
 
           This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
         */}
-
-        <section class="">
+        {/* problems  */}
+        {/* <section class="">
           <div className=" px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
             <div className="flex flex-wrap items-center justify-around  gap-y-8  ">
-              <div class=" mx-10">
-                <h2 class="text-cyan-deep text-left  font-semibold text-title-3 font-weight-title-3 font-satoshi-2 leading-normal mb-5 font-bold w-full">
-                  Detection et protection contre les <br />
-                  fraudes et schémas frauduleux
+            <div class=" mx-10">
+                <h2 class="page-title3">
+                  Acceptez un maximum de documents <br />
+                  pour vérifier les identité de vos <br />
+                  utilisateurs dans leur region
                 </h2>
-                <div class="text-left text-content font-weight-content font-family-content leading-loose font-semibold mb-10">
+                <div class="page-title3-content">
                   Localement ou internationalement, vos achats en ligne ne connaissent plus de limite <br />
                   avec les carte virtuelles Visa MasterCard de chez SEKURE. En 2 minutes, créez et <br />
                   vérifiez votre compte Sekure pour obtenir votre carte virtuelle. Entre des frais d'entretien <br />
@@ -329,42 +292,34 @@ export default function Accueil() {
                 </div>
                 <div class="grid grid-cols-2 items-center justify-center gap-10">
                   <div class="flex items-center justify-center gap-5">
-                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
-                      <span class="icon text-white p-2">
-                        <FontAwesomeIcon icon={faCheck} />
-                      </span>
+                    <div class="">
+                      <img src={smallCircle} alt="" />
                     </div>
-                    <div class="text-left text-content-title-3 font-semibold">
+                    <div class="small-circle-content">
                       Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                     </div>
                   </div>
                   <div class="flex items-center justify-center gap-5">
-                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
-                      <span class="icon text-white p-2">
-                        <FontAwesomeIcon icon={faCheck} />
-                      </span>
+                    <div class="">
+                      <img src={smallCircle} alt="" />
                     </div>
-                    <div class="text-left text-content-title-3 font-semibold">
+                    <div class="small-circle-content">
                       Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                     </div>
                   </div>
                   <div class="flex items-center justify-center gap-5">
-                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
-                      <span class="icon text-white p-2">
-                        <FontAwesomeIcon icon={faCheck} />
-                      </span>
+                    <div class="">
+                      <img src={smallCircle} alt="" />
                     </div>
-                    <div class="text-left text-content-title-3 font-semibold">
+                    <div class="small-circle-content">
                       Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                     </div>
                   </div>
                   <div class="flex items-center justify-center gap-5">
-                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
-                      <span class="icon text-white p-2">
-                        <FontAwesomeIcon icon={faCheck} />
-                      </span>
+                    <div class="">
+                      <img src={smallCircle} alt="" />
                     </div>
-                    <div class="text-left text-content-title-3 font-semibold">
+                    <div class="small-circle-content">
                       Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                     </div>
                   </div>
@@ -388,7 +343,7 @@ export default function Accueil() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/*
           Heads up! 👋
@@ -398,29 +353,17 @@ export default function Accueil() {
 
         <section class="">
           <div className=" px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
-            <div className="flex flex-wrap-reverse items-center justify-around  gap-y-28 gap-x-8">
+            <div className="flex flex-wrap-reverse items-center justify-center  gap-y-28 gap-x-8">
               <div className=" relative flex items-center justify-center gap-10 mb-10">
-                <div
-                  className="  rounded-3xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color w-width-card-horiz h-height-card-horiz"
-                  href="#"
-                >
-
-                </div>
-
-                <div
-                  className="  rounded-3xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring bg-cyan-color  w-width-card-horiz h-height-card-horiz"
-                  href="#"
-                >
-
-                </div>
-                <img src={groupDatabase} alt="" className='absolute -top-15 left-0 groupDatabase' />
+                <img src={groupDatabase} alt="" className='cover w-96' />
               </div>
-              <div >
-                <h2 class="text-cyan-deep text-left text-title-3 font-weight-title-3 font-satoshi leading-normal mb-5 font-bold w-full">
-                  Identifications et Vérifications par scan <br />
-                  facial inteligent et rapide
+              <div class=" mx-10">
+                <h2 class="page-title3">
+                  Acceptez un maximum de documents <br />
+                  pour vérifier les identité de vos <br />
+                  utilisateurs dans leur region
                 </h2>
-                <div class="text-left text-content font-weight-content font-family-content leading-loose font-semibold mb-10">
+                <div class="page-title3-content">
                   Localement ou internationalement, vos achats en ligne ne connaissent plus de limite <br />
                   avec les carte virtuelles Visa MasterCard de chez SEKURE. En 2 minutes, créez et <br />
                   vérifiez votre compte Sekure pour obtenir votre carte virtuelle. Entre des frais d'entretien <br />
@@ -428,42 +371,34 @@ export default function Accueil() {
                 </div>
                 <div class="grid grid-cols-2 items-center justify-center gap-10">
                   <div class="flex items-center justify-center gap-5">
-                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
-                      <span class="icon text-white p-2">
-                        <FontAwesomeIcon icon={faCheck} />
-                      </span>
+                    <div class="">
+                      <img src={smallCircle} alt="" />
                     </div>
-                    <div class="text-left text-content-title-3 font-semibold">
+                    <div class="small-circle-content">
                       Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                     </div>
                   </div>
                   <div class="flex items-center justify-center gap-5">
-                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
-                      <span class="icon text-white p-2">
-                        <FontAwesomeIcon icon={faCheck} />
-                      </span>
+                    <div class="">
+                      <img src={smallCircle} alt="" />
                     </div>
-                    <div class="text-left text-content-title-3 font-semibold">
+                    <div class="small-circle-content">
                       Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                     </div>
                   </div>
                   <div class="flex items-center justify-center gap-5">
-                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
-                      <span class="icon text-white p-2">
-                        <FontAwesomeIcon icon={faCheck} />
-                      </span>
+                    <div class="">
+                      <img src={smallCircle} alt="" />
                     </div>
-                    <div class="text-left text-content-title-3 font-semibold">
+                    <div class="small-circle-content">
                       Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                     </div>
                   </div>
                   <div class="flex items-center justify-center gap-5">
-                    <div class="flex items-center justify-center small-circle-check rounded-full bg-cyan-color z-100">
-                      <span class="icon text-white p-2">
-                        <FontAwesomeIcon icon={faCheck} />
-                      </span>
+                    <div class="">
+                      <img src={smallCircle} alt="" />
                     </div>
-                    <div class="text-left text-content-title-3 font-semibold">
+                    <div class="small-circle-content">
                       Idéales pour sponsoriser les publicités <br /> sur facebook, LinkedIn, X, Google
                     </div>
                   </div>
@@ -476,7 +411,7 @@ export default function Accueil() {
 
         <section>
           {/* Grid section */}
-          <div class="bg-cyan-deep rounded-3xl py-10 px-5 mx-20">
+          {/* <div class="bg-cyan-deep rounded-3xl py-10 px-5 mx-20">
 
             <div class="title-1 text-title-1 font-weight-title font-satoshi leading-normal font-bold text-cyan-color">
               With Aibiometrics, anonymous strangers easyli <br />
@@ -534,11 +469,11 @@ export default function Accueil() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </section>
+        {/* problems  */}
+        {/* <MiniNavBar /> */}
 
-          <MiniNavBar/>
- 
         <section class="world-section px-20 " style={{ backgroundImage: `url(${world})`, backgroundPosition: "top right", backgroundRepeat: "no-repeat" }}>
 
           <div class="">
@@ -569,6 +504,9 @@ export default function Accueil() {
               Ochestration identity verification checks, code-free. Place checks at any stage of the customer journey for top anti-fraud protection and pass rates worldwide.
             </div>
           </div>
+
+
+          {/* ///////////////////////////////////// */}
           {/* <div class="big-circles gap-y-10 pb-10">
             <div class="flex flex-col items-center justify-center relative">
               <div class="group">
@@ -675,6 +613,9 @@ export default function Accueil() {
               </div>
             </div>
           </div> */}
+
+          {/* /////////////////////// */}
+
           <div class="big-circles grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-y-10 gap-x-5 pb-10">
             <div class="group flex flex-col items-center justify-center relative">
               <div class="">
@@ -754,6 +695,43 @@ export default function Accueil() {
               <div class="">
                 <div class="flex items-center justify-center rounded-full big-circle group-hover:bg-cyan-color group-hover:text-white">
                   <span class=" text-sm sm:text-sm md:text-md lg:text-lg">
+                    Vérification <br />
+                    AML
+                  </span>
+                </div>
+                <div class="big-circle-detail opacity-0 group-hover:opacity-100">
+                  Ochestration identity verification <br />
+                  checks, code-free. Place checks at <br />
+                  any stage of the customer journey for <br /> top anti-
+                </div>
+              </div>
+              <div class="absolute arrow-circle md:opacity-0 lg:opacity-100">
+                <img src={arrow} alt="" />
+              </div>
+            </div>
+
+            <div class="group flex flex-col items-center justify-center relative">
+              <div class="">
+                <div class="flex items-center justify-center rounded-full big-circle group-hover:bg-cyan-color group-hover:text-white">
+                  <span class=" text-sm sm:text-sm md:text-md lg:text-lg">
+                    Connexion
+                  </span>
+                </div>
+                <div class="big-circle-detail opacity-0 group-hover:opacity-100">
+                  Ochestration identity verification <br />
+                  checks, code-free. Place checks at <br />
+                  any stage of the customer journey for <br /> top anti-
+                </div>
+              </div>
+              <div class="absolute arrow-circle opacity-0 md:opacity-100">
+                <img src={arrow} alt="" />
+              </div>
+            </div>
+
+            {/* <div class="group flex flex-col items-center justify-center relative">
+              <div class="">
+                <div class="flex items-center justify-center rounded-full big-circle group-hover:bg-cyan-color group-hover:text-white">
+                  <span class=" text-sm sm:text-sm md:text-md lg:text-lg">
                     Detection <br /> de fraudes
                   </span>
                 </div>
@@ -766,9 +744,9 @@ export default function Accueil() {
               <div class="absolute arrow-circle">
                 <img src={arrow} alt="" />
               </div>
-            </div>
+            </div> */}
 
-            <div class="flex flex-col items-center justify-center relative group">
+            {/* <div class="group flex flex-col items-center justify-center relative">
               <div class="flex items-center justify-center rounded-full big-circle group-hover:bg-cyan-color group-hover:text-white">
                 <span class=" text-sm sm:text-sm md:text-md lg:text-lg">
                   Transactions
@@ -779,12 +757,13 @@ export default function Accueil() {
                 checks, code-free. Place checks at <br />
                 any stage of the customer journey for <br /> top anti-
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
 
+        {/* problems */}
         {/* style={{ backgroundImage: `url(${phones})`, backgroundPosition: "bottom right", backgroundRepeat: "no-repeat" }} */}
-        <section class="bg-white phone-section pt-10 " >
+        {/* <section class="bg-white phone-section pt-10 " >
           <div className='flex flex-wrap items-center justify-around gap-x-10 gap-y-10 groupcni px-5'>
             <div class=" text-left" >
               <div class=" flex">
@@ -847,7 +826,7 @@ export default function Accueil() {
               <img src={userPhone} alt="" className='absolute userPhone' />
             </div>
           </div>
-        </section>
+        </section> */}
 
         <section>
           <Footer />
