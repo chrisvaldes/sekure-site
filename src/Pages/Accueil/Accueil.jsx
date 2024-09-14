@@ -56,7 +56,7 @@ export default function Accueil() {
 
           {/* Grid section */}
           <div class='w-full'>
-            <div class="cart-with-image w-full grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 rounded-2xl bg-white items-center justify-center gap-5 py-10 px-5">
+            <div class="cart-with-image w-full grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 rounded-2xl bg-white items-center justify-center gap-5 py-10 px-10">
               <div class="flex items-center justify-center">
                 <div class="relative text-left pl-24">
                   <h4 className='section-card1-title'>
