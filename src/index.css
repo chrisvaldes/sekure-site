@@ -253,9 +253,21 @@ nav .nav-items .nav-item {
   text-wrap: nowrap;
 
 }
-@media (max-width:480px) {
+@media (max-width:1023.27px) {
   .section-card1-image{
-    left: 1rem; 
+    left: -1rem;
+  }
+}
+
+@media (max-width:765.82px) {
+  .section-card1-image{
+    left: -5rem;
+  }
+}
+
+@media (max-width:639.27px) {
+  .section-card1-image{
+    left: 0;
   }
 }
 
