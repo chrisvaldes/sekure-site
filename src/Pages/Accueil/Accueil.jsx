@@ -64,9 +64,9 @@ export default function Accueil() {
                   </h4>
                   <p className='section-card1-content'>
                     Offrez à vos utilisateurs une expérience de <br />
-                    vérification fluide et sans tracas. Grâce à notre <br />
-                    technologie de pointe, la vérification d'identité <br />
-                    devient un processus simple et rapide.
+                    vérification fluide et sans tracas. Grâce à<br /> notre 
+                    technologie de pointe, la vérification <br />d'identité 
+                    devient un processus simple et <br /> rapide.
                   </p>
                   <img src={image3} alt="" className='absolute top-0 -left-3 pl-4 section-card1-image'/>
                 </div>
@@ -78,9 +78,9 @@ export default function Accueil() {
                   </h4>
                   <p className='section-card1-content'>
                   Atteignez des utilisateurs dans toute l'Afrique <br />
-                  et au-delà. Notre plateforme globale vous permet <br />
-                  d'accepter des utilisateurs de diverses régions, <br />
-                  en surmontant les obstacles géographiques et <br />
+                  et au-delà. Notre plateforme globale vous <br /> permet
+                  d'accepter des utilisateurs de diverses  <br />régions,
+                  en surmontant les obstacles<br /> géographiques et 
                   linguistiques.
                   </p>
                   <img src={image2} alt="" className='absolute top-0 -left-3 pl-4 section-card1-image'/>
@@ -94,9 +94,9 @@ export default function Accueil() {
                   </h4>
                   <p className='section-card1-content'>
                   En combinant l'analyse biométrique avec des <br />
-                  vérifications approfondies d'antécédents et une <br />
-                  collecte de données rigoureuse, nous vous offrons <br /> 
-                  une visibilité inégalée sur l'identité de ceux que <br />
+                  vérifications approfondies d'antécédents et<br /> une 
+                  collecte de données rigoureuse, nous vous <br /> offrons 
+                  une visibilité inégalée sur l'identité de <br /> ceux que
                   vous accueillez sur votre plateforme.
                   </p>
                   <img src={image1} alt="" className='absolute top-0 -left-3 pl-4 section-card1-image'/>
