@@ -253,13 +253,13 @@ nav .nav-items .nav-item {
   text-wrap: nowrap;
 
 }
-@media (max-width:1023.27px) {
+/* @media (max-width:1023.27px) {
   .section-card1-image{
     left: -1rem;
   }
-}
+} */
 
-@media (max-width:765.82px) {
+/* @media (max-width:767.27px) {
   .section-card1-image{
     left: -5rem;
   }
@@ -269,7 +269,7 @@ nav .nav-items .nav-item {
   .section-card1-image{
     left: 1rem;
   }
-}
+} */
 
 
 .card-horiz {

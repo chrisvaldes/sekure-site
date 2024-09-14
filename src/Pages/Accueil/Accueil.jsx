@@ -56,9 +56,9 @@ export default function Accueil() {
 
           {/* Grid section */}
           <div class='w-full'>
-            <div class="w-full grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 rounded-2xl bg-white items-center justify-center gap-y-5 py-10 px-5">
+            <div class="cart-with-image w-full grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 rounded-2xl bg-white items-center justify-center gap-5 py-10 px-5">
               <div class="flex items-center justify-center">
-                <div class=" relative text-left pl-24 sm:pl-0 md:pl-16 lg:pl-20">
+                <div class="relative text-left pl-24">
                   <h4 className='section-card1-title'>
                     Rendez la vérification facile et <br />rapide pour vos utilisateurs
                   </h4>
@@ -68,11 +68,11 @@ export default function Accueil() {
                     technologie de pointe, la vérification <br />d'identité 
                     devient un processus simple et <br /> rapide.
                   </p>
-                  <img src={image3} alt="" className='absolute top-0 -left-3 pl-4 section-card1-image'/>
+                  <img src={image3} alt="" className='absolute top-0 left-2'/>
                 </div>
               </div>
               <div class="flex items-center justify-center">
-                <div class="relative text-left pl-24 sm:pl-0 md:pl-16 lg:pl-20">
+                <div class="relative text-left pl-24">
                   <h4 className='section-card1-title'>
                   Decouvrez qui vous acceptez <br /> dans votre plateforme
                   </h4>
@@ -83,11 +83,11 @@ export default function Accueil() {
                   en surmontant les obstacles<br /> géographiques et 
                   linguistiques.
                   </p>
-                  <img src={image2} alt="" className='absolute top-0 -left-3 pl-4 section-card1-image'/>
+                  <img src={image2} alt="" className='absolute top-0 left-2'/>
                 </div>
               </div>
               <div class="relative flex items-center justify-center">
-                <div class="relative text-left pl-24 sm:pl-0 md:pl-16 lg:pl-20">
+                <div class="relative text-left pl-24">
                   <h4 className='section-card1-title'>
                   Decouvrez qui vous acceptez <br />
                   dans votre plateforme
@@ -99,7 +99,7 @@ export default function Accueil() {
                   une visibilité inégalée sur l'identité de <br /> ceux que
                   vous accueillez sur votre plateforme.
                   </p>
-                  <img src={image1} alt="" className='absolute top-0 -left-3 pl-4 section-card1-image'/>
+                  <img src={image1} alt="" className='absolute top-0 left-2'/>
                 </div>
               </div>
             </div>
