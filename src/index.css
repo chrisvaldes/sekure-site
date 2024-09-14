@@ -267,7 +267,7 @@ nav .nav-items .nav-item {
 
 @media (max-width:639.27px) {
   .section-card1-image{
-    left: 0;
+    left: 1rem;
   }
 }
 
