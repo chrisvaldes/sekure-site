@@ -14,14 +14,14 @@ module.exports = {
         "button-width": "215px",
         "button-first" : "233px",
         "width-card-horiz" : "205px",
-         "width-card-vert" : "441px",
+         "width-card-vert" : "300px",
          "button-footer" : "277px"
       },
       height: {
         "button-height": "50px",
         "button-footer" : "50px",
         "button-first" : "39px",
-        "height-card-vert" : "118px",
+        "height-card-vert" : "90px",
         "height-card-horiz" : "264px",
       },
       margin: {

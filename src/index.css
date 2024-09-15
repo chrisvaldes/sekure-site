@@ -8,7 +8,7 @@ body {
     sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f3f3f3;
+  background-color: #F3F3F3;
   /* background-color: blue; */
 
 }
@@ -111,15 +111,10 @@ nav .nav-items .nav-item {
 .card-anonymously {
   display: grid;
   grid-template-columns: repeat(auto-fit, 16rem);
-  align-items: center;
-  justify-content: center;
-  border-radius: 2.5rem;
+  align-items: start;
+  justify-content: center; 
 }
 
-.sub-card-anonymously {
-  width: 15rem;
-  height: 8rem;
-}
 
 .mini-nav-items .mini-nav-item-active {
   border-bottom: solid 5px #5edeaf;
@@ -232,7 +227,7 @@ nav .nav-items .nav-item {
   border-radius: 2.5rem;
 }
 
-.section-card1-title{
+.section-card1-title {
   font-family: Satoshi;
   padding: 0 1rem;
   font-size: 16px;
@@ -242,7 +237,8 @@ nav .nav-items .nav-item {
   color: #285246;
 
 }
-.section-card1-content{
+
+.section-card1-content {
   padding: 0 1rem;
   font-family: Inter;
   font-size: 12px;
@@ -253,6 +249,7 @@ nav .nav-items .nav-item {
   text-wrap: nowrap;
 
 }
+
 /* @media (max-width:1023.27px) {
   .section-card1-image{
     left: -1rem;
@@ -273,20 +270,78 @@ nav .nav-items .nav-item {
 
 
 .card-horiz {
-
   width: 205px;
   height: 264px;
-  border-radius: 29px;
+  border-radius: 29px 29px 29px 29px;
+  background: #2CE5B1;
+}
+
+.card-vert {
+  width: 441px;
+  height: 118px;
+  gap: 0px;
+  border-radius: 29px 29px 29px 29px;
   background: #2CE5B1;
 
 }
 
-.card-vert {
+.card-grandMere {
+  top: -45.6%;
+  left: 10%;
+}
 
-  width: 441px;
-  height: 118px;
-  border-radius: 29px;
-  background: #2CE5B1;
+/* .card-groupDatabase{
+  width: 120%;
+  height: 130%;
+} */
+.vector-bigMother {
+  background-image: url("../src/images/Vector-grandMere.png");
+  background-repeat: no-repeat;
+}
+
+.vector-dataBase {
+  background-image: url("../src/images/Vector-dataBase.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.frame-background {
+  background-image: url("../src/images/Frame-background.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+
+@media (max-width:500px) {
+  .card-vert {
+    width: 330px;
+    height: 90px;
+    gap: 0px;
+    border-radius: 29px 29px 29px 29px;
+    background: #2CE5B1;
+  }
+
+  .card-horiz {
+    width: 140px;
+    height: 200px;
+    border-radius: 29px 29px 29px 29px;
+    background: #2CE5B1;
+  }
+
+  .cniPassport {
+    top: -25%;
+  }
+
+  .groupGirl {
+    top: 10%;
+    left: -5%;
+  }
+
+  .card-grandMere {
+    top: -38.8%;
+    left: 9%;
+    width: 19.2rem;
+  }
 
 }
 
@@ -363,11 +418,6 @@ form .logo-footer img {
 .cni {
   width: 441px;
   height: 447.24px;
-}
-
-.groupGirl {
-  width: 504px;
-  height: 110%;
 }
 
 .groupDatabase {
@@ -807,6 +857,12 @@ form .logo-footer img {
   color: #285246;
 }
 
+.cniPassport {
+  width: 110%;
+  height: 100%;
+}
+
+
 .btn-page1 {
   display: flex;
   align-items: center;
@@ -858,6 +914,72 @@ form .logo-footer img {
   font-weight: 500;
   line-height: 24px;
   text-align: left;
+  color: #285246;
+}
+
+.page-title3-multi-card {
+  font-family: Satoshi;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -1px;
+  text-align: center;
+  color: #18382B;
+}
+
+.page-title3-content-multi-card {
+  font-family: Satoshi;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  color: #285246;
+}
+
+.btn-choice-us {
+  width: 139px;
+  height: 34px;
+  top: 2884px;
+  left: 707px;
+  padding: 10px 10px 10px 10px;
+  gap: 10px;
+  border-radius: 11px 11px 11px 11px;
+  opacity: 0px;
+  background: #2CE5B1;
+  font-family: Satoshi;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.bg-multi-card {
+  width: 219px;
+  height: 131px;
+  padding: 16px 13px 16px 13px;
+  gap: 10px;
+  border-radius: 20px 20px 20px 20px;
+  background: #DFFCE3;
+}
+
+.bg-multi-card-number {
+  font-family: Satoshi;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: -2px;
+  text-align: center;
+  color: #2CE5B1;
+
+}
+
+.bg-multi-card-text {
+  font-family: Satoshi;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 17px;
+  text-align: center;
   color: #285246;
 }
 

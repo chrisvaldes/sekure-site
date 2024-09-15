@@ -19,7 +19,7 @@ export default function MiniNavBar() {
                     votre plateforme de la fraude
                 </span>
             </div>
-            <div className='mx-20'>
+            <div className=''>
                 <ul className="flex mini-nav-items items-center justify-around bg-gray-100 rounded-xl my-10 gap-x-5 px-5">
                     <li className={`text-sm py-5 ${content === "Vérification d'identité" ? 'mini-nav-item-active' : ''}`} onClick={(event) => handleNavClick(event, "Vérification d'identité")}>
                         <a href="#">Vérification d'identité</a>
